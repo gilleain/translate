@@ -1,0 +1,6 @@
+use jython:
+    jython -Dpython.path=tiny.jar viewresults.py comparisonX.out
+
+use hbondviewer:
+    java -cp viewer.jar:translation.jar hbondviewer.Viewer structures/1fltV.pdb properties 1600 500
+where "properties" is a text file with the H-bond parameters

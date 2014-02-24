@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="build" name="translation">
+	<property name="classpath" value="thirdpartylibs/colt.jar:thirdpartylibs/vecmath.jar:jars/drg.jar:tiny.jar"/>
+	<property name="structure.directory" value="/Users/maclean/phd/structures"/>
+	<property name="structure.file" value="1a2pA.pdb"/>
+    <property name="property.filename" value="properties"/>
+    
+	<target name="build" description="compile source files to classes">
+		<javac classpath="${classpath}" debug="true" destdir="classes" srcdir="src" source="1.4"/>
+	</target>
+    
+	<target name="package" depends="build" description="package the classfiles into a jar">
+		<jar destfile="jars/translation.jar" update="false">
+			<manifest>
+				<attribute name="Main-Class" value="translation.FoldAnalyser"/>
+			</manifest>
+			<fileset dir="classes/"/>
+		</jar>
+	</target>
+    
+	<target name="help" description="what to do">
+		<echo message="ant build"/>
+	</target>
+    
+    <target name="run" description="run the main class at a debug ALL log level">
+        <java classpath="${classpath}:jars/translation.jar" classname="translation.FoldAnalyser" fork="false">
+            <arg value="${structure.directory}/${structure.file}"/>
+            <arg value="CathDomall.v2.6.0"/>
+            <arg value="ALL"/>
+        </java>
+    </target>
+
+    <target name="test" description="run the test class on the structure directory">
+        <java classpath="${classpath}:jars/translation.jar" classname="translation.TestRunner" fork="false">
+            <arg value="${structure.directory}"/>
+            <arg value="structures.str"/>
+            <arg value="CathDomall.v2.6.0"/>
+            <arg value="OFF"/>
+        </java>
+    </target>
+
+    <target name="testsse" description="run the testSSE class on the structure directory">
+        <java classpath="${classpath}:jars/translation.jar:../tops/jars/dw.jar" classname="translation.SSETest" fork="false">
+            <arg value="structures"/>
+            <arg value="topsfiles"/>
+        </java>
+    </target>
+
+    <target name="compile_and_run" depends="package" description="compile, then run the main class">
+        <antcall target="run"/>
+    </target>
+
+    <target name="hbondviewer" description="run the hbondviewer">
+        <java classpath="${classpath}:jars/translation.jar" classname="translation.hbondviewer.Viewer" fork="false">
+            <arg value="${structure.directory}/${structure.file}"/>
+            <arg value="${property.filename}"/>
+            <arg value="1600"/>
+            <arg value="500"/>
+        </java>
+    </target>
+
+</project>

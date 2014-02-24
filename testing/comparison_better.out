@@ -1,0 +1,869 @@
+Buildfile: build.xml
+
+test:
+Domain->Body map already contains 0 for id 1flt chain V
+Domain->Body map already contains 0 for id 1flt chain W
+Domain->Body map already contains 0 for id 1flt chain X
+Domain->Body map already contains 0 for id 1flt chain Y
+Domain->Body map already contains 0 for id 1h2r chain L
+Domain->Body map already contains 1 for id 1h2r chain S
+Domain->Body map already contains 2 for id 1h2r chain S
+Domain->Body map already contains 1 for id 1mro chain A
+Domain->Body map already contains 2 for id 1mro chain A
+Domain->Body map already contains 3 for id 1mro chain A
+Domain->Body map already contains 1 for id 1mro chain B
+Domain->Body map already contains 2 for id 1mro chain B
+Domain->Body map already contains 0 for id 1mro chain C
+Domain->Body map already contains 1 for id 1mro chain D
+Domain->Body map already contains 2 for id 1mro chain D
+Domain->Body map already contains 3 for id 1mro chain D
+Domain->Body map already contains 1 for id 1mro chain E
+Domain->Body map already contains 2 for id 1mro chain E
+Domain->Body map already contains 0 for id 1mro chain F
+Domain->Body map already contains 2 for id 1qh8 chain A
+Domain->Body map already contains 3 for id 1qh8 chain A
+Domain->Body map already contains 1 for id 1qh8 chain B
+Domain->Body map already contains 2 for id 1qh8 chain B
+Domain->Body map already contains 3 for id 1qh8 chain B
+Domain->Body map already contains 4 for id 1qh8 chain B
+Domain->Body map already contains 2 for id 1qh8 chain C
+Domain->Body map already contains 3 for id 1qh8 chain C
+Domain->Body map already contains 1 for id 1qh8 chain D
+Domain->Body map already contains 2 for id 1qh8 chain D
+Domain->Body map already contains 3 for id 1qh8 chain D
+Domain->Body map already contains 4 for id 1qh8 chain D
+Domain->Body map already contains 0 for id 2ahj chain A
+Domain->Body map already contains 1 for id 2ahj chain B
+Domain->Body map already contains 2 for id 2ahj chain B
+Domain->Body map already contains 0 for id 2ahj chain C
+Domain->Body map already contains 1 for id 2ahj chain D
+Domain->Body map already contains 2 for id 2ahj chain D
+0.21052629	119l000	pattern: NeEeHHhhHHhC 	 for 119l00 NHEeEhhHhHhhHhC 2:3A3:4A6:8L <=> 119l000 NheEeHhhEHHhhHHhhHC 1:2A1:7A
+0.530303	153l000	pattern: NhhhhHEehHhHC 	 for 153l00 NHHHHHheEHhHhhC 7:8A <=> 153l000 NHhhhhhHHheEHheHEHhHhC 10:13A13:15A
+0.13095236	16pk002	pattern: NEeeheC 1:2A	 for 16pk02 NEhEhhEeEEHEhhEhEhC 1:3Z1:11P3:6Z6:11R7:8A7:9A11:14Z14:16Z <=> 16pk002 NhhEhhhEhhEeEhEEhehhhEhehhEC 2:6Z2:14P6:9Z10:11A10:13A14:20Z20:25Z
+0.14814812	16pk001	pattern: NeeeHeHeHeHC 	 for 16pk01 NHEeEHEhHHEhEHHhEHhEC 2:6Z2:16P3:4A6:10R6:12P10:12Z12:16R16:19Z <=> 16pk001 NEhhEhhhhhhhhEhhhEhhEhehEhC 0:3Z0:19P3:16P12:16X19:23Z
+0.5	19hcAA2	pattern: NEHHHHC 	 for 19hcA2 NEehHHhhCNHhC 1:2A <=> 19hcAA2 NehhhhehhehhhC 
+0.4583333	19hcAA1	pattern: NHEHHC 	 for 19hcA1 NHHHhCNHEehHHHhC 8:9A <=> 19hcAA1 NhhhheehhhhehhC 
+Chain A not found for pdbid 1a12
+Chain I not found for pdbid 1a1y
+0.13043481	1a28BB0	pattern: NHHEHHEHC 	 for 1a28B0 NHhHhEehHheHhhHEC 2:4L5:6A10:15A11:14R <=> 1a28BB0 NhhhhhehhhhhhhhhhhhhehC 
+0.22222227	1a2pAA0	pattern: NHheEeEC 	 for 1a2pA0 NHeHhHeEeEeC 2:6Z6:7A7:8A8:9A9:10A <=> 1a2pAA0 NhhhHEEeHEeC 4:5Z5:6A6:8A8:9A
+0.21052629	1a2zAA0	pattern: NHEeHEEhheEC 	 for 1a2zA0 NEheEhEeeEHehEHEehC 1:4P1:6P3:4A4:6R6:13P7:11Z7:13A8:9A15:16A <=> 1a2zAA0 NhheEeheeHHEheC 3:10Z
+0.16666669	1a3aDD0	pattern: NheHHHHC 	 for 1a3aD0 NHEhHehEehHhHC 2:7P5:8P7:8A <=> 1a3aDD0 NehhEHheEHEhhhhC 3:7X6:9A7:9Z
+0.21212119	1a4iBB2	pattern: NeHeHHC 	 for 1a4iB2 NEhEhEhC 1:3Z1:5P3:5R <=> 1a4iBB2 NEhhEEhhehC 0:3Z0:4X
+0.22222227	1a4iBB1	pattern: NeHHeHeHeeEHeC 	 for 1a4iB1 NECNhEhEhEhEEehEC 1:15P5:7Z5:9P7:9R9:11Z11:15Z12:13A <=> 1a4iBB1 NhhhhEhhEhEheEEhehEhC 4:7Z4:9X9:12Z12:17Z13:15A
+0.5555556	1a62002	pattern: NeEeEC 	 for 1a6202 NEehEHeEC 1:2A1:6A2:4A4:7P6:7A <=> 1a62002 NEHeHEeC 0:2A0:5A2:4A
+0.8888889	1a62001	pattern: NhHC 	 for 1a6201 NHhhC  <=> 1a62001 NhhHhC 
+0.4285714	1a6m000	pattern: NHHC 	 for 1a6m00 NHHHHhHHhC 1:4L4:6R <=> 1a6m000 NhhhhhhhhhhhhC 
+0.59047616	1a73AA0	pattern: NhEEeEeC 3:4A	 for 1a73A0 NHEeEeEheEheHC 2:3A4:5A5:6A8:9A9:11A <=> 1a73AA0 NEEehEEeeEheC 0:7A1:2A2:4A5:6A6:8A
+0.5555556	1a7s002	pattern: NeEeEC 2:3A	 for 1a7s02 NEeEHeEeCNhC 1:2A1:5A2:3A3:7A5:6A6:7A <=> 1a7s002 NeEhEeEC 0:1A0:3A3:4A4:5A
+0.5347985	1a7s001	pattern: NeEeEC 2:3A	 for 1a7s01 NECNEehEeEehC 1:5A4:5A4:8A5:7A7:10A8:9A9:10A <=> 1a7s001 NeeEeeEeC 0:2A0:5A5:6A
+0.25396824	1a8d002	pattern: NeEeeeEeEeEEC 2:3A6:7A	 for 1a8d02 NEHeEEeEeEeEeeEeEeheC 1:19A3:4A4:7R4:17A5:6A7:8A8:9A8:14A9:12A9:13A10:11A11:17A14:15A15:16A16:17A <=> 1a8d002 NeeEEEeEeeEEeEeEheeC 2:9Z3:17A4:5A6:7A8:9A10:11A12:13A14:16A
+0.19696969	1a8e002	pattern: NeHEEHHEHeHEC 	 for 1a8e02 NEheHHehheHheEheC 1:9A1:12A1:15A3:6Z3:9P6:9R9:12R12:13A <=> 1a8e002 NeEhhhehEEehhehhEhhehC 1:7Z1:15P7:8Z
+0.14285713	1a8e001	pattern: NHHEHC 	 for 1a8e01 NEhEheHeCNEhEC 1:3Z5:7R5:10A7:10A7:12A10:12R <=> 1a8e001 NeehehhehhC 
+0.10526317	1a8i002	pattern: NHHEHHEEHHHC 	 for 1a8i02 NHhHhHehheHeHeHeHHehHhHhHHC 6:9Z6:13P9:11Z11:13R13:15Z15:18Z <=> 1a8i002 NhhhhehEhehEhhEhhEheEhhhEhhhhhhhhhhhhC 6:10Z6:16X10:13Z16:19Z19:23Z
+0.9166667	1a92AA0	pattern: NHC 	 for 1a92A0 NHhC  <=> 1a92AA0 NhC 
+0.27513224	1aac000	pattern: NeeEeEeEeC 2:4P	 for 1aac00 NEEHEeeEeEeEeC 1:10A2:4R2:10A4:5A4:7P6:12P7:10A8:9A8:11A11:12A <=> 1aac000 NeeeEeeEeEeC 1:8A2:3A2:5Z5:8A6:7A
+0.46666664	1aayAA3	pattern: NC 	 for 1aayA3 NEeHC 1:2A <=> 1aayAA3 NC 
+0.46666664	1aayAA2	pattern: NC 	 for 1aayA2 NEeHC 1:2A <=> 1aayAA2 NhhhC 
+0.5	1aayAA1	pattern: NEC 	 for 1aayA1 NEeHC 1:2A <=> 1aayAA1 NhehhC 
+1aay B is DNA
+1aay C is DNA
+0.22222227	1aba000	pattern: NHHEHC 	 for 1aba00 NEhEheEhC 1:3Z1:5A5:6A <=> 1aba000 NheheheC 
+0.18627453	1ads000	pattern: NeEeHeHeHeHeHHHeHHC 	 for 1ads00 NEeEhEHhHEHhEhEhEhEhHEhHHhC 1:2A3:5Z5:9Z9:12Z12:14Z14:16Z16:18Z18:21Z <=> 1ads000 NEhhehhhEEhEhehehEhEhEhhhhhhhEhheC 0:28P7:8Z8:16Z10:12A18:20Z20:28Z
+0.5208334	1agjAA2	pattern: NeeHHeeEC 	 for 1agjA2 NEeEhheEeEeHCNHC 1:2A1:6A2:3A3:10A6:9A7:8A9:10A <=> 1agjAA2 NEEhhEEehhC 1:6A5:6A
+0.60648143	1agjAA1	pattern: NeEeEeEC 1:2A2:3A4:5A	 for 1agjA1 NHHeHhCNeeEHeHEeEC 3:10A8:15P9:10A9:14A10:12A12:16A14:15A15:16A <=> 1agjAA1 NhhheEeEeEC 4:5A4:7A5:6A7:8A
+0.42307693	1ah7000	pattern: NHHHHHC 	 for 1ah700 NHhHHhhHhHHHhC 7:9L <=> 1ah7000 NhhhhhhehhhhhhhhhhhhhhhehC 
+0.27777773	1aho000	pattern: NHeEC 	 for 1aho00 NEhEeC 1:3R1:4A3:4A <=> 1aho000 NhEeC 1:2A
+Chain 0 not found for pdbid 1aie
+Chain 0 not found for pdbid 1ajj
+0.21794873	1ajsAA2	pattern: NHeHeHeEHeHeHHeEC 	 for 1ajsA2 NHhHEhEhEEehEhEhhEHeHhC 4:6R4:19A6:8Z6:12P8:12R9:10A12:14Z14:17Z17:19A <=> 1ajsAA2 NhhhEehhEhEehEhEhhhEhhhheC 3:23A7:9Z12:14Z18:23A
+0.4761905	1ajsAA1	pattern: NHeHEC 	 for 1ajsA1 NHeCNhHEheehHC 2:9P7:10A <=> 1ajsAA1 NhhEhhEEhheC 2:6P5:9A
+0.19791669	1ak0000	pattern: NhHHHhHhHhhEhhhhhHC 	 for 1ak000 NHhhhHhHhHHEeHHHhHHhC 11:12A15:17L <=> 1ak0000 NHHhhhHeHHehhHHhEHHeHhhHHHeHHHhC 15:18A
+0.17171717	1ako000	pattern: NeHHeHHEHEeHHEHEC 	 for 1ako00 NEhhEhhEeEheEhEHhHEHHehEHeC 1:4Z1:25A4:7R4:8A7:8A9:11A11:12A12:14Z14:18R14:21A18:21A23:25A <=> 1ako000 NhhehehEheEhhEEhhehhhehEeehhehheC 6:8A8:9A9:13Z12:20A13:27A22:27A
+0.2352941	1akr000	pattern: NHeeHHeHeeHC 	 for 1akr00 NEhEHEhhEhEEhC 1:3Z1:5P3:5R5:8Z8:10Z8:11P <=> 1akr000 NhheEEhehhEhEEhhC 3:9Z4:11Z11:12Z
+0.17647058	1amf002	pattern: NeEHEEEHC 	 for 1amf02 NEHeHheHeHehC 1:8A1:10A3:6Z3:8P6:8R8:10R <=> 1amf002 NhEheehhEhehheehC 1:7Z
+0.125	1amf001	pattern: NeHHHC 	 for 1amf01 NEhEhEhHECNeHHeC 1:3Z1:5P3:5R5:8R5:11A8:11A8:14A11:14R <=> 1amf001 NehEhehhhhC 
+0.21212119	1amm002	pattern: NeEEEEC 	 for 1amm02 NEeHeEeEheC 1:2A1:4A2:4R4:7A5:6A5:9A <=> 1amm002 NEeheeeC 0:1A
+0.24848485	1amm001	pattern: NEeHEC 1:2A	 for 1amm01 NEheeEeEheC 1:3A1:4A4:7A5:6A5:9A6:9R <=> 1amm001 NeEeheehC 1:2A
+0.25	1amp000	pattern: NheEeehHeEhhC 2:3A4:5P	 for 1amp00 NHHhEeEhEHhEeHehEEhHhC 4:5A5:8A6:8Z6:11P8:11R11:16Z12:14Z12:17A <=> 1amp000 NHHHheEeeEhhhEheEheHHehHEhhC 5:6A6:12A8:12Z8:15X15:23X17:20Z17:23A
+0.21693116	1aohBB0	pattern: NeeEEC 1:4A2:3A	 for 1aohB0 NEEeEeHEeEeEEC 1:3A1:11P2:4R2:12P3:5R3:9A4:7R4:8A4:10A5:9A7:8A8:10R9:11R10:12A <=> 1aohBB0 NEEEEeeeC 0:5A1:4A1:6A2:5A3:4A
+0.29385966	1aop003	pattern: NeHeHeEeHHHC 5:6A	 for 1aop03 NHEhEhEeEhhhC 2:4X4:6Z6:7A7:8A <=> 1aop003 NhEehhhEhhEeEhhhehC 1:6X6:9X9:10A10:11A
+0.20039684	1aop002	pattern: NehhEehEeC 4:8A	 for 1aop02 NEHEHEeHCNEeheeEHeEhC 1:5R1:6A3:17A5:6A5:13A10:11A11:17R11:18A14:15A17:18A <=> 1aop002 NEEEehhEeheEheEheC 0:12A1:3A2:9A6:7A7:13A9:10A12:13A
+0.21428567	1aop001	pattern: NeeHeEeHC 	 for 1aop01 NEhEhEeEhhHC 1:3Z3:5Z5:6A6:7A <=> 1aop001 NhEEhEehhhhEhC 1:2Z2:4Z4:5A5:10A
+0.42328042	1aqb000	pattern: NhEeEeEeEC 2:3A3:4A4:5A5:6A6:7A	 for 1aqb00 NHheEeEeEeEhEC 3:4A3:10A3:12A4:5A5:6A6:7A7:8A8:9A9:10A10:12R <=> 1aqb000 NEHeEeEeEeHC 0:2A0:8A2:3A3:4A4:5A5:6A6:7A7:8A
+0.18390805	1aquAA0	pattern: NeEHehhEHHHHHHhC 	 for 1aquA0 NHEehHeHHeEHeHHeHhhehHhhhHC 2:3A6:12Z6:15P9:10A12:15R15:19Z <=> 1aquAA0 NhehhhEhehhEhEHHhehhhhhhEHHHC 5:10Z5:12Z12:23Z
+0.5454545	1aqzAA0	pattern: NeEEeEC 	 for 1aqzA0 NEehEheEeEC 1:2A4:6A6:7A7:8A8:9A <=> 1aqzAA0 NHeEeeHEeC 2:4A4:6A6:7A
+0.19761902	1arb002	pattern: NeEeEeeEC 2:3A	 for 1arb02 NEeEHheHEEeheCNHHEEC 1:2A1:6A2:3A3:10A6:8A9:10A12:18A <=> 1arb002 NehEheheEeEhEeC 0:2A2:8A4:7A7:8A9:11Z
+0.5343137	1arb001	pattern: NeEeEC 1:2A3:4A	 for 1arb01 NEhHCNEEHeeEeEheC 1:9A6:13P7:9A7:12A10:11A11:15A12:13A13:15A <=> 1arb001 NEEeEeEehEC 0:2A1:2A3:4A4:8A5:6A6:8A
+0.21031743	1aru002	pattern: NhEehhhC 2:3A	 for 1aru02 NHhehEHeEHhHCNeheC 3:5A7:8A14:16Z <=> 1aru002 NhhheEhehhEeEhhhhheeC 4:6A9:10A9:17A10:11A
+0.4615385	1aru001	pattern: NHHHHeHEHC 	 for 1aru01 NHhhHHhHhECNhehC 9:13A <=> 1aru001 NhehhehhehehhhhhhheEhehehC 18:22A
+0.15384609	1atg002	pattern: NeHEEC 	 for 1atg02 NEHeHheHehehC 1:8A1:10A3:6Z3:8P6:8R8:10R <=> 1atg002 NhEhhhEhheeC 1:5Z
+0.19999999	1atg001	pattern: NeHeHeHEC 	 for 1atg01 NEhEhEhECNeHHC 1:3Z1:5P3:5R5:7R5:10A7:10A <=> 1atg001 NhEhEhhhEehhheC 1:3Z1:7Z7:12A
+0.17460316	1atlAA0	pattern: NHeeeHeEEHC 	 for 1atlA0 NEHhEHHEeEhEeehHC 1:4Z1:7P4:7R7:9P8:9A11:12A12:13P <=> 1atlAA0 NhhhehhhhEeEEhhEEeehC 8:11Z9:11A10:14Z15:16A16:17Z
+Chain C not found for pdbid 1atl
+0.13043481	1atzAA0	pattern: NEheHHhHC 	 for 1atzA0 NEhEeHhEhEhHEhhC 1:3Z1:7P3:4A7:9Z9:12Z <=> 1atzAA0 NeHHeEhhHeeHHHHHeHehHeC 0:3Z0:9X3:4A9:15Z15:20Z
+0.13333338	1auoAA0	pattern: NeEEHeeHHC 	 for 1auoA0 NEeHeehEEeHheHeheHeHC 1:4A2:4Z2:12P5:7A8:9A12:14Z14:16Z16:18Z <=> 1auoAA0 NhhEEhEeEhehhhEhhEhhEhhhC 2:3Z2:13Z5:6A7:9A13:16Z16:19Z
+0.26060605	1avwBB0	pattern: NeEeEeEeC 1:2A2:3A	 for 1avwB0 NEEeeEheEeEEeeC 1:4A1:13A2:3A3:7R3:8A3:12A4:5A7:8A8:11R8:12A9:10A10:13A11:12A <=> 1avwBB0 NeEeEeheeEEeEeC 1:2A2:8A3:6A7:8A7:9A9:10A11:12A
+0.46666664	1axn003	pattern: NHHC 	 for 1axn03 NHhHHhC 1:3R <=> 1axn003 NhehhhhhhC 
+0.46666664	1axn002	pattern: NHHC 	 for 1axn02 NHhHHhC 1:3R <=> 1axn002 NhhhhhhhhC 
+0.85714287	1axn004	pattern: NHHC 	 for 1axn04 NHhhHC  <=> 1axn004 NhhehhC 
+0.8148148	1axn001	pattern: NHHC 	 for 1axn01 NHhHhHC  <=> 1axn001 NhhhhhhhC 
+0.16666669	1ay7BB0	pattern: NHHHC 	 for 1ay7B0 NEHhhEHhEC 1:5Z5:8Z <=> 1ay7BB0 NhhehC 
+Domain 3 not found for pdbid 1ayl
+0.11458331	1ayl002	pattern: NEeeHeEeEHC 	 for 1ayl02 NHeECNEhEeEehC 2:3A3:8P6:8R6:11A8:11A9:10A <=> 1ayl002 NEehEEeheEehEhehhEhhEeEhhehheheC 0:5A1:3A1:4A3:8X8:16Z9:16A11:13A19:20A21:24A
+0.111111164	1ayl001	pattern: NeHeEEC 	 for 1ayl01 NHEhCNHEEhEeHhehEeHHC 2:10P7:8P7:16P8:10R10:11A11:14Z14:17P16:17A <=> 1ayl001 NeEhEeeC 1:3P
+0.12903231	1b0uAA0	pattern: NeEeEeHHeHHC 	 for 1b0uA0 NEeeHeEeEHeHhHHheHeHeEhhC 1:2A1:5A2:5R3:18P3:20P5:6A7:8A10:16Z12:15L16:18Z18:20R20:21A <=> 1b0uAA0 NeEheEEhhhEhEhhhhhehhEhhEhEhhhC 1:23P1:25P4:5Z9:20Z11:17A20:23Z
+0.19999999	1b0yAA0	pattern: NHhEEC 	 for 1b0yA0 NHHHhHeEeC 6:7A7:8A <=> 1b0yAA0 NehhhHEeeC 5:6P5:7A6:7Z
+0.20987654	1b16AA0	pattern: NeHeHHHHHeHeEHHeC 	 for 1b16A0 NEhEhEhEhhhEHhEeHhehEeC 1:3Z1:7P3:5Z5:7R7:11Z11:14Z14:20X15:18Z20:21A <=> 1b16AA0 NhEhEEhhhhhehhhEhhEhhehhhEC 1:3Z4:14Z14:17Z17:24Z
+0.5	1b3aAA0	pattern: NeEC 	 for 1b3aA0 NEhEeEhC 3:4A4:5A <=> 1b3aAA0 NEeC 0:1A
+0.11403513	1b4kAA0	pattern: NHHEeEEHEEHHC 	 for 1b4kA0 NHhheEeHehHHeHeHeHHheHehHeHC 4:6Z4:8P4:25P6:8R8:12Z12:14Z14:16Z16:20Z20:22Z22:25Z <=> 1b4kAA0 NhEhEhhehEhhEhehehhEEhhehhhehhhEhEhhhC 1:8Z3:6A8:11Z11:18Z18:19Z19:30X30:32Z
+0.5	1b4vAA2	pattern: NEeEHC 1:2A	 for 1b4vA2 NHHeHhCNeEeECNhEEC 3:9A8:11A8:15A8:16A9:10A10:11A <=> 1b4vAA2 NhhehEhheeEehehC 4:8A8:9A9:10A
+0.21385902	1b4vAA1	pattern: NEEHEeHEEeEHC 4:5A8:9A	 for 1b4vA1 NEhEhHEeHhHHCNHEEeEHCNEeCNeEHhC 1:3Z1:18P3:15P6:7A7:26P16:17A17:18A18:27P22:23A <=> 1b4vAA1 NehEehEhehhhhhhhehheEeehEeeEehC 2:3A5:7A19:20A23:24A26:27A
+0.18666667	1b5eAA0	pattern: NEHhhHEHHEhEhC 	 for 1b5eA0 NHeEHhHHHhehhEeHeHC 2:3A3:16A10:13A13:14A14:16Z <=> 1b5eAA0 NehhHEHhehhhheeeHHheHhehC 4:7A
+0.7619048	1b67AA0	pattern: NC 	 for 1b67A0 NHeHeHC  <=> 1b67AA0 NhhhhC 
+0.16666669	1b6a002	pattern: NeeEC 	 for 1b6a02 NEEHehHeeC 1:8A2:4A2:7A4:7R <=> 1b6a002 NehhEhhEeC 0:3A0:6A
+0.52037036	1b6a001	pattern: NheEeeEeC 2:3A	 for 1b6a01 NHhEeeEhHEeeeEECNeEC 3:5A5:6A6:17A9:10A11:14A12:13A12:14A14:17A17:18A <=> 1b6a001 NhEheeeehEhEeEeeEheC 1:5A8:14A10:11A12:13A15:17A
+0.19191915	1b6g000	pattern: NeEeHHeEHeHHHeHeeHC 	 for 1b6g00 NEHEeEhhEehHEhhhEHHhHHHHEhEhC 1:9A3:4A4:8A5:8Z5:12P8:12R12:16Z16:24P24:26Z <=> 1b6g000 NEehEhhEhehhhhEhhhhEhhhhhhhhEeEhC 0:1A1:6A3:6Z3:13Z13:18X27:29Z
+0.16666669	1b8oAA0	pattern: NEEHeEHeHeHeHC 	 for 1b8oA0 NHeHehEehHHeEHhEhEheHC 2:11P4:6A6:7A11:17A11:19P12:15X12:19A15:17Z <=> 1b8oAA0 NhhehEehEhhhhehEhhhEhhhEhhhC 4:5A5:7A14:18Z18:22Z
+Chain A not found for pdbid 1b9w
+Chain B not found for pdbid 1b9w
+0.8055555	1babAA0	pattern: NHHHC 	 for 1babA0 NHHhHhHhC  <=> 1babAA0 NhhhhhhhhhhC 
+Chain A not found for pdbid 1bb1
+0.8888889	1bbhAA0	pattern: NHHHHC 	 for 1bbhA0 NHhhhHhHC  <=> 1bbhAA0 NhhhehhC 
+java.lang.IndexOutOfBoundsException: Index: 105, Size: 10
+	at java.util.ArrayList.RangeCheck(ArrayList.java:547)
+	at java.util.ArrayList.get(ArrayList.java:322)
+	at translation.Chain.getResidueByAbsoluteNumbering(Chain.java:105)
+	at translation.Chain.createHelix(Chain.java:53)
+	at translation.HBondAnalyser.finishSSES(HBondAnalyser.java:375)
+	at translation.HBondAnalyser.analyse(HBondAnalyser.java:186)
+	at translation.FoldAnalyser.analyse(FoldAnalyser.java:38)
+	at translation.TestRunner.main(TestRunner.java:100)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.tools.ant.taskdefs.ExecuteJava.run(ExecuteJava.java:200)
+	at org.apache.tools.ant.taskdefs.ExecuteJava.execute(ExecuteJava.java:134)
+	at org.apache.tools.ant.taskdefs.Java.run(Java.java:710)
+	at org.apache.tools.ant.taskdefs.Java.executeJava(Java.java:178)
+	at org.apache.tools.ant.taskdefs.Java.execute(Java.java:84)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:275)
+	at org.apache.tools.ant.Task.perform(Task.java:364)
+	at org.apache.tools.ant.Target.execute(Target.java:341)
+	at org.apache.tools.ant.Target.performTasks(Target.java:369)
+	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1216)
+	at org.apache.tools.ant.Project.executeTarget(Project.java:1185)
+	at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:40)
+	at org.apache.tools.ant.Project.executeTargets(Project.java:1068)
+	at org.apache.tools.ant.Main.runBuild(Main.java:668)
+	at org.apache.tools.ant.Main.startAnt(Main.java:187)
+	at org.apache.tools.ant.launch.Launcher.run(Launcher.java:246)
+	at org.apache.tools.ant.launch.Launcher.main(Launcher.java:67)
+java.lang.IndexOutOfBoundsException: Index: 105, Size: 10
+0.21212119	1bd0AA2	pattern: NeEEeeEeeEHHEC 	 for 1bd0A2 NECNeeEHeEHheEeEehhEeC 1:4A1:19P4:15A5:9A6:8A9:14A12:13A12:15A13:14A15:16A19:20A <=> 1bd0AA2 NEEehehhEEeEEehheeC 0:4A0:12A1:2A4:11A7:10X8:9A
+0.047619045	1bd0AA1	pattern: NHC 	 for 1bd0A1 NHeHHeHeHeHeHeHeHehC 2:5Z2:17P5:7Z7:9Z9:11Z11:13Z13:15Z15:17Z <=> 1bd0AA1 NhEhhhEhEhEEhhEhhEhEC 1:5Z1:18P5:7Z7:9Z9:10Z10:13Z16:18Z
+0.537037	1bdmBB2	pattern: NHeeEHHHeEC 	 for 1bdmB2 NHheeEEehhhHeHEeHC 3:6A4:5A6:7A12:14A14:15A <=> 1bdmBB2 NhEhEehhehhEhhheC 1:7A3:4A10:14A
+0.23809528	1bdmBB1	pattern: NeHeHeHHHC 	 for 1bdmB1 NEhEhEhEhEhHEC 1:3Z1:7P3:5Z5:7R7:9Z9:12Z <=> 1bdmBB1 NhhEhEheEhhehC 2:4Z6:7A6:10Z
+0.52222216	1bdo000	pattern: NeEC 1:2A	 for 1bdo00 NEEeeEEeeC 1:8A2:4A2:7A3:6A4:5A6:8A <=> 1bdo000 NEEeEeeC 0:2A0:5A1:4A2:3A
+0.6593406	1bec002	pattern: NEeEeEeeC 1:4A3:4A	 for 1bec02 NHeEeEEEeHEeC 2:3A3:8A4:5A4:10A6:8A7:8A10:11A <=> 1bec002 NhEehEeEheeC 1:2A2:6A4:9A5:6A
+0.525926	1bec001	pattern: NEeEeeC 1:2A	 for 1bec01 NEEeEeEeEhehEEC 1:3A2:13P3:8A4:5A4:10A5:6A7:8A10:12A10:13A <=> 1bec001 NEeEEeeEheC 0:1A0:5A1:2A3:4A5:6A
+0.5710784	1behBB0	pattern: NHeEEeEHHC 4:5A	 for 1behB0 NHhEEeEeEeHEehEhC 3:14P4:5A4:7A6:14P8:9A8:12A9:11A12:14A <=> 1behBB0 NehEeeeEEEhehhhC 2:4A5:6A5:8A6:10A7:10A
+Chain A not found for pdbid 1ben
+Chain B not found for pdbid 1ben
+0.5333333	1bf4AA0	pattern: NEHEHC 	 for 1bf4A0 NEehEehEhC 1:2A4:5A5:7A <=> 1bf4AA0 NehheheC 
+0.15000004	1bf6BB0	pattern: NeHEeHeHeHeHeHHHHC 	 for 1bf6B0 NEEHheHEHhEHhHEhEhHEhEhHEHHhhHHC 1:7Z2:5A7:10Z10:14Z14:16Z16:19Z19:21Z21:24Z <=> 1bf6BB0 NEhehheehhhhEhhhEhhEhEhehEhhehhhhhhehheC 0:2A11:15Z15:18Z18:20Z20:24Z
+0.106060565	1bfd003	pattern: NEEHHEC 	 for 1bfd03 NHeHeHehHehHeHeC 2:4Z2:6P4:6R6:9Z9:12R9:14P12:14Z <=> 1bfd003 NhhEhhhEhhEhehhEhehheC 2:6Z2:9Z9:14X
+0.093333304	1bfd002	pattern: NEEEHHC 	 for 1bfd02 NHeHeHeHHehHeHehHC 2:4Z2:6P4:6R6:9Z9:12R9:14P12:14Z <=> 1bfd002 NhEhEhhhEhEhehhehhEhEehhC 1:3Z1:7Z7:9X9:19Z17:19Z
+0.0625	1bfd001	pattern: NHC 	 for 1bfd01 NHehHeeHeeHeHC 2:5Z2:8P5:6P6:8R8:9P9:11Z <=> 1bfd001 NhhEEhhEEhEhEhhC 2:3Z2:7Z3:6Z7:9Z9:11Z
+0.2916667	1bfg000	pattern: NeEeEeEHEC 2:3A3:4A	 for 1bfg00 NEeEheEeEheEHheC 1:2A1:5A1:14A2:5R5:6A6:7A6:10A7:10R10:11A11:14A <=> 1bfg000 NEeEeEeEeeheC 0:1A2:3A3:6A4:5A6:7A
+0.21919197	1bg2000	pattern: NeEeEeHHeHHeHeHHC 2:3A	 for 1bg200 NEHeEeEhhEhhEeeEeHheEhHhEhC 1:6Z1:24P3:4A4:5A6:9R9:12R9:20P9:24P12:13A12:16A12:19A13:16L14:15A16:19R19:20A20:24R <=> 1bg2000 NEEhehEhEhheheeEeEhhhEhhEhEhhC 0:25P1:3A5:23P5:25P7:10A12:16A12:20A14:15A
+0.43939394	1bg6002	pattern: NHHHHHC 	 for 1bg602 NHHHhHhhhHHhHC  <=> 1bg6002 NhhhhhhhhhEhhehhhhhehC 9:12A
+0.16923076	1bg6001	pattern: NeEEeHHC 1:2A1:4P	 for 1bg601 NEhEheEEhEhEhEEeeHeHC 1:3Z1:9P3:7Z5:6A5:15P7:9R9:11Z11:13Z13:16A14:15A16:18Z <=> 1bg6001 NhEeEhhEhhhEheEEhEehheehhC 1:6Z2:3A2:17P10:13Z13:14Z14:20A16:17A20:21Z
+0.76666665	1bgc000	pattern: NHC 	 for 1bgc00 NHHHHhHHC  <=> 1bgc000 NhhehhhhhC 
+0.5	1bgf000	pattern: NHHHHC 	 for 1bgf00 NHhHhhHhHC 6:8L <=> 1bgf000 NhhhhhhhhhhC 
+0.44444448	1bhp000	pattern: NC 	 for 1bhp00 NEhHeC 1:4A <=> 1bhp000 NC 
+0.19999999	1bi5AA2	pattern: NEEeHHHeC 	 for 1bi5A2 NEeEeEhEhHhEeC 1:7R1:12A2:5A3:4A7:11Z11:12A <=> 1bi5AA2 NehhhehhEhhhhEC 7:12Z
+0.17283946	1bi5AA1	pattern: NeeHEHHeHeHHEC 	 for 1bi5A1 NHEEhHehHhHEhEhEHheC 2:18A3:6A11:13Z11:15P13:15R15:18A <=> 1bi5AA1 NEhhEhhhhhehhhehEEhehEhhheC 0:24A3:9A15:16Z15:20Z20:24A
+0.3660131	1bj7000	pattern: NhEeEeEeEhehC 3:4A4:5A6:7A	 for 1bj700 NHeeHEeEeEeEhHEHC 2:5A3:11A3:14A5:6A6:7A7:8A8:9A9:10A10:11A11:14R <=> 1bj7000 NhEeEeEEeEhhehC 1:2A3:4A4:5A6:7A7:8A
+0.16823405	1bk0000	pattern: NeHeEEeEEeEC 3:8A	 for 1bk000 NEHhEhHEeHhHEhEeEeEehEeHC 1:4Z4:7R4:19A7:8A8:12A12:16R12:22A14:15A15:17R15:21A16:19A16:22A17:18A17:21A18:21R19:22R <=> 1bk0000 NEhEhhhEhhEEehhhEeeeEeheEeehC 0:19P2:6Z9:10Z10:11A11:15A15:24A16:23A18:19A18:23A
+0.2063492	1bk7AA0	pattern: NhEhHHhhehEEC 	 for 1bk7A0 NEHheHhhHHEHEeEeC 1:4A1:13A5:8L10:12R10:15A12:13A13:14A13:15P <=> 1bk7AA0 NehHeHhhhHHHeHehEHeeC 15:17A
+0.6166667	1bkb002	pattern: NEeheC 1:2A	 for 1bkb02 NEeEHheEC 1:2A1:6A2:3A6:7A <=> 1bkb002 NEeEheheeC 0:1A0:7A1:2A
+0.7222222	1bkb001	pattern: NeEeEC 1:2A2:3A	 for 1bkb01 NEHeEeEeC 1:7A3:4A4:5A5:6A <=> 1bkb001 NEeEeC 0:1A1:2A2:3A
+0.16091949	1bkjAA0	pattern: NHHEhHhHhEheHC 	 for 1bkjA0 NHhheHhEHhEHeHEhHHC 4:7A7:10R7:12A10:12A <=> 1bkjAA0 NhhhhEhheHHehHHHehHeHHHHEhhhC 4:10A10:23A15:23A
+0.46666664	1bkrAA0	pattern: NHHC 	 for 1bkrA0 NHHHHhHhHC 6:8L <=> 1bkrAA0 NhhhhhC 
+0.2051282	1bm8000	pattern: NeEeEHHC 	 for 1bm800 NEeEehHeEhHC 1:2A2:3A3:4A4:7R4:8A7:8A <=> 1bm8000 NEehEEhhhehhC 0:1A3:8A4:8A
+0.5	1bpi000	pattern: NEC 	 for 1bpi00 NHeEhC 2:3A <=> 1bpi000 NEeC 0:1A
+0.08771926	1bqcAA0	pattern: NeEEHEHEHC 	 for 1bqcA0 NEeeHeHehHHeHHeHehHeHeHhHHHC 1:2A3:5Z3:21P5:7Z7:11Z11:14Z14:16Z16:19Z19:21Z <=> 1bqcAA0 NeEehEhhhhEehhhEhhhhhEhEhhhEhEhEhehehC 1:4Z1:28P4:9Z9:14Z14:20Z20:22Z22:26Z26:28Z30:32A
+0.56837606	1bqk000	pattern: NEEeEHC 1:3A	 for 1bqk00 NEeeEeeEHeHhC 1:2A1:4P3:9P4:6A5:7A7:9A <=> 1bqk000 NeEeEehEehhC 1:4A2:3A2:6A
+0.15555555	1brt000	pattern: NeEeHeHHeHeHHC 	 for 1brt00 NEeEhEhEhEhHHhHHEhhEHHC 1:2A2:5A3:5Z3:7P5:7R7:9Z9:16P10:13R16:19Z <=> 1brt000 NehEEehhEEEhEhhhhhehhhhhEhEhhC 2:3Z2:7Z7:8Z9:11X23:25Z
+0.22222227	1bs0AA2	pattern: NHeHeHeHeHeHeEHC 	 for 1bs0A2 NHhEhEhEhEhEHhEeHHhC 3:5R3:15A5:7Z5:9P7:9R9:11Z11:14Z14:15A <=> 1bs0AA2 NhhEhEhEhEhhhEehhEhhhehC 2:20A4:6Z4:8Z8:12Z12:16Z16:20A
+0.6071428	1bs0AA1	pattern: NEhehEeC 1:5P	 for 1bs0A1 NEeHCNhEeHeEhC 1:2A2:10P7:8A8:11A <=> 1bs0AA1 NEehehhEehheC 0:1A1:7P6:10A
+0.18840581	1bs9000	pattern: NHHHeHHeeeHHC 	 for 1bs900 NEhEhhEhHhEEHEhhC 1:3Z1:6P3:6R6:10Z10:13P11:13X <=> 1bs9000 NhehhEhehehEEEehEhEehhC 4:10Z10:15Z11:13A12:15X17:18A
+0.5490196	1bsmAA0	pattern: NhhHhhehHHC 	 for 1bsmA0 NHHhHHeEEHHhhC 6:7A6:8A <=> 1bsmAA0 NHhhhHheeHEHEHhhC 7:9A7:11A
+0.24848485	1bteAA0	pattern: NeeEEC 3:4P	 for 1bteA0 NEHeEeEeHEC 1:3A1:5A4:5A4:7A5:7R6:9Z <=> 1bteAA0 NeeEEEEC 1:2A1:4A3:5Z
+0.21568632	1btkAA0	pattern: NeEEHEeEeEC 	 for 1btkA0 NEeEeheHhEeHEEeeC 1:2A1:10A2:3A3:4A4:6R6:9A9:10A12:15A13:14A <=> 1btkAA0 NeEEeehheEeEhheC 0:1A0:8A2:3A7:8A10:13A
+0.5833334	1bty002	pattern: NeEeEHC 2:3A	 for 1bty02 NEeEHeEeCNhC 1:2A1:5A2:3A3:7A5:6A6:7A <=> 1bty002 NeEhEeEehC 0:1A0:3A5:6A
+0.64957273	1bty001	pattern: NeeEEeEC 4:5A5:6A	 for 1bty01 NECNEeHEeEehC 1:5A4:5A4:8A7:10A8:9A9:10A <=> 1bty001 NEeEeeheEeEC 0:4A2:4A6:9A7:8A8:9A
+0.14893621	1bu7AA0	pattern: NHEeHeHHHEHHHHEEeHEEC 	 for 1bu7A0 NHhHeEhEHhhhehHHhhHhHHeEeEHHHHHheEeEC 4:5A5:7R5:25P7:22A12:35A18:21L22:25A23:24A32:35A33:34A <=> 1bu7AA0 NhheehhEhhhhEhhhhhhhhheEhhhhhhhhhehhehhEhhhheeC 3:6A6:38P11:35A22:32A35:38A
+0.5757576	1bu8AA2	pattern: NEeeeeEC 	 for 1bu8A2 NEeEEeEeEeC 1:5A1:7A2:3A2:4A2:6A6:9A7:8A8:9A <=> 1bu8AA2 NeEEEEeC 0:1A0:3A4:5A
+0.16666669	1bu8AA1	pattern: NeHeHeHeHHHHEHeC 	 for 1bu8A1 NEHeheEhEhEHhHEhEhhEHEHHHehHEC 1:3A5:6A5:10A6:8R8:10Z8:14P10:14R14:16Z16:19Z19:21Z21:28P25:28A <=> 1bu8AA1 NeEEhhhhEhhhhEhEEeEehhhhhehehhEC 0:1A0:7A2:7Z2:12Z12:14Z14:15Z15:17X17:29P26:29A
+0.48412699	1bueAA0	pattern: NEeeEeHC 3:4A	 for 1bueA0 NHeEEhehEHhhheHhhEeEhC 2:3A2:19A4:13A6:8A17:18A18:19A <=> 1bueAA0 NeEheEhhehehhhhehhhehhhEeEhC 1:18A4:7A22:23A23:24A
+0.07999998	1bw9AA2	pattern: NEHHHC 	 for 1bw9A2 NHeHeHeheHeHehhHHC 2:4Z2:8P4:6Z6:8R8:10Z10:12Z <=> 1bw9AA2 NhEhhEhhEeEhhEEhhEhEhhhhC 1:4Z1:9Z4:7Z9:13Z12:16Z13:18Z
+0.11764699	1bw9AA1	pattern: NeEEEC 	 for 1bw9A1 NHeEeeHCNeHeHCNHC 2:3A3:9A4:9P4:11P5:9P9:11R <=> 1bw9AA1 NEeheehhhC 0:3A1:3X1:4X
+0.2035715	1bx4AA1	pattern: NeeHeHeHHHHHeEeHC 12:13A	 for 1bx4A1 NECNHEhECNHHhEHhEhhEhhEeEhHC 1:5P1:13P5:7Z13:16Z16:19Z19:22Z22:23A23:24A <=> 1bx4AA1 NhhEEhhhhhhhhEhhhEhhhhhhEEeEhhehhhC 2:3Z12:16Z16:23Z23:24Z24:25A25:26A
+0.6	1bx7000	pattern: NeEC 	 for 1bx700 NEeC 1:2A <=> 1bx7000 NEeeC 0:1A
+0.26060605	1bxoAA2	pattern: NEeHEeEEeEEC 2:8P4:5A	 for 1bxoA2 NHEEeEheEeEHEeEehEeC 2:18A3:4A3:9A4:15P5:14P5:15A7:8A8:12R8:13A9:10A10:14R12:13A17:18A <=> 1bxoAA2 NehEehEhEeEeehEeeC 2:3A3:14Z5:13Z5:14A7:8A8:11X9:10A11:13A
+0.2037037	1bxoAA1	pattern: NEEEeHeEC 1:3P	 for 1bxoA1 NEHeEeHheEeHEHhEeC 1:3A3:4A3:9A4:12P5:8R5:10P5:12A8:9A9:10A15:16A <=> 1bxoAA1 NeEeeeeEhehhhEheC 0:4Z0:8Z1:6Z1:8A4:6A12:14A
+0.20039684	1byi000	pattern: NeEHeHeHeHC 1:2A	 for 1byi00 NEhEEhHEHhEEehEhEhEhhC 1:3R1:10P1:14P3:10P4:7Z10:14R11:12A14:16Z16:18Z <=> 1byi000 NEeEhhehhhhehEhehEhhEEhC 0:12P1:2A1:10Z16:19Z19:20Z
+0.31190473	1byqAA0	pattern: NehhhHhEeEeHC 1:9A7:8A	 for 1byqA0 NEHhEeHHhHeEeEhhEC 1:4R1:12A4:5A4:16P5:10R5:13A10:11A10:13A11:12A13:16R <=> 1byqAA0 NhhEehHHHHheeHeEeEhC 2:3A3:16A13:14A13:16A14:15A
+0.48717946	1c02AA0	pattern: NHHHHC 	 for 1c02A0 NHhHhHhhC 2:4R <=> 1c02AA0 NhhhhhhehhhhC 
+Chain A not found for pdbid 1c1k
+0.53846157	1c1lAA0	pattern: NeEeEEEC 	 for 1c1lA0 NEeEeHEeEeEeC 1:7A1:11A2:3A2:10A3:4A4:6A7:8A8:9A <=> 1c1lAA0 NEeEheeeC 0:5A2:4A
+0.23504275	1c24AA0	pattern: NHEHEeeEEEeEeC 5:8A6:7A	 for 1c24A0 NHhEHEeeEhHEeEEeeEEeEeC 3:5R3:7A5:7A6:17A7:8A11:15A12:13A12:14A14:19A15:18A16:17A19:20A20:21A <=> 1c24AA0 NhhEhehEeehEhhEEEheeeEeEeC 2:7A6:8A8:10A13:17A14:19A15:18A19:22A20:21A
+0.4285714	1c3d000	pattern: NHHHHHHHHC 	 for 1c3d00 NHhHhHhhhHhHhHhC 2:4R3:5R4:7R7:10R10:12R12:14R <=> 1c3d000 NhhhhhhhehhhhhehhhhhhhehhhhhhhhhhhC 
+0.1349206	1c3pAA0	pattern: NHHHHHeeHHeHHHHHC 	 for 1c3pA0 NEHhhHEhHhhEhEhEhEhEhEhHhhC 1:6Z1:11P6:11R11:13R11:21P13:15Z13:19P15:17Z17:19R19:21Z <=> 1c3pAA0 NehehhhhhheheheehhhehheehehEeEheehEhehhhhC 0:2X0:13P13:35P18:24Z18:30P24:27Z26:27A28:33Z30:35X
+0.093333304	1c3wAA0	pattern: NHEeHHC 	 for 1c3wA0 NHheEHhHhHHC 3:4A <=> 1c3wAA0 NhhheEhehhhhhhhhhhhEhhhEC 4:6A18:22Z
+0.5	1c52000	pattern: NHEeHHHC 	 for 1c5200 NHHhHeEhhHhC 5:6A <=> 1c52000 NhheehEehhEhehhC 5:6A9:11A
+Chain A not found for pdbid 1c5e
+0.8333333	1c75AA0	pattern: NHHC 	 for 1c75A0 NHHhHhC  <=> 1c75AA0 NehehehC 
+0.068965495	1c90AA0	pattern: NeHEEC 	 for 1c90A0 NEheEehhhEhEhhEheEHEeHEEhEhEC 1:4Z1:25P3:27A4:5A4:9P9:11Z11:14Z14:19Z16:17A19:22P20:23A23:25Z <=> 1c90AA0 NEheeC 0:2A
+0.17845124	1cb0AA0	pattern: NEeheEEhhheC 1:2A	 for 1cb0A0 NEhEeEHhEeeeheeHeHEhHEC 1:3R1:5P1:8P3:4A4:5A5:8R8:16A8:18P9:13P9:18A10:13R10:14P11:21A14:16Z <=> 1cb0AA0 NEeEhhEeEhheehhehEhhhhhhheC 0:1A1:2A5:16X6:11Z6:16A7:24A11:14Z
+0.22222227	1cc8AA0	pattern: NeHeEC 	 for 1cc8A0 NEhEeHeC 1:3R1:4A1:6A3:4A4:6R <=> 1cc8AA0 NhEheEheC 1:6A4:6A
+0.6592592	1cczAA2	pattern: NeEeeeC 2:4A	 for 1cczA2 NEeEeEeEC 1:2A2:5A3:4A3:6A6:7A <=> 1cczAA2 NEeeEEEC 0:1A1:4A2:3A2:5A
+0.5604396	1cczAA1	pattern: NeEeHEC 2:3A	 for 1cczA1 NEeEeEHeEheEC 1:11P2:8A3:4A3:10A4:5A7:8A10:11A <=> 1cczAA1 NEheEeheC 0:2A3:4A
+0.11403513	1cem000	pattern: NeEHeHEHHHHHC 	 for 1cem00 NHEehEHheHhHhHhHHhHHhC 2:3A5:8A14:17R15:18R17:20R <=> 1cem000 NEehehhEhhheEhhehhEhhehEhhehhhehehhhhC 0:1A6:10A10:11A17:20A20:22A
+0.5087719	1ceqAA2	pattern: NHeEEHHeEC 	 for 1ceqA2 NHhEeEHeEHhhHeHEeHC 3:7A4:5A7:8A13:15A15:16A <=> 1ceqAA2 NhhEehhehhhhhhEheC 2:3A13:15A
+0.26666665	1ceqAA1	pattern: NeHHHeHeHeHC 	 for 1ceqA1 NEhEhhEhEhEhHEC 1:3Z1:8P3:6Z6:8R8:10Z10:13Z <=> 1ceqAA1 NhEhhhEhhEhEhC 1:5Z8:10Z
+0.111111164	1cex000	pattern: NEhhHHC 	 for 1cex00 NHHeHeHHeHheheHHHHC 3:5Z3:8P5:8R8:11Z11:13Z <=> 1cex000 NhEhheEhhhhhEHhEEHhhC 1:5Z1:11Z11:14Z14:15Z
+0.19999999	1cf9BB3	pattern: NeHEeHHeHHHC 	 for 1cf9B3 NEhEeEEhEhHEhEhhC 1:3Z1:8P3:6Z4:5A6:8R8:11Z11:13Z <=> 1cf9BB3 NeeehEhehehhEhhEhhhC 0:2X0:8Z2:6Z4:6A11:14X
+0.75438595	1cf9BB2	pattern: NHHHC 	 for 1cf9B2 NHhHCNHhHhHC  <=> 1cf9BB2 NhhhhhhhhhhhhhhhhhC 
+0.6132897	1cf9BB1	pattern: NHHEeHEeEHeEHHeEHEHHC 6:7A8:10A	 for 1cf9B1 NHHeEheHEeECNHeeEHHehEheHhhEeHCNHC 6:8A6:21A8:9A9:10A10:14A14:16A15:16A16:19A19:21A <=> 1cf9BB1 NhhhehhEheEeEhEehhehEehhhehhhhhhC 6:8A6:20A8:9A9:10A11:14A13:24A14:19A19:20A
+0.8888889	1cgo000	pattern: NHHHHC 	 for 1cgo00 NHHhhhhHC  <=> 1cgo000 NhhhhhhhC 
+0.22685188	1chd000	pattern: NeHeeeEeHHeHHeC 1:3P	 for 1chd00 NEhEhEEeEhhEhEhEhC 1:3Z1:11P3:5R3:6P5:6P6:11R7:8A11:13Z13:15Z <=> 1chd000 NEEhEEEEehehhhEhhEhhehhhhEC 0:1Z0:13P1:5Z3:5Z4:7A6:7A13:16Z16:24Z
+0.74603176	1cipAA2	pattern: NHHHC 	 for 1cipA2 NHHhHHHhhHC  <=> 1cipAA2 NhhhhhehhhhhehhhhehhC 
+0.21212119	1cipAA1	pattern: NeHEeeEHHeHHHC 	 for 1cipA1 NEhCNeEhEHeEhhEHhhEhC 1:6P1:8P5:6A6:8R8:14Z10:11A14:18Z <=> 1cipAA1 NhehEhehehhEEehhEhhhhC 3:5A10:15Z11:12A
+0.22916669	1cjwAA0	pattern: NeHhhEhEhEC 	 for 1cjwA0 NEhhHHeEheHeHeEC 1:6A6:7A7:9A9:11Z11:13R11:14A13:14A <=> 1cjwAA0 NhEhHHeHHeHeC 1:5A5:8Z
+0.2916667	1ckaAA0	pattern: NEeEC 1:2A	 for 1ckaA0 NEeEeheC 1:2A1:6A2:3A3:4A4:6R <=> 1ckaAA0 NEEeEC 0:3Z1:2A2:3A
+Chain B not found for pdbid 1cka
+0.20833331	1ckeAA0	pattern: NeHeHeEHHeHeHHC 	 for 1ckeA0 NEhEHheEehHhEhEHhEhC 1:3R1:12P1:14P3:12P6:7A7:8A12:14R14:17Z <=> 1ckeAA0 NEhhhEhhhEhhhhehhEhEhhhC 0:16P0:18P4:16P8:13A
+0.44532627	1cl8AA0	pattern: NhEeeheeEeC 4:6Z6:9P7:8A	 for 1cl8A0 NHheEHeEehHeeEHHEeeHHHC 3:7A4:6A7:8A8:11Z11:18P12:13A16:17A <=> 1cl8AA0 NhhEhhEeeEhheEhEeehheEeEhhC 2:7A5:6A8:12Z12:22Z14:15A20:21A
+1cl8 B is DNA
+0.4814815	1cmbAA0	pattern: NEHC 	 for 1cmbA0 NEeeHhHHC 1:2A <=> 1cmbAA0 NehhhhC 
+0.09677416	1cnv000	pattern: NEEEEHHHC 	 for 1cnv00 NHeHHeeHeeHeHeHeHehHHHehhC 2:5Z2:22P5:8Z6:9Z8:11Z11:13Z13:15Z15:17Z17:22Z <=> 1cnv000 NhhEhhEhheeeEhhEhEhhhEhhehhhhhC 2:5X5:11Z14:16Z16:20Z
+0.14814812	1cnzBB0	pattern: NeHeHeHHeHHeEHHC 	 for 1cnzB0 NEhEHhEHhhEHheehEHeHeHHeHheEhHHHC 1:3Z1:6P3:6R6:10R6:27P10:13A10:26A13:18R13:23P14:16A18:20Z18:23P20:23R23:26R26:27A29:31L <=> 1cnzBB0 NhehehehhehhhEEehhhhEhhEhhEhhEehhhhC 5:29P8:12A8:28A12:25P13:14A19:22Z19:25Z28:29A
+0.5	1cpq000	pattern: NHHHHC 	 for 1cpq00 NHhhhhHC 2:5R <=> 1cpq000 NhhhhehhhhhC 
+Chain B not found for pdbid 1cru
+0.1875	1cs1AA2	pattern: NEHeHeHEC 	 for 1cs1A2 NHehEhEEHheHC 2:4A4:6R4:10A6:7P7:10A <=> 1cs1AA2 NhEheeheEhhEhheC 1:6A7:10X
+0.22222227	1cs1AA1	pattern: NHeHeHeHeHeHeEHC 	 for 1cs1A1 NHhEhEhEhEhEhEeHhC 3:5R3:14A5:7Z5:9P7:9R9:11Z11:13Z13:14A <=> 1cs1AA1 NhhhEhEhhEhEhhhEhEehhheC 3:17A3:21A5:8Z5:10X10:14Z14:16Z16:17A
+0.125	1ctf000	pattern: NHC 	 for 1ctf00 NEhHeHeC 1:4A1:6A4:6R <=> 1ctf000 NehhC 
+0.8333333	1ctj000	pattern: NHHC 	 for 1ctj00 NHHhhHC  <=> 1ctj000 NhhhhehC 
+Chain 0 not found for pdbid 1cv8
+0.125	1cvl000	pattern: NeEehehheC 1:5P	 for 1cvl00 NEeEHEhEhhEHhHHHeEeEhhhEhhC 1:5Z1:7P2:3A5:7R7:10Z10:17P16:17A17:23Z18:19A <=> 1cvl000 NEeeehEhehhhEEhhhEhhhhheEeEhhhehheeEhheC 0:5Z0:11X11:12Z12:25P16:33A23:24A25:34X
+0.53846157	1cxc000	pattern: NheEhhhC 	 for 1cxc00 NHEeHhHHC 2:3A <=> 1cxc000 NHeeEHeHHeHhC 3:5A
+0.36538464	1cxqAA0	pattern: NeEeHeHHeHC 1:2A	 for 1cxqA0 NEHeEhEhhEhHC 1:3A1:6P3:4A4:6R6:9Z <=> 1cxqAA0 NEeEhhEhhEhhC 0:1A1:2A5:8Z
+0.22222227	1cxyAA0	pattern: NhEeEHhC 	 for 1cxyA0 NHeEehhHhEC 2:3A3:4A4:9A <=> 1cxyAA0 NHEeHEHehHeC 1:9A2:4A2:9X
+0.7777778	1cy5AA0	pattern: NHHHC 	 for 1cy5A0 NHHhHhHhC  <=> 1cy5AA0 NhhhhhhhhhhhhhC 
+0.21794873	1cydAA0	pattern: NeHeHeHHHeHHHHeHC 	 for 1cydA0 NEhEhEhEHhhEHhEHhhhEhC 1:3Z1:7P3:5Z5:7R7:11Z11:14Z14:19X <=> 1cydAA0 NEhhhEhEEhhhhHEhhhHHhEehhC 0:4Z0:7Z4:6Z7:13Z13:20X
+0.17777777	1cyo000	pattern: NeeEhhHC 	 for 1cyo00 NEheEeHhHEhC 1:9P3:4A4:5A5:9A <=> 1cyo000 NHEHEHehhHHeheC 1:3X
+Chain A not found for pdbid 1czf
+0.16666669	1czpAA0	pattern: NeEEhC 	 for 1czpA0 NEeHeeHEHEEC 1:2A1:10P2:4R4:7A4:10A5:9A7:10R <=> 1czpAA0 NeehEeeHC 3:5A
+0.5333333	1d2nAA2	pattern: NeHEHC 	 for 1d2nA2 NEhHeHhC 1:4A <=> 1d2nAA2 NhhhEhehhC 3:5A
+0.12962961	1d2nAA1	pattern: NEHHEEC 	 for 1d2nA1 NHeHehHehHeHeC 2:4R2:10P2:12P4:7Z7:10Z10:12R <=> 1d2nAA1 NhhhEhhEhehhEheehC 3:6Z6:11Z
+0.18181819	1d3vAA0	pattern: NHHeeHeHHHHeHeHHHC 	 for 1d3vA0 NEhhEhEhEhhhhEhEHhEHhEhC 1:4Z1:6P4:6R6:8R6:21P8:13Z8:18P13:15Z15:18R18:21Z <=> 1d3vAA0 NhhhhehhehhhhheEEhEhehEhhEhhEhhhC 14:21Z14:27P15:17Z21:24Z
+0.2431373	1d7pMM0	pattern: NEeEeeeeC 2:3A3:7A	 for 1d7pM0 NEheEehEeEeeEeeeC 1:15A3:7A4:5A7:14A7:15A8:9A9:10A9:13A9:14A10:13L11:12A <=> 1d7pMM0 NEEeeeeEeeeeEC 0:5A1:2A6:7A7:11A
+Chain A not found for pdbid 1dbg
+0.25	1dbwBB0	pattern: NHeHHHeHC 	 for 1dbwB0 NEhEhEhEhEhC 1:3Z1:5P3:5R5:7Z7:9Z <=> 1dbwBB0 NhhheEhhhEhC 4:8Z
+0.85714287	1dciAA2	pattern: NHHC 	 for 1dciA2 NHhHhC  <=> 1dciAA2 NhhhhhC 
+0.14814812	1dciAA1	pattern: NeEHEHEHHHeC 	 for 1dciA1 NEehHeHheeheehHhEHeHC 1:2A2:5Z5:8Z8:11Z9:12Z11:18P12:16A <=> 1dciAA1 NEehhEhhhhhehhEhEhhhehhhhEC 0:4Z13:15Z15:24P
+0.25	1dcs000	pattern: NeHeeeEEEEHeC 3:7A4:8A5:7A	 for 1dcs00 NEHhEhHEehHEeEeEehEeehEHEC 1:4Z4:7R4:16A7:8A8:11A11:19A12:18A12:24A13:16A13:19A14:15A14:18A20:22A <=> 1dcs000 NhhEEhhhheEEEEehheeehhEheC 2:16A3:8A8:9A9:18A10:17A11:18A12:13A12:17A21:23A
+0.8333333	1df4AA0	pattern: NC 	 for 1df4A0 NHhC  <=> 1df4AA0 NC 
+0.2051282	1dfuPP0	pattern: NeHEHeEC 	 for 1dfuP0 NEEhEeHhEeeEC 1:8P2:4R2:5A4:5A4:11P8:9A10:11A <=> 1dfuPP0 NEhehhEeC 0:2A5:6A
+0.1930654	1dgfAA0	pattern: NeHEeEeHEEeHEHHEHHHHHC 3:4A	 for 1dgfA0 NHEheHEeEHhHHeeEHhehEheHhhheEhHhHC 4:6A4:20A6:7A7:8A8:13A13:15A14:15A15:18A18:20A30:32R <=> 1dgfAA0 NhhhhEheEehhhhhEEhEehhehhhEehehhhhhhhehhhhhhhhC 4:6A4:28A6:7A7:8A14:21A15:18A17:36A18:25A25:28A
+0.5454545	1dhn000	pattern: NeHEheC 	 for 1dhn00 NEhehHHhEeC 1:3A3:8A8:9A <=> 1dhn000 NEHheHEC 0:3A3:5A
+0.18055558	1di6AA0	pattern: NeHeHeHeHEHEC 	 for 1di6A0 NEhEhEhEHheEheEHHC 1:3Z1:5P3:5R5:7R5:11P7:10A10:11A13:14A <=> 1di6AA0 NEhehEhhhhhEheEhEhhehheC 0:21A4:13Z10:12A12:13A15:18A
+0.26190472	1difAA0	pattern: NEeEeC 1:3P2:3A	 for 1difA0 NEeEeeEeEHeC 2:3A2:6A3:8P4:7P4:8A5:6A6:7A <=> 1difAA0 NeEEeEC 1:4X2:3A3:4A
+0.16091949	1din000	pattern: NeEEeHHeHHeHHC 	 for 1din00 NEeeEhEHHhEhEhEhEhC 1:2A3:6A4:6Z4:10P6:10R10:12Z12:14Z14:16Z <=> 1din000 NEeEhheehhhhehehEhhehEhhEehhC 0:5A1:5Z1:11Z2:6A15:20Z20:23Z
+0.537037	1dlfLL0	pattern: NeeEeEC 3:4A	 for 1dlfL0 NEEeEeEeEheEEC 1:3A2:12P3:8A4:5A4:10A5:6A7:8A10:11A10:12A <=> 1dlfLL0 NEeeEeEeC 0:1A2:3A2:5A5:6A
+0.6130953	1dlfHH0	pattern: NEeEHeeHEC 1:6A	 for 1dlfH0 NEEeEehEeEheEC 1:3A2:12P3:9A4:5A4:11A5:7A8:9A11:12A <=> 1dlfHH0 NeeEhEehEEeheC 2:9A4:5A4:11A5:7A8:9A
+0.5151515	1dnlAA0	pattern: NHEeeEEHeeEC 	 for 1dnlA0 NHheEEeHEHeHhHEEHeEC 3:4A3:8A5:6A6:14A8:10A10:14A10:15A15:17A17:18A <=> 1dnlAA0 NheEeehEhehehhhhhEhEeC 1:2A1:6A4:16A6:8A8:16A18:19A
+0.09259254	1dosAA0	pattern: NEEHHHeHHC 	 for 1dosA0 NHeHeHehheHeHeHHHeheEhhC 2:4R2:9P4:6Z4:17P6:9Z11:13Z19:20A <=> 1dosAA0 NhhehhEehhhhEhhEhhEEhhhEhhEhhEhEhheC 5:11Z5:28P11:14Z14:17Z17:18Z18:22Z25:28Z30:33A
+0.09803921	1dozAA2	pattern: NHEHC 	 for 1dozA2 NHhehHeHeHHeC 3:6Z3:8P6:8R8:11Z <=> 1dozAA2 NhhEhEhEhhhehEhhC 2:4X2:6X6:12Z
+0.19047618	1dozAA1	pattern: NHHHeHeC 	 for 1dozA1 NEHhhEhEhECNhC 1:5Z1:7P5:7R7:9Z <=> 1dozAA1 NhhhhehhEhEC 7:9Z
+0.20833331	1dp7PP0	pattern: NEHEC 	 for 1dp7P0 NHeHheEC 2:5R2:6A5:6A <=> 1dp7PP0 NhhheheC 
+0.4814815	1dpsDD0	pattern: NHHC 	 for 1dpsD0 NHhHHhC 2:5R <=> 1dpsDD0 NhhhhehhC 
+0.15555555	1dptAA0	pattern: NeheHEC 	 for 1dptA0 NEhHhEeHheheEHC 1:5Z1:6A6:9Z11:12A <=> 1dptAA0 NeEHEheC 1:3Z
+0.15277785	1dqsAA1	pattern: NeHHEHEeEHC 	 for 1dqsA1 NEehheHehHeHeHeEehC 1:2A2:5R2:16P5:7Z5:10P7:10R10:12Z12:16Z14:15A <=> 1dqsAA1 NEhhhEEhhhhEhehhEEeEhehC 0:18P4:5Z4:10Z10:15Z15:18Z16:17A
+0.11538458	1dvjAA0	pattern: NEhHHHhHC 	 for 1dvjA0 NHeHehHeHeHehheHeHehHHC 2:4Z2:18P4:7Z7:9Z9:11Z11:14Z14:16Z16:18Z <=> 1dvjAA0 NhehHEhhEhhEhEhhhhEEhhEHhC 4:7Z7:10Z10:12Z12:17Z17:18Z18:21Z
+Chain A not found for pdbid 1dxg
+0.45238096	1eco000	pattern: NHHHC 	 for 1eco00 NHhHHhHhHC 5:7R6:8R <=> 1eco000 NhhhhhhhhhhhhC 
+0.19166666	1edg000	pattern: NHeHHeeEHeHeHeHeHeHeeEC 	 for 1edg00 NHhEhhEHEehEhEhHEHhEHHhHEhEEehC 3:6Z3:26P6:11Z8:9A11:13Z13:16Z16:19Z19:24Z24:26Z27:28A <=> 1edg000 NhEhhEhEhhehEhhEhhhhEheEehhhhhEhheEhhEeC 1:4Z1:33P4:11Z6:9A11:14Z14:19Z19:22Z22:29Z36:37A
+Chain B not found for pdbid 1edm
+Chain A not found for pdbid 1egw
+0.44444448	1ejgAA0	pattern: NC 	 for 1ejgA0 NEhHeC 1:4A <=> 1ejgAA0 NC 
+0.23809528	1ek0AA0	pattern: NeHEeHHHeC 	 for 1ek0A0 NEheEhEhEHhEhC 1:4P1:6P3:4A4:6R6:8Z8:11Z <=> 1ek0AA0 NEhehheEEhhhEC 0:2A6:7Z7:11Z
+0.18181819	1ek6AA2	pattern: NeHeHHHEEHeC 	 for 1ek6A2 NEhEhEhEhHEHHEeCNehEC 1:3Z1:7P3:5Z5:7R7:10Z10:13Z13:19P14:17P <=> 1ek6AA2 NEhhEhhhhhehehhhEhEhhC 0:3Z15:17Z
+0.17948723	1ek6AA1	pattern: NeEeEHC 	 for 1ek6A1 NHEeCNEHEehhC 2:8P3:6A3:9P <=> 1ek6AA1 NheEhehEhehC 2:6Z
+0.45238096	1elkAA0	pattern: NHHHC 	 for 1elkA0 NHHhHhHHHhHC 3:5R <=> 1elkAA0 NhhhhhhhhhhehC 
+0.22222227	1erv000	pattern: NeHHeHeC 	 for 1erv00 NEhEhEheEhC 1:3R1:5P3:5Z3:7A7:8A <=> 1erv000 NEhhhhhEehEC 0:6Z0:7A7:9A
+0.32222223	1erxAA0	pattern: NeEeEeEEEhHC 1:2A2:3A3:4A	 for 1erxA0 NHEHeEeEEeeEeHheHC 2:4A2:12A2:15A4:5A5:6A6:7A6:8A7:10A10:11A11:12A12:15R <=> 1erxAA0 NEeEeEeeHeHhC 0:1A1:2A2:3A3:4A4:6A
+0.48275858	1es5AA0	pattern: NeEEHHHeEEeEC 	 for 1es5A0 NEeHEHehHhHhEEeeHeEeHC 1:2A1:19A4:6A6:13A12:15A13:14A17:18A18:19A <=> 1es5AA0 NehhehEhehhhehhehhhhEehehEehC 5:7A19:20A24:25A
+Chain 0 not found for pdbid 1etn
+0.6080586	1euwAA0	pattern: NEeeeEC 2:5A3:5A	 for 1euwA0 NEEEeEHeeEeeC 1:4A2:11A3:10A4:9A5:8A5:11A7:9A <=> 1euwAA0 NeEEEEeeeC 1:7A2:6A3:5A4:6A
+java.lang.IndexOutOfBoundsException: Index: 91, Size: 5
+	at java.util.ArrayList.RangeCheck(ArrayList.java:547)
+	at java.util.ArrayList.get(ArrayList.java:322)
+	at translation.Chain.getResidueByAbsoluteNumbering(Chain.java:105)
+	at translation.Chain.createHelix(Chain.java:53)
+	at translation.HBondAnalyser.finishSSES(HBondAnalyser.java:375)
+	at translation.HBondAnalyser.analyse(HBondAnalyser.java:186)
+	at translation.FoldAnalyser.analyse(FoldAnalyser.java:38)
+	at translation.TestRunner.main(TestRunner.java:100)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.tools.ant.taskdefs.ExecuteJava.run(ExecuteJava.java:200)
+	at org.apache.tools.ant.taskdefs.ExecuteJava.execute(ExecuteJava.java:134)
+	at org.apache.tools.ant.taskdefs.Java.run(Java.java:710)
+	at org.apache.tools.ant.taskdefs.Java.executeJava(Java.java:178)
+	at org.apache.tools.ant.taskdefs.Java.execute(Java.java:84)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:275)
+	at org.apache.tools.ant.Task.perform(Task.java:364)
+	at org.apache.tools.ant.Target.execute(Target.java:341)
+	at org.apache.tools.ant.Target.performTasks(Target.java:369)
+	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1216)
+	at org.apache.tools.ant.Project.executeTarget(Project.java:1185)
+	at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:40)
+	at org.apache.tools.ant.Project.executeTargets(Project.java:1068)
+	at org.apache.tools.ant.Main.runBuild(Main.java:668)
+	at org.apache.tools.ant.Main.startAnt(Main.java:187)
+	at org.apache.tools.ant.launch.Launcher.run(Launcher.java:246)
+	at org.apache.tools.ant.launch.Launcher.main(Launcher.java:67)
+java.lang.IndexOutOfBoundsException: Index: 91, Size: 5
+0.45614034	1ezm002	pattern: NeEHHHC 	 for 1ezm02 NHEeHHhhHhHC 2:3A <=> 1ezm002 NhEheehhhhhhhhhhhhC 1:4A
+0.3	1ezm001	pattern: NeEeeEeC 1:2A5:6A	 for 1ezm01 NEeEeeHeEeHC 1:4A2:3A5:7Z7:9P8:9A <=> 1ezm001 NeEEeehEeEEhhhhC 1:3A2:6X6:8Z7:8A
+0.6825397	1fas000	pattern: NEeeC 1:2A	 for 1fas00 NEeEeeC 1:2A3:4A3:5A <=> 1fas000 NeeEEC 1:2A1:3A
+0.09803921	1fdr002	pattern: NHHEC 	 for 1fdr02 NHeHeHHeehheHeC 2:4Z2:11P4:7Z7:8P8:11R11:13Z <=> 1fdr002 NhhEhEhhhEhhEhEeC 2:4Z2:13Z4:8Z8:11X
+0.5925926	1fdr001	pattern: NeEEHEC 	 for 1fdr01 NEeEeEheC 1:2A1:7A2:5A3:4A3:7A <=> 1fdr001 NEEeehehC 0:3A1:2A
+0.17777777	1fds000	pattern: NeHeHHeHeHHHHeHC 	 for 1fds00 NEhEhhEhEHhhEHhEhHHEhHC 1:3Z1:8P3:6Z6:8R8:12Z12:15Z15:19Z <=> 1fds000 NhEhhhEEhhhhhhhhEhEhhhhhhhhEhC 1:5Z6:15Z15:17Z17:26Z
+0.18181819	1fkj000	pattern: NEeeEC 	 for 1fkj00 NEeEhEhehEC 1:7A2:3A2:5A2:9A3:5R7:9A <=> 1fkj000 NeEHEHeHC 0:1A0:3A
+0.23076922	1flmBB0	pattern: NEHEHeHEC 	 for 1flmB0 NHEeheEheEheC 2:3A2:8A3:5R5:6A6:11A8:9A9:11A <=> 1flmBB0 NehehEhHeC 4:7A
+0.45098037	1flp000	pattern: NHHHHC 	 for 1flp00 NHhHhhHhHC 2:5L5:7R6:8R <=> 1flp000 NhhhhhhhhhhhhhhhC 
+0.51851857	1fltVV0	pattern: NheEC 	 for 1fltV0 NHeHEEeEC 2:5A4:6A6:7A <=> 1fltVV0 NhHEheC 2:4A
+0.51851857	1fltVV0	pattern: NheEC 	 for 1fltV0 NHeHEEeEC 2:5A4:6A6:7A <=> 1fltVV0 NhHEheC 2:4A
+0.17948723	1fmb000	pattern: NeEEEeC 	 for 1fmb00 NEeEHEeEeEehC 1:2A1:8A2:10P3:5R3:9P3:10A5:8A6:7A8:9A <=> 1fmb000 NEeheeEC 0:5X4:5A
+0.5555556	1fna000	pattern: NEeEeC 	 for 1fna00 NEeEeEeEC 1:2A2:5A3:4A3:6A6:7A <=> 1fna000 NeEeEC 0:1A0:3A
+0.19047618	1fnc002	pattern: NeHeHHeHHeHC 	 for 1fnc02 NEhEhhEhhEhHEC 1:3Z1:9P3:6Z6:9R9:12Z <=> 1fnc002 NehEhEhhheEhhhhhEhhhC 2:4Z2:15P4:9Z
+0.6666667	1fnc001	pattern: NEeEeEEC 1:2A2:5A	 for 1fnc01 NEeEeEEeheC 1:2A1:9A2:5A3:4A3:9A6:7A <=> 1fnc001 NeEeEeEheehC 1:2A1:8A2:5A3:4A3:8A
+0.22916669	1ftrAA2	pattern: NeHEHEeEC 5:6A	 for 1ftrA2 NEhEHeHehEHeEeeC 1:3R1:5A1:7A1:14A3:5A5:7R7:13P9:14A11:12A12:13A <=> 1ftrAA2 NEeeheheEehC 0:1A7:8A
+0.47058827	1ftrAA1	pattern: NEeEEEC 	 for 1ftrA1 NEeCNHEHeEHeHeEHC 1:2A2:13P6:11A8:9A <=> 1ftrAA1 NhheEhehehehC 3:5A
+0.73333335	1fus000	pattern: NEeEeC 1:2A2:3A3:4A	 for 1fus00 NEehEeEeEC 1:2A4:5A5:6A6:7A7:8A <=> 1fus000 NHeEeEeC 2:3A3:4A4:5A
+0.17460316	1fvkAA0	pattern: NehhhHHHHhC 	 for 1fvkA0 NEeHHeHhHhhEehHC 1:12A2:5Z2:11A7:10R11:12A <=> 1fvkAA0 NEhhhhEhHHHHhehhhHHhC 0:5Z
+0.5833334	1fxd000	pattern: NHehEC 	 for 1fxd00 NEhEeHeC 1:6A3:4A <=> 1fxd000 NhEHeC 1:3A
+0.6	1g3p002	pattern: NeeEeEHC 	 for 1g3p02 NEEeEehEC 1:5A2:3A2:7P3:4A4:5A <=> 1g3p002 NEEeEheheC 0:5A1:2A3:5A
+0.5	1g3p001	pattern: NEeEeC 	 for 1g3p01 NHeeEeEECNeC 2:6A3:4A4:5A5:6A5:7A7:10A <=> 1g3p001 NeEeEC 
+0.4385965	1gai000	pattern: NeHEHEeHEHHHeHEeEC 	 for 1gai00 NHEHhHehHHeEHheHhhhHEheHEeHHC 2:6A10:11A11:14A20:22A24:25A <=> 1gai000 NheEhehhhhhehhehhhhhhehehhhhhEheehhhhhhhehheehhEhehhEeheC 2:4A28:31A46:48A51:52A
+0.07017547	1gca002	pattern: NeHC 	 for 1gca02 NHHeHeHHeHeHeCNEhC 3:5Z3:8P5:8R8:10Z12:15A <=> 1gca002 NhhhhEhhEhhEhEhEheC 4:7X4:10Z10:12Z12:14Z14:16A
+0.20833331	1gca001	pattern: NeHHeHeHHC 	 for 1gca01 NEhEhEhEhECNhEC 1:3Z1:5P3:5R5:7Z7:9Z9:13P <=> 1gca001 NhehhEhhhEhEhehC 4:8Z8:10Z
+0.17500001	1gceAA0	pattern: NEeEHHHEeHEEHEeEeEeHC 	 for 1gceA0 NHeEeEhHhhHeHHEhEeHeHHheEeHHEEEeEhC 2:3A2:32A3:4A5:19A11:28A14:19A16:17A19:23R23:24A23:29A24:25A25:30A30:31A31:32A <=> 1gceAA0 NheeEehhhEeEhehehehhhehhEehheheEhhheEheC 3:27A8:9A10:14A14:35A23:24A29:30A29:35A
+0.13793105	1gci000	pattern: NeHHeHeeEHHC 	 for 1gci00 NHHEEhEhEhEEEEeHhHhC 3:6P3:8P4:6X6:8R8:10Z10:11P11:12P13:14A <=> 1gci000 NheheeEheehhehEheeEeEhhhhehhC 3:7X3:8X5:7A8:11Z11:16Z13:17Z16:18X19:24A
+0.19607848	1gd1OO2	pattern: NeEHHEEHeC 	 for 1gd1O2 NHEehhEeHeHeheEC 2:6P2:7A3:6A7:9R7:14A9:11Z11:13R11:14A13:14A <=> 1gd1OO2 NhhEhehEhehehEEhC 2:6Z2:8A12:13Z
+0.13848633	1gd1OO1	pattern: NEEeeHC 1:2P	 for 1gd1O1 NEhEheEEeEhhEhhEEhECNHC 1:3Z1:12P3:7R3:9P5:6A7:8A8:9A9:12R12:15Z15:18P16:18Z <=> 1gd1OO1 NeheeEhheheEhEhEC 4:10Z10:14X12:14Z
+0.45238096	1gdj000	pattern: NHHHC 	 for 1gdj00 NHhHhHhHC 2:4L4:6R5:7R <=> 1gdj000 NhhhhhhhhhhhhC 
+java.lang.IndexOutOfBoundsException: Index: 233, Size: 1
+	at java.util.ArrayList.RangeCheck(ArrayList.java:547)
+	at java.util.ArrayList.get(ArrayList.java:322)
+	at translation.Chain.getResidueByAbsoluteNumbering(Chain.java:105)
+	at translation.Chain.createStrand(Chain.java:62)
+	at translation.HBondAnalyser.finishSSES(HBondAnalyser.java:384)
+	at translation.HBondAnalyser.analyse(HBondAnalyser.java:186)
+	at translation.FoldAnalyser.analyse(FoldAnalyser.java:38)
+	at translation.TestRunner.main(TestRunner.java:100)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.tools.ant.taskdefs.ExecuteJava.run(ExecuteJava.java:200)
+	at org.apache.tools.ant.taskdefs.ExecuteJava.execute(ExecuteJava.java:134)
+	at org.apache.tools.ant.taskdefs.Java.run(Java.java:710)
+	at org.apache.tools.ant.taskdefs.Java.executeJava(Java.java:178)
+	at org.apache.tools.ant.taskdefs.Java.execute(Java.java:84)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:275)
+	at org.apache.tools.ant.Task.perform(Task.java:364)
+	at org.apache.tools.ant.Target.execute(Target.java:341)
+	at org.apache.tools.ant.Target.performTasks(Target.java:369)
+	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1216)
+	at org.apache.tools.ant.Project.executeTarget(Project.java:1185)
+	at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:40)
+	at org.apache.tools.ant.Project.executeTargets(Project.java:1068)
+	at org.apache.tools.ant.Main.runBuild(Main.java:668)
+	at org.apache.tools.ant.Main.startAnt(Main.java:187)
+	at org.apache.tools.ant.launch.Launcher.run(Launcher.java:246)
+	at org.apache.tools.ant.launch.Launcher.main(Launcher.java:67)
+java.lang.IndexOutOfBoundsException: Index: 233, Size: 1
+0.5277778	1gof003	pattern: NEEeEeC 	 for 1gof03 NEEeEEeeEeEC 1:3A2:10P3:8A4:6A4:9A7:8A9:10A <=> 1gof003 NeeEeEC 1:2A1:4A
+0.19047618	1gof001	pattern: NeEeEC 1:4A	 for 1gof01 NEeHeEEeeEeC 1:10A2:5A4:9A5:8A5:10A6:7A6:8A8:10R <=> 1gof001 NEheeeheEeEeEC 0:4A6:9A6:11A7:10A
+0.14414412	1gpeAA3	pattern: NeHHeeHHeEHHEHEC 	 for 1gpeA3 NEhHeHheHEeCNEHehhHEeCNhhehHeC 1:10A4:7Z9:15A13:20A13:25A13:28A15:19A19:20A25:28R <=> 1gpeAA3 NhEhEhEhhhEEhhhEhhhhhhhehhehhhhheehhC 1:3X3:5Z9:10Z14:22A
+0.44444448	1gpeAA2	pattern: NEHC 	 for 1gpeA2 NHHeCNEhCNHC 3:6A <=> 1gpeAA2 NhhehC 
+0.12643677	1gpeAA1	pattern: NeHeeeHEHeC 	 for 1gpeA1 NHHEhECNEEeEheHeCNeHECNhECNhC 3:5Z3:11P5:8P9:10A10:11A11:24P13:15Z18:20A <=> 1gpeAA1 NhEeehEhhEEhehEeC 1:5P8:9Z
+0.5079365	1gsoAA3	pattern: NeEeHHEeHHC 	 for 1gsoA3 NEeEhheEhHhC 1:2A1:6A2:3A6:7A <=> 1gsoAA3 NEehEhhhhhehhEhhEehhC 0:1A0:9A1:3A9:12A15:16A
+0.22222227	1gsoAA2	pattern: NeHEEC 	 for 1gsoA2 NEhEeHeC 1:3R1:6A3:4A3:6A4:6R <=> 1gsoAA2 NEhhhheeC 0:5A0:6A
+0.19999999	1gsoAA4	pattern: NEEEHC 	 for 1gsoA4 NEEEeeHehC 1:5A1:7A2:5A3:4A5:7R <=> 1gsoAA4 NeeehEhC 0:4A2:4A
+0.30555558	1gsoAA1	pattern: NeHeHHeHHeC 	 for 1gsoA1 NEhEhEhEhhEC 1:3Z1:7P3:5Z5:7R7:10Z <=> 1gsoAA1 NEhhEhhEhhEC 0:3X6:9Z
+Chain A not found for pdbid 1guq
+0.25	1gvp000	pattern: NeEeeeC 1:2A	 for 1gvp00 NEHEeEeheEEC 1:3R1:4A1:6A3:4A4:5A6:10A8:9A <=> 1gvp000 NeEeeheC 1:2A
+0.14136904	1h2rLL0	pattern: NeEehhhhhehehehheC 2:3A	 for 1h2rL0 NEeEHhHhhhHhHHEehhhheHEHEhehHhHeEehhHHC 1:2A2:3A14:15A20:22A24:26A28:30L31:32A32:33A <=> 1h2rLL0 NeehhhhhhhehhhhhehhhhhhhehhhhhheeEhEeheehEeEhehehhhhheehehehhheC 32:37A34:35A40:46A41:42A41:44X
+0.5128205	1h2rSS2	pattern: NHHHHHC 	 for 1h2rS2 NHHhHhhhhC  <=> 1h2rSS2 NhEhehehhhehC 1:9A
+0.22727275	1h2rSS1	pattern: NHHEHeEHHHeHHHC 	 for 1h2rS1 NEhHEhEehEehEhhEhhEhHC 1:4Z1:6P4:6R6:12Z7:15A9:10A12:18Z <=> 1h2rSS1 NhhhehhEEhehhhEhehhehC 6:13X7:9A
+0.5555556	1hcl002	pattern: NehhEehHHhHhhC 	 for 1hcl02 NEHhHeEHHhhHHhHHC 1:5A5:6A <=> 1hcl002 NhHEHHeEHhhhehHehHHhC 2:5A5:6A
+0.25	1hcl001	pattern: NeEeC 1:2A	 for 1hcl01 NEeEhEeC 1:2A2:3A3:5R3:6A5:6A <=> 1hcl001 NehhEheEeC 0:3A3:7A6:7A
+0.8666667	1hcrAA0	pattern: NHC 	 for 1hcrA0 NHhHC  <=> 1hcrAA0 NhC 
+0.26282054	1hfc000	pattern: NeeeHHC 1:2P	 for 1hfc00 NEhEEeEhhC 1:3Z1:4P4:6P5:6A <=> 1hfc000 NheEheEEEhhhC 2:5Z4:5A6:7Z
+0.8333333	1hfeSS0	pattern: NHHC 	 for 1hfeS0 NHHHhhHC  <=> 1hfeSS0 NhhhheC 
+0.14583331	1hfeLL3	pattern: NHHEeHC 	 for 1hfeL3 NHEhHCNHhHeEhEC 2:13P10:11A11:13Z <=> 1hfeLL3 NehhehhehhEehheC 0:13P9:10A10:13Z
+0.7777778	1hfeLL2	pattern: NC 	 for 1hfeL2 NHHHC  <=> 1hfeLL2 NhhhhC 
+0.14285713	1hfeLL1	pattern: NeEEHeeHeHHC 	 for 1hfeL1 NEeHECNehEHHHECNHHhEhEHhCNHC 1:2A2:7P4:7A9:13Z9:19P19:21Z <=> 1hfeLL1 NEhhhEhehehEhhhhhEhhEhhhhC 4:10Z4:16P16:19Z
+0.2013889	1hka000	pattern: NEeHHHC 1:2A	 for 1hka00 NEhEEeHHeEehhHeC 1:3R1:5A1:8A3:5A4:5A4:14A5:8R8:14R9:10A <=> 1hka000 NEEheheeEehhhhC 0:5A0:6A1:5A7:8A
+0.7259259	1hmt000	pattern: NhEeEEeEeEC 2:3A5:6A6:7A7:8A	 for 1hmt00 NHeHhEeEeEeEeEC 2:5A2:13A5:6A6:7A8:9A9:10A10:11A11:12A12:13A <=> 1hmt000 NhhEeEhEeEeEC 2:3A3:4A6:7A7:8A8:9A9:10A
+0.5833334	1hpm003	pattern: NEehC 1:2A	 for 1hpm03 NEeECNHhEhhC 1:2A1:8P2:3A <=> 1hpm003 NEeEhhEhhhC 0:1A0:5P1:2A
+0.52380955	1hpm002	pattern: NHEC 	 for 1hpm02 NHhEeEC 3:4A4:5A <=> 1hpm002 NhheheC 
+0.4722222	1hpm004	pattern: NHEeC 	 for 1hpm04 NHheEHC 3:4A <=> 1hpm004 NhhhehEhhheC 5:9A
+0.19047618	1hpm001	pattern: NeEeeeHHHeHC 	 for 1hpm01 NEeEEeEhHECNhEhEhCNHC 1:2A1:13P2:3A2:4A5:6A5:9A6:9R13:15Z <=> 1hpm001 NEeehEhhheEEhhhhEhC 0:1A2:4A2:9A10:15X
+Chain P not found for pdbid 1htr
+0.18599033	1htrBB2	pattern: NEEeEeEeC 3:5P4:5A	 for 1htrB2 NHeeEeEeHeEHeEHEeeEHeEC 2:21A3:6A4:5A4:12A6:18P7:17P7:18A9:10A10:15R10:16A12:13A15:16A20:21A <=> 1htrBB2 NeheEehhhEehEeEehEEC 2:3A2:11A3:16P4:14Z4:16A8:13Z11:12A13:14A
+0.22916669	1htrBB1	pattern: NEeEHeEeC 5:6A	 for 1htrB1 NHeEeHheEeHEHEeC 2:3A2:8A3:11P4:7R4:9P4:11A7:8A8:9A13:14A <=> 1htrBB1 NEheheEeehhEeEhC 0:10Z2:7Z2:10A5:7A11:12A
+0.5589744	1hxn000	pattern: NeEeeEehEeEeEhC 1:2A	 for 1hxn00 NHeEeEHeEeEEHeEehEeEeHEHC 2:3A3:4A4:5A7:8A8:9A9:10A9:11A13:14A14:15A15:17A18:19A19:20A20:22A <=> 1hxn000 NeeeEeeEhehEeEhehEhC 3:4A6:8A8:10A10:11A12:14A14:16A
+0.15079361	1iab000	pattern: NeEEEC 1:3A	 for 1iab00 NEHHEhEEeEhHHEHheeHHC 1:16A4:6Z4:7P7:9P8:9A13:17A <=> 1iab000 NhEEEeeEhhehEhEheeehC 1:2Z1:3X3:6X4:6A11:17A13:16A
+0.25925922	1ido000	pattern: NeHEHHHeHHeHHC 	 for 1ido00 NEhEehHhhEhhEhHEhC 1:3Z1:9P3:4A9:12Z12:15Z <=> 1ido000 NEhehhehEhhhhEhhC 0:2A7:12Z
+0.22751325	1ifc000	pattern: NehEeEEC 3:4A	 for 1ifc00 NEHheEeEeEeEeC 1:4A1:12A4:5A5:6A7:8A8:9A9:10A10:11A11:12A <=> 1ifc000 NHhehEeEEC 4:5A5:6A6:7Z
+0.18181819	1iibAA0	pattern: NHHHHC 	 for 1iibA0 NEhEhEhEHhC 1:3Z1:5P3:5R5:7Z <=> 1iibAA0 NehehhhhhhC 
+0.5555556	1isuAA0	pattern: NhEC 	 for 1isuA0 NHheEC 3:4A <=> 1isuAA0 NHEeeC 1:2A
+0.17460316	1ixh002	pattern: NeHeHeHeHeC 	 for 1ixh02 NEhHEhHEhEhEEeHC 1:12P4:7Z4:9P7:9R12:13A <=> 1ixh002 NEhhehhhEhhEhhEhhEhhC 0:16P7:10Z7:13Z
+0.14583331	1ixh001	pattern: NeHHHEC 	 for 1ixh01 NEhEhEhECNeHHeHC 1:3Z1:5P3:5R5:7R5:10A7:10A7:13A10:13R <=> 1ixh001 NhehEhhhhhhheC 
+0.17948723	1jer000	pattern: NeeEHEC 	 for 1jer00 NEHHeEeHeEheC 1:5P4:11P5:8A6:8R6:9A9:11A <=> 1jer000 NhhEEeheC 2:4A3:6A
+0.122807026	1jetAA3	pattern: NeHEEHC 	 for 1jetA3 NHHEhHeHeHeHhHeC 3:14A6:8Z6:10P8:10R <=> 1jetAA3 NhhhhhehEhEhhehhehC 7:9Z
+0.2166667	1jetAA2	pattern: NEeHHC 1:2A	 for 1jetA2 NEeEeHHhHheEhhC 1:2A3:4A4:10R4:11A10:11A <=> 1jetAA2 NeEehehheEheheC 1:2A8:10A
+0.5333333	1jetAA1	pattern: NHeHHHHEeHEC 	 for 1jetA1 NEhCNHEehEhhheCNEheC 1:9P6:7A7:9A16:18A <=> 1jetAA1 NheEhhhheEheehhheeC 1:10P1:15P2:7A7:8A8:10A
+Chain B not found for pdbid 1jet
+java.lang.IndexOutOfBoundsException: Index: 86, Size: 1
+	at java.util.ArrayList.RangeCheck(ArrayList.java:547)
+	at java.util.ArrayList.get(ArrayList.java:322)
+	at translation.Chain.getResidueByAbsoluteNumbering(Chain.java:105)
+	at translation.Chain.createHelix(Chain.java:53)
+	at translation.HBondAnalyser.finishSSES(HBondAnalyser.java:375)
+	at translation.HBondAnalyser.analyse(HBondAnalyser.java:186)
+	at translation.FoldAnalyser.analyse(FoldAnalyser.java:38)
+	at translation.TestRunner.main(TestRunner.java:100)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.tools.ant.taskdefs.ExecuteJava.run(ExecuteJava.java:200)
+	at org.apache.tools.ant.taskdefs.ExecuteJava.execute(ExecuteJava.java:134)
+	at org.apache.tools.ant.taskdefs.Java.run(Java.java:710)
+	at org.apache.tools.ant.taskdefs.Java.executeJava(Java.java:178)
+	at org.apache.tools.ant.taskdefs.Java.execute(Java.java:84)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:275)
+	at org.apache.tools.ant.Task.perform(Task.java:364)
+	at org.apache.tools.ant.Target.execute(Target.java:341)
+	at org.apache.tools.ant.Target.performTasks(Target.java:369)
+	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1216)
+	at org.apache.tools.ant.Project.executeTarget(Project.java:1185)
+	at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:40)
+	at org.apache.tools.ant.Project.executeTargets(Project.java:1068)
+	at org.apache.tools.ant.Main.runBuild(Main.java:668)
+	at org.apache.tools.ant.Main.startAnt(Main.java:187)
+	at org.apache.tools.ant.launch.Launcher.run(Launcher.java:246)
+	at org.apache.tools.ant.launch.Launcher.main(Launcher.java:67)
+java.lang.IndexOutOfBoundsException: Index: 86, Size: 1
+0.173913	1kapPP2	pattern: NeEHEHHHEEHC 	 for 1kapP2 NEehehhheeEeHHHhC 1:2A4:8Z4:9P9:11P10:11A <=> 1kapPP2 NhehEhhEEheEhehhhehhehC 3:6Z7:10Z9:10A
+0.3422619	1kapPP1	pattern: NEEEeEEEEEEEeEeEEeEC 1:5P2:6P6:8P8:10P10:13P	 for 1kapP1 NHCNehEeEeEeEeEeEheEHeeEeHEC 4:7X6:10P7:11P8:12P9:10A11:13P12:14P13:15P14:16P15:18P16:19P18:24P19:26P21:22P22:23A23:24A <=> 1kapPP1 NEheEEEeEEEEEEEheEEeEhEeEC 0:4Z3:7Z4:8Z5:9Z6:7A8:10Z9:11Z10:12Z11:13Z12:16Z13:17Z15:23A16:23Z19:21Z21:22A
+Chain I not found for pdbid 1kap
+0.19999999	1koe000	pattern: NHHHEHEHeEEC 	 for 1koe00 NEhEhhEehehEHeeC 1:3R1:6P1:14A3:6R3:14A6:7A9:11A11:13A <=> 1koe000 NehehheeehEeEhEeehEC 9:15A11:17Z13:14A14:17A
+0.23333335	1kp6AA0	pattern: NeHHeEC 	 for 1kp6A0 NHEhhEeHeC 2:5R2:6A2:8A5:6A6:8R <=> 1kp6AA0 NEhhEeC 0:4A3:4A
+0.21212119	1kpf000	pattern: NeEHhEC 	 for 1kpf00 NHeEehHehEC 2:3A3:4A4:7R4:9A7:9A <=> 1kpf000 NEehHHeC 0:1A
+0.19444442	1kptAA0	pattern: NHeEhEC 	 for 1kptA0 NHheEeEHeHEC 3:6A4:5A5:8L5:10A8:10A <=> 1kptAA0 NhEehHeC 1:2A
+0.19444442	1kuh000	pattern: NeeEhHC 	 for 1kuh00 NEhEEeEHhhhC 1:3Z1:4P4:6P5:6A <=> 1kuh000 NeEeHEeHehC 1:4Z2:4A
+0.7777778	1kveAA0	pattern: NC 	 for 1kveA0 NEhhEC  <=> 1kveAA0 NC 
+0.22222227	1kveBB0	pattern: NeEC 	 for 1kveB0 NEhEeC 1:3L1:4A3:4A <=> 1kveBB0 NEeC 0:1A
+0.1691919	1lam002	pattern: NHHHeHEEHeHeeEC 6:7P	 for 1lam02 NHEHheEEhhEeEhEHeHehEhEHEehC 2:5A5:10A6:10P6:14P7:10Z10:14R11:12A12:20P14:22P16:18Z16:22A24:25A <=> 1lam002 NhhhEheEhheEhEehhhEhehheheehhhEhEheC 3:5A5:10A6:10Z6:17Z12:13A13:25P17:29P19:22Z19:29A31:33A
+0.24444443	1lam001	pattern: NHEeeEHeHeC 	 for 1lam01 NEhHeEEehEhEhC 1:5P1:9P4:5A5:9R6:7A9:11Z <=> 1lam001 NhehEehEehhEhEC 3:4A6:7A10:12Z
+0.19047618	1lbu002	pattern: NEHeHEeC 	 for 1lbu02 NHeHhEhEeEHC 2:5A5:7R5:8A7:8A7:9P <=> 1lbu002 NhehhEheheheEC 4:8A8:11A10:11A
+0.4074074	1lbu001	pattern: NC 	 for 1lbu01 NHHHC  <=> 1lbu001 NhEehhhhC 1:2A
+0.13749999	1lcl000	pattern: NeEeC 1:2A	 for 1lcl00 NEehEeEeeEeEheEC 1:13A2:9A2:14A4:5A4:13A5:6A6:7A6:8A9:10A10:11A <=> 1lcl000 NeEhEeEeeeeC 1:8A3:4A4:7Z5:6A5:7A
+0.4027778	1lkkAA0	pattern: NEeEehC 1:2A	 for 1lkkA0 NHeEeEHC 2:3A3:4A4:5A <=> 1lkkAA0 NEeEehEC 0:1A0:5Z1:2A
+Chain B not found for pdbid 1lkk
+0.8518519	1lmb440	pattern: NHHHC 	 for 1lmb40 NHhHhHhC  <=> 1lmb440 NhhhhhhhC 
+0.14285713	1lst002	pattern: NEEEEC 	 for 1lst02 NEHeHHeHeHHeHC 1:8A1:11A3:6Z3:8P6:8R8:11R <=> 1lst002 NhhehhhehehheC 2:6Z2:8Z
+0.23333335	1lst001	pattern: NEEeEeHHC 2:3A	 for 1lst01 NEEehEhEhECNeHHC 1:5Z1:7P2:3A5:7R7:9R7:12A9:12A <=> 1lst001 NehehheEhhEehEhehC 6:10A9:10A12:14A
+0.2298851	1lucBB0	pattern: NeHHHeHHeeHeHeHeHeHC 	 for 1lucB0 NEhEhEhEhheEEhEhEhHEhEhC 1:3Z1:21P3:5Z5:7Z7:12Z10:11A12:14Z14:16Z16:19Z16:21P19:21R <=> 1lucBB0 NEEhhehhEhhEEehEhhhEhhhhEhEhC 0:1Z1:7Z7:10Z10:14Z11:12A14:18Z23:25Z
+0.6904762	1m6pAA0	pattern: NhheEeEeEeC 3:4A5:6A	 for 1m6pA0 NHHeEeEehEeEHC 3:4A4:5A5:6A6:7A7:9A9:11P10:11A <=> 1m6pAA0 NhheEeEehEeC 3:4A5:6A6:8A
+0.44444448	1mba000	pattern: NHHHC 	 for 1mba00 NHhHHHhHhC 5:7R6:8R <=> 1mba000 NhhhhhhhhhhehhC 
+Chain I not found for pdbid 1mct
+0.237037	1mdc000	pattern: NhEeEEEeC 2:3A	 for 1mdc00 NEHheeEeEeEeEeC 1:4A1:13A5:6A6:7A8:9A9:10A10:11A11:12A12:13A <=> 1mdc000 NEhhEeEEEEeC 0:9A3:4A4:5A6:7Z7:8Z
+0.17777777	1mfiAA0	pattern: NeHhEhEC 	 for 1mfiA0 NEhHhEEeHheheEC 1:5Z1:7A7:10Z12:13A <=> 1mfiAA0 NEEheHeHeC 0:1Z0:3A3:5Z
+0.52884614	1mfmAA0	pattern: NeEEhC 1:2A	 for 1mfmA0 NEeEeHEeEheeC 1:2A1:11A2:3A3:7A4:6A4:8A6:7A8:10A <=> 1mfmAA0 NEeeEhEEhC 0:1A1:5A2:3A2:6A
+0.14814812	1mgtAA2	pattern: NHHC 	 for 1mgtA2 NHehHheHC 2:6Z <=> 1mgtAA2 NhhhhhEEC 5:6Z
+0.5	1mgtAA1	pattern: NeEHHC 	 for 1mgtA1 NEeEhHhC 1:2A2:3A <=> 1mgtAA1 NEehheehhheC 0:1A
+0.25	1mjhBB0	pattern: NHhHeHeHC 	 for 1mjhB0 NEhEHhEhEhEC 1:3Z1:8P3:6Z6:8R8:10Z <=> 1mjhBB0 NhHhhEhhEheC 4:7Z
+0.15053767	1mla002	pattern: NHhHhHHhHEHHHC 	 for 1mla02 NEhHhHhEhHCNhHehEhEhC 1:7Z1:16P16:18Z <=> 1mla002 NhHHHhhhheHheHHHhheHhehhhhehehC 
+0.16666669	1mla001	pattern: NeHC 	 for 1mla01 NEhEeHeC 1:3R1:4A1:6A3:4A4:6R <=> 1mla001 NHeHEEhC 1:3A1:4A
+0.14035088	1mml002	pattern: NEHEeHEC 	 for 1mml02 NHHCNHehCNHHeEhEeEC 6:13A6:15A12:13A13:15R16:17A <=> 1mml002 NEehhehhhhhhehEheC 0:13P
+0.16666669	1mml001	pattern: NeEHeC 	 for 1mml01 NHEeEHCNhEeC 2:10A3:4A9:10A <=> 1mml001 NhhEEEEhehEC 2:4X5:7A
+0.8	1mof000	pattern: NC 	 for 1mof00 NHHHC  <=> 1mof000 NhC 
+0.5416666	1molAA0	pattern: NHEEC 	 for 1molA0 NEheEeEC 1:3A3:4A4:5A5:6A <=> 1molAA0 NhheeeeC 
+0.15384609	1moq002	pattern: NeHeHHeHHeHC 	 for 1moq02 NHEhEhhEhhEHEhC 2:4Z2:7P4:7R7:10Z10:12Z <=> 1moq002 NhhhhEhhhEeehEhehhEhhEhhhC 4:8Z4:12Z12:17Z17:20Z
+0.14444447	1moq001	pattern: NEeHeHeHeHHHC 	 for 1moq01 NHHeEHhEhEhEhEhEhHC 3:4A7:9Z7:11P9:11R11:13Z13:15Z <=> 1moq001 NhhhEhehhhhhEhhEhEhhhEeEhhhhhC 3:5A11:14Z11:16Z16:20Z20:22Z
+0.7916667	1mpgBB3	pattern: NHC 	 for 1mpgB3 NHHhC  <=> 1mpgBB3 NhhhheeC 
+0.16666669	1mpgBB2	pattern: NHHHHC 	 for 1mpgB2 NHhhHhHhC 2:5R <=> 1mpgBB2 NEhehhhhhhhC 0:2A
+0.2166667	1mpgBB1	pattern: NHEeEC 2:3A	 for 1mpgB1 NEhEeEeHHC 1:3R1:6A3:4A4:5A5:6A <=> 1mpgBB1 NheEehEhehheehC 2:3A3:5A
+0.5151515	1mrj002	pattern: NHeEHC 	 for 1mrj02 NHhEehC 3:4A <=> 1mrj002 NhhhhehEehC 6:7A
+0.24853802	1mrj001	pattern: NHeEeEEHHHC 3:4A	 for 1mrj01 NEhEeHEeEeHeHhHhhC 1:6Z3:4A6:7A7:8A8:9A9:11Z <=> 1mrj001 NhEeEehheehhhhehhhC 1:2A3:4A
+0.08333331	1mroBB2	pattern: NeEHHEHHHC 	 for 1mroB2 NEeHHCNHHhHHhEeHhHhHHhHHC 1:2A9:12L13:14A <=> 1mroBB2 NehehhEEhEhhhhhhehEhehhhhhhehhhehhhhhhhC 5:26A6:8X17:19A
+0.15686274	1mroBB1	pattern: NeHEHHEC 	 for 1mroB1 NEHhEHehHhehC 1:4R1:6A1:10A4:6A6:10R <=> 1mroBB1 NhhhhEhhehhhhhheC 4:7A
+0.28888893	1mroCC0	pattern: NhhhEhEeeEhhhC 8:9A	 for 1mroC0 NHhHhHeHeEhEeEeHHHC 6:8R6:9A6:11A8:9A9:11R12:13A13:14A <=> 1mroCC0 NehehhhEhEheheEehhhEC 6:10A8:10A13:14A14:18A
+0.52380955	1msi000	pattern: NeEC 	 for 1msi00 NEheHHC 1:3A <=> 1msi000 NEeeeeC 0:3A
+0.8333333	1msk002	pattern: NhHHHC 	 for 1msk02 NHhhHCNhC  <=> 1msk002 NHHhhhhehhhC 
+0.18840581	1msk001	pattern: NeEEhheHHHeHC 	 for 1msk01 NHECNeEeHHECNhHhheEeHhC 2:5A5:6A5:10A6:7A10:19A17:18A <=> 1msk001 NheEeeeHeEHEHhhhEhhC 1:2A1:10A8:10Z
+0.21568632	1mugAA0	pattern: NeHHHeHeHeC 	 for 1mugA0 NEhhhEHhEheEhC 1:5Z1:8P5:8R8:11P10:11A <=> 1mugAA0 NEeehhhhhEhEehhEC 0:8Z0:10X10:14X11:14A
+0.56410253	1mun002	pattern: NhhhHhHhC 	 for 1mun02 NHhHHhHhHC 3:6R <=> 1mun002 NhHHHhhhHHhHC 
+0.5454545	1mun001	pattern: NhhhHHC 	 for 1mun01 NHCNHHhHHhC  <=> 1mun001 NEHHHHhheC 0:7A
+0.24691361	1nar000	pattern: NeeEHHeHeHHehHehHehC 	 for 1nar00 NEEehhEheEEhEhEHhEHhEHhC 1:2P1:20P2:3A2:6P6:10Z8:9A10:12Z12:14Z14:17Z17:20Z <=> 1nar000 NEeEhehehEhhEhhEHhEhHhhEHHC 0:2Z2:8Z8:11Z11:14Z14:17Z17:22Z
+0.2185008	1nbcAA0	pattern: NEEehEeEC 1:6A2:6A	 for 1nbcA0 NEEeEHEeEHEeeEeeeEC 1:3A1:15A2:14A3:13A4:12A6:11A6:16A7:8A7:13A8:10R10:11A16:17A <=> 1nbcAA0 NEEEEehEeeeeEC 0:9A1:8A2:7A2:11X3:8A6:7A
+0.22222227	1nddBB0	pattern: NeEHEC 	 for 1nddB0 NEeHheEEC 1:2A1:7P2:5R5:6A5:7A <=> 1nddBB0 NEeeEhheC 0:1A3:6A
+0.4814815	1nfn000	pattern: NHHC 	 for 1nfn00 NHhHhHC 1:3R <=> 1nfn000 NhhhhhhhC 
+0.21350765	1nif002	pattern: NeehEEEeC 5:7A	 for 1nif02 NEeEHeheEeEeeEheC 1:2A3:5A3:8P5:7L7:15P8:12A9:13A10:11A10:12A13:15A <=> 1nif002 NEheehEEEeehehC 0:5Z5:9A6:11A7:8A7:9A
+0.21428567	1nif001	pattern: NeeeEEHEC 	 for 1nif01 NHEEeeEeHeEheC 2:3P3:4A3:6P5:12P6:9A7:9L7:10A10:12A <=> 1nif001 NEeEEhehehehC 0:2X2:7A3:9A
+0.8333333	1nkd000	pattern: NC 	 for 1nkd00 NHhC  <=> 1nkd000 NC 
+0.5694444	1nkr002	pattern: NeEeeEC 2:4A	 for 1nkr02 NEEeEeeEeEEC 1:3A2:10P3:7A4:5A4:8A6:7A8:9A8:10A <=> 1nkr002 NEeeEEEeC 0:1A1:4A2:3A2:5A5:6A
+0.6230159	1nkr001	pattern: NEeEhEC 1:2A2:3A	 for 1nkr01 NEEeEeeEheEC 1:3A2:10P3:7A4:5A4:9A6:7A9:10A <=> 1nkr001 NEeEehEC 0:3A1:2A1:5A2:3A
+0.56349206	1nls000	pattern: NEeEeeEEHC 1:2A4:7A5:6A	 for 1nls00 NEheEeEehEeEEeEeeEeHC 1:3A1:18A3:4A5:6A5:17A6:7A9:15A9:16A9:18A10:11A10:14A10:17A12:15A13:14A <=> 1nls000 NEeEehEEEehEheeeeehC 0:1A2:3A2:15A3:5A6:16A7:15A10:13A
+Chain 0 not found for pdbid 1not
+0.18055558	1nox000	pattern: NhHHEhHhhhEhC 	 for 1nox00 NHhheHhEHHhHEheHC 4:7A7:12R7:14A12:14A <=> 1nox000 NHehhhEhehhHhehhHHHHeHHC 5:12A
+0.15686274	1npk000	pattern: NeHeHHEC 	 for 1npk00 NEHhEhhHeHHHeHHC 1:4R1:8A1:12A4:8A8:12R <=> 1npk000 NhhEhehhhehEhEheC 2:8A10:12X
+0.08888888	1nulBB0	pattern: NeeC 	 for 1nulB0 NEHHeHeeHeHeEHC 1:12P4:6Z4:7P7:9Z9:11Z <=> 1nulBB0 NhhEhEhEhEEhC 2:4Z2:6Z6:8Z8:9Z
+0.5333333	1nwpAA0	pattern: NEeEHeHEC 	 for 1nwpA0 NEeEHeHHEehEheC 1:3P2:13P3:9A5:8A5:11A11:13A <=> 1nwpAA0 NeEhhhehhEheEC 1:10A5:8A5:11A
+Chain B not found for pdbid 1nzy
+0.2166667	1oaa000	pattern: NeHeHHHHeHHHC 	 for 1oaa00 NEhEhEhEHhhEHhEHhhEC 1:3Z1:7P3:5Z5:7R7:11Z11:14Z14:18X <=> 1oaa000 NheEhEEhhhhhhhEEhhhC 2:4Z5:13Z13:14Z
+0.19444442	1onc000	pattern: NheEEEC 	 for 1onc00 NHEhEheeEEeC 2:4Z4:7A6:9A7:8A9:10A <=> 1onc000 NhheHEeeeC 4:7A
+0.25925922	1opd000	pattern: NeHEhhC 	 for 1opd00 NEhEeHeHC 1:3R1:6A3:4A3:6A4:6R <=> 1opd000 NhEheHHC 1:3A
+0.5555556	1orc000	pattern: NhHeEC 	 for 1orc00 NEHhHeEeC 1:5A5:6A6:7A <=> 1orc000 NHhhEeC 3:4A
+0.93333334	1osa002	pattern: NHHC 	 for 1osa02 NHhhC  <=> 1osa002 NhhC 
+0.8333333	1osa001	pattern: NHHC 	 for 1osa01 NHHhhC  <=> 1osa001 NhhhhhhC 
+0.57142854	1pcfAA0	pattern: NeEHC 	 for 1pcfA0 NEeEehC 1:2A2:3A3:4A <=> 1pcfAA0 NEehC 0:1A
+0.5833334	1pda003	pattern: NeEHHC 	 for 1pda03 NHEeEhhC 2:3A3:4A <=> 1pda003 NEehhhEC 0:1A1:5A
+0.1025641	1pda002	pattern: NeHC 	 for 1pda02 NEeHeHehHeC 1:6A1:9A2:4Z2:6P4:6R6:9R <=> 1pda002 NehEhEhhEhEhC 0:7A0:9A2:4Z
+0.16666669	1pda001	pattern: NHHeeEC 	 for 1pda01 NEhEHhEHECNeHC 1:3Z1:6P3:6R6:8R6:11A8:11A <=> 1pda001 NhehhEEhhhhehC 
+0.16666669	1pdo000	pattern: NHHHHC 	 for 1pdo00 NEhEhEhEhHC 1:3Z1:5P3:5R5:7Z <=> 1pdo000 NhehhhehhhhC 
+Chain 0 not found for pdbid 1pef
+Chain 0 not found for pdbid 1pen
+0.2331155	1pgs002	pattern: NeEeeEeeeC 2:7A	 for 1pgs02 NEHEeEEeeEHehEeEC 1:3R1:14A3:14A4:13A4:15A5:11A5:14A6:7A8:9A8:13A <=> 1pgs002 NEeEEeheeEheeeeC 0:13A2:11A3:10A3:13A
+0.61904764	1pgs001	pattern: NeEeEeEC 2:5A3:4A	 for 1pgs01 NEEeEHeEehEeC 1:11A2:11A3:10A4:8A4:11A6:7A6:10A <=> 1pgs001 NeEeeEehEeheEC 1:10A2:7A2:11A4:5A4:10A
+0.48717946	1phnAA0	pattern: NHHHHC 	 for 1phnA0 NHhhHhHHhHC 3:5L5:8R <=> 1phnAA0 NhhhhhhhhhhhC 
+0.19444442	1plc000	pattern: NeeEEEC 	 for 1plc00 NEeeEeHeEHeC 1:2A1:4P3:10P4:7A5:7L5:8A8:10A <=> 1plc000 NeEEheheeC 1:4A2:6A
+0.5	1pmi003	pattern: NeEEEEEC 	 for 1pmi03 NECNEeEeEeHEeEeC 1:12A4:7A5:6A6:14A7:13A8:12A8:14A9:11A9:13A <=> 1pmi003 NEeeeheeC 0:1A
+0.8095238	1pmi002	pattern: NHHHHC 	 for 1pmi02 NHhHhHhHhCNHHC  <=> 1pmi002 NhhhhhhhhhhhhC 
+0.1691919	1pmi001	pattern: NeehhEeeeC 5:7A	 for 1pmi01 NEEHHeeEehhHEEhEECNeeeeC 1:6A2:5A6:12A7:8A12:21A13:15R13:21A13:22A15:20A15:21A16:19A16:21A <=> 1pmi001 NhEeEhehhEEeeeC 1:2A3:5A8:12A9:10A9:12A
+0.5454545	1poa000	pattern: NHHeEhC 	 for 1poa00 NHhhEeHHHC 4:5A <=> 1poa000 NehhhEHehHC 4:6A
+0.875	1psrAA0	pattern: NHHHC 	 for 1psrA0 NHhHhhHC  <=> 1psrAA0 NhhhhhhC 
+0.1851852	1ptf000	pattern: NeHeC 	 for 1ptf00 NEhEeHeHC 1:3R1:6A3:4A3:6A4:6R <=> 1ptf000 NHeHEhhEC 1:3A1:6A
+0.049382687	1pymAA0	pattern: NHHC 	 for 1pymA0 NHeHehHeHeHeHeHeHehHHHC 2:4Z2:17P4:7Z7:9Z9:11Z11:13Z13:15Z15:17Z <=> 1pymAA0 NhhhhEhhEhEhhhEhhEhhEhEhhhC 4:7Z7:9Z9:13Z13:16Z19:21X
+0.19444442	1qauAA0	pattern: NeEeC 1:2A	 for 1qauA0 NEEehEeHeEeC 1:8A2:3A3:5A5:6A5:8A6:8R9:10A <=> 1qauAA0 NEehheheEeC 0:1A7:8A
+0.2051282	1qb7AA0	pattern: NeEHHeHHeEHHHHHC 	 for 1qb7A0 NEehehEhHeHHehEeeHehhehhhC 1:2A2:21P4:6A9:12Z9:16P12:16R14:15A16:18Z18:21Z <=> 1qb7AA0 NEEhhehhhEhhEhEeEhhhEhEhhC 0:21P1:4A8:11Z8:15Z13:14A15:19Z
+Chain A not found for pdbid 1qcx
+0.22222227	1qczAA0	pattern: NeHeHeHHhC 	 for 1qczA0 NEhEhEhEhEHhC 1:3Z1:5P3:5R5:7Z7:9Z <=> 1qczAA0 NeehhEhEhEhhhHC 4:6Z6:8Z
+0.19444442	1qd1BB2	pattern: NeHeHHC 	 for 1qd1B2 NEhEeHeHHhhC 1:3R1:4A1:6A3:4A4:6R <=> 1qd1BB2 NeEheEEhhhhC 0:4A0:5A1:3A3:4A
+0.13636369	1qd1BB1	pattern: NeHEEEHEC 	 for 1qd1B1 NEEhEeHHeHeHHHheC 1:5A1:8A2:4R2:5A2:8A4:5A5:8R8:15P <=> 1qd1BB1 NEehhehhehEhhhhehhheEC 0:4A9:19Z
+0.23809528	1qddAA0	pattern: NehEeEeC 4:6P	 for 1qddA0 NHeEhEheEEHeeC 2:3A3:5R3:12A5:12A7:8A7:9A7:12P9:11A <=> 1qddAA0 NeehehEeEheEC 5:9A7:10Z9:10A
+0.22222227	1qe3AA0	pattern: NEeHEEhhEhhhEHHhhHhHhhEhhEhC 	 for 1qe3A0 NEeEeheEeHHehHeHHehhHHehHhHHeHHeEHC 1:2A2:6X3:4A4:7A7:11A8:11Z8:14P11:14R14:17Z17:22Z22:28Z28:31Z31:32A <=> 1qe3AA0 NHeeeEheHeHHHHeHHHeehHhhHHhHhhhHHHeeHHeHeC 4:8A6:8Z6:17Z17:18Z18:33P33:34Z34:39Z
+0.17543858	1qf9AA0	pattern: NHhHeHeHHC 	 for 1qf9A0 NEhEHhHEhEhHHEhC 1:3R1:7P1:9P3:7Z7:9R9:13Z <=> 1qf9AA0 NhHHHhhEhhEhhhehhhC 6:9Z
+0.18308085	1qfmAA1	pattern: NehhhEeehehhhC 6:7P	 for 1qfmA1 NEehHhCNheEeHeHHhHeHHehHhheHeHC 1:2A9:10A10:13A11:13Z11:18P13:18R18:21Z21:26Z26:28Z <=> 1qfmAA1 NehhhhEeEhEhhhehheEhhEhehhhhEhEhC 5:6A6:9A7:9Z7:17Z17:20Z27:29Z
+0.28518516	1qftAA0	pattern: NHHEeEeEEC 3:4A4:5A5:6A	 for 1qftA0 NHHEeEeEeEeEeEHehC 3:6A3:12A3:15A4:5A6:7A7:8A8:9A9:10A10:11A11:12A12:15R <=> 1qftAA0 NHhheHEeEeEEC 3:5A3:10A5:6A6:7A7:8A8:9A
+0.5925926	1qgiAA1	pattern: NHEeEeHC 2:3A	 for 1qgiA1 NHhHHEeEHHeEhHC 5:6A6:7A10:11A <=> 1qgiAA1 NhheEehhEhhhEhehhC 3:4A4:7A11:13A
+0.2051282	1qgqAA0	pattern: NeHeHeHeEHEEHeHC 	 for 1qgqA0 NEhEhEhhEehEeHehhHEhhC 1:3Z1:8P3:5Z5:8R8:14A9:18A11:12A11:14A11:18P12:14R <=> 1qgqAA0 NhhhEhhhEhEheEehhehhhehEhC 3:7X9:16A12:22Z
+0.5	1qgwBB0	pattern: NHC 	 for 1qgwB0 NEheHC 1:3A <=> 1qgwBB0 NhC 
+0.51111114	1qgwDD0	pattern: NEHHHHHC 	 for 1qgwD0 NHehHHhHhhHHhC 5:7L7:10R <=> 1qgwDD0 NhhhhehhhhhhhhC 
+0.20166665	1qh4AA2	pattern: NheEhEEhEehC 2:3A	 for 1qh4A2 NHEhhEHhHeEeHeEheHheEhHC 2:5R2:11A2:16A5:9A9:10A10:11A11:16R13:14A16:19R16:20A19:20A <=> 1qh4AA2 NhEhhhEhhheEehehEEhEhEehC 1:11A5:9A9:10A10:11A15:16Z18:21A20:21A
+0.73333335	1qh4AA1	pattern: NHHC 	 for 1qh4A1 NHhHhHHHC  <=> 1qh4AA1 NhhhhhhhheehhhehhhhC 
+0.20505047	1qh5AA0	pattern: NEeEeEEEHEHeC 1:2A2:3A	 for 1qh5A0 NEeEhEhhEEeEeEEeHEhHehhhC 1:2A2:3A3:5Z5:8Z8:9P10:11A11:12A12:13A13:17Z14:15A17:20A <=> 1qh5AA0 NEehhheheeEeEheehehhehhhhhhEhC 0:1A1:5Z5:7Z7:8Z9:10A10:11A11:13A13:19Z19:26A
+0.16666669	1qh8AA3	pattern: NeHeHeHeC 	 for 1qh8A3 NEhEhEhEhC 1:3Z1:5P3:5R5:7Z <=> 1qh8AA3 NhhEhhhEehhhEhhhEC 2:6Z11:15X
+0.20833331	1qh8AA2	pattern: NeHeHeHHeC 	 for 1qh8A2 NHEhEHhEhhEhC 2:4Z2:7P4:7R7:10Z <=> 1qh8AA2 NEhheehhEhEhhhEC 0:7Z0:9Z9:13Z
+0.1875	1qh8BB3	pattern: NeHeHHeHC 	 for 1qh8B3 NEhEhEhEhHEC 1:3Z1:7P3:5Z5:7R7:10Z <=> 1qh8BB3 NhhhEheehEhhhEhC 8:12Z
+0.22222227	1qh8BB2	pattern: NeHeHeHC 	 for 1qh8B2 NEhEhEhC 1:3Z1:5P3:5R <=> 1qh8BB2 NEhEehhhEhhC 0:7Z
+0.8	1qh8BB4	pattern: NHHC 	 for 1qh8B4 NHhCNhHC  <=> 1qh8BB4 NhhhhehhhC 
+0.111111164	1qh8BB1	pattern: NEEHHC 	 for 1qh8B1 NHeHehHehHHC 2:4Z2:7P4:7R <=> 1qh8BB1 NhhhhEhhhehhhEehhC 4:12Z
+0.16000003	1qhfBB0	pattern: NeHeHHHHeHEC 	 for 1qhfB0 NEHhEhEHHHhHhhEhHeEC 1:4R1:14P1:17A4:6Z4:14P17:18A <=> 1qhfBB0 NEehEEhhhhehhhehhhhhhEheC 0:9A3:4Z3:20P
+0.2280702	1qhvAA0	pattern: NeEeEEHHeEeEC 	 for 1qhvA0 NHEeEHeeEhhEHeHEeC 2:3A2:7A3:4A4:16A6:15A7:8A8:11R11:13A13:15A <=> 1qhvAA0 NeEEheEEehehhEehEeC 0:1A0:5A2:16A4:15A6:7A12:13A13:15A
+0.1851852	1qipBB0	pattern: NEeHeHeEeC 	 for 1qipB0 NHHeHeEhHeHEhEeEhC 3:5R3:9P5:6A6:9A11:13R11:15P13:14A14:15A <=> 1qipBB0 NEhEhehhEhEhEheEC 0:7X2:4A4:7A9:14Z11:13A13:14A
+0.14814812	1qj4AA0	pattern: NHHHHeHeEHHeHeHC 	 for 1qj4A0 NEhhEHhhEhEHeEHhhHEhEHhC 1:4Z1:8P4:8R8:10Z10:18P12:13A18:20Z <=> 1qj4AA0 NhhhehehhhehhhhhEhEEhehehehhhhEhEhhC 15:17Z17:29P18:20A29:31Z
+0.15311003	1qjdAA3	pattern: NeHeHEeEHEEeEC 5:6A	 for 1qjdA3 NHEhEheHhHeEHEEeEHhHECNeeEehC 2:4Z2:16P4:13P6:10R6:11A10:11A14:15A15:16A16:25P20:23A23:26Z24:25A <=> 1qjdAA3 NhhhehehEhEhhhhhhEehEehheEehehhhehEeeC 3:5Z3:25P5:23P7:20A9:17A16:17A23:24A24:25A33:34A
+0.8	1qjdAA2	pattern: NHHC 	 for 1qjdA2 NHhHHHhC  <=> 1qjdAA2 NhhhhhhheC 
+0.45098037	1qjdAA1	pattern: NHHHHC 	 for 1qjdA1 NHhhHhhHC  <=> 1qjdAA1 NhehEhhhehEhhhhhC 3:7A
+0.15000004	1qk5AA0	pattern: NEHeeEEHC 	 for 1qk5A0 NHeehEHeHeEHeHeeEehC 2:7R2:15P3:5A5:17A7:9Z7:12P9:10A12:14Z14:15P16:17A <=> 1qk5AA0 NEhEehEEhhhEEEheehhC 0:12P2:3A5:6Z5:10X10:11Z
+0.44444448	1qksAA1	pattern: NHHC 	 for 1qksA1 NHHhHhC  <=> 1qksAA1 NhEehhhhhheC 1:2A
+0.58928573	1ql0AA0	pattern: NeEeHHHeHHEEHHC 2:3A	 for 1ql0A0 NEeEhhhEHhheHHeEeHHhhC 1:2A2:3A3:14A7:11A14:15A15:16A <=> 1ql0AA0 NEeEEehhhhehEheEhehhehhC 0:1A1:11A2:4A3:9A11:13A13:14A14:16A
+0.17708331	1qlwAA0	pattern: NEEeHHeHHHeeHHeHC 	 for 1qlwA0 NEeEeEhhEHhhHHhEHHEhhEhEHHHC 1:4A2:3A4:8A5:8Z5:15P15:18Z18:21Z21:23Z <=> 1qlwAA0 NeeEhhEhhehhhhehhhhEhEhEhhhEhheC 2:5Z2:18P18:20X22:26Z
+0.14814812	1qnf003	pattern: NHHHHHHC 	 for 1qnf03 NHHhhHhHhHHhhC  <=> 1qnf003 NhehEhhhhhEhhhhhhC 3:9Z
+0.4285714	1qnf002	pattern: NHHC 	 for 1qnf02 NHCNHHhHhC 4:7R <=> 1qnf002 NhhehhhhhhhhhC 
+0.27777773	1qnf001	pattern: NeHeHHeHeC 	 for 1qnf01 NEhEHhEhEhEC 1:3Z1:8P3:6Z6:8R8:10Z <=> 1qnf001 NEhhhEhhEhEC 0:4Z7:9Z
+0.1837607	1qnjAA2	pattern: NEeEC 1:2A	 for 1qnjA2 NEeEheEheCNHC 1:2A1:5A2:3A3:8A5:6A6:8A <=> 1qnjAA2 NEeeheeEC 0:1A0:2A1:6A2:5X5:6A
+0.5142857	1qnjAA1	pattern: NeEeEC 2:3A	 for 1qnjA1 NECNEeehhEeEehC 1:5A4:5A4:10A6:9A9:12A10:11A11:12A <=> 1qnjAA1 NeeehhEeEeC 2:5A2:7A7:8A
+0.6233766	1qq4AA2	pattern: NeeEeEEC 3:4A	 for 1qq4A2 NEeEeEeEheC 1:2A3:4A3:6A4:5A5:9A6:7A7:9A <=> 1qq4AA2 NeeeEEeEeeC 2:3A2:6A4:5A6:7A
+0.58412695	1qq4AA1	pattern: NeEeEHC 2:3A3:4A	 for 1qq4A1 NEEeeEHeEeCNhEC 2:3A2:7A4:5A4:13A5:9A7:8A8:9A <=> 1qq4AA1 NEheEeEhC 0:2A2:5A3:4A4:5A
+0.8333333	1qq5AA2	pattern: NHHC 	 for 1qq5A2 NHhHhC  <=> 1qq5AA2 NhhhhehC 
+0.19696969	1qq5AA1	pattern: NeHeHeHeHHeHC 	 for 1qq5A1 NECNhEhHEHhHEhEHhEhC 1:5P1:12P5:8Z8:12R12:14Z14:17Z <=> 1qq5AA1 NEhehhEhhhEhhEhhhhhEhC 0:2A5:9Z12:18Z
+0.16666669	1qqqAA0	pattern: NeEHHEHEHHeEC 	 for 1qqqA0 NHEehHhHEehEHeEhEhEheC 2:3A3:16A8:9A11:13A13:14A14:16Z18:20A <=> 1qqqAA0 NEhhhhhEhehehheehehhhehEeC 0:20A6:8A22:23A
+0.13580245	1qreAA0	pattern: NeEEHeEEEHC 	 for 1qreA0 NEEeEEeEEeEhEeEeEeEeEEeEhHC 1:4P2:4R2:5P3:6X4:7P5:7R5:8P6:9X7:10P8:10L8:14P9:15X10:14R10:16P12:13A14:16X15:17X16:18X17:19X18:20X <=> 1qreAA0 NEeehEeeehhC 0:1A4:5A
+Domain 0 not found for pdbid 1qrr
+0.17543858	1qs1AA2	pattern: NHHEeeEEeC 	 for 1qs1A2 NHhhHeHHEEEEHeeEC 1:4L5:9A5:10A8:14A9:13A10:15P11:13A14:15A <=> 1qs1AA2 NhhhhhehhhhEeEeehEC 10:13A12:16X
+0.5	1qs1AA1	pattern: NHHHEEeEEC 	 for 1qs1A1 NHhhheHeEHEEEEeeEC 5:11A5:12A7:8A10:15A11:14A12:16P13:14A15:16A <=> 1qs1AA1 NhhhehhehEhheeeeeehC 8:14A
+0.8125	1qsaAA3	pattern: NHHHHHC 	 for 1qsaA3 NHhHhHhHhHhHC  <=> 1qsaAA3 NhhhehhhhhhhhhhC 
+0.8	1qsaAA2	pattern: NHHC 	 for 1qsaA2 NHHhHhC  <=> 1qsaAA2 NhhhhhhheC 
+0.43333334	1qsaAA1	pattern: NHHHHHHHHHHHHHC 	 for 1qsaA1 NHhhHHhHhHhHhHhHhHhHhHhhHhC 7:9R12:14R14:16R16:18R18:20R20:23R <=> 1qsaAA1 NhhhhhhhhhehhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhC 
+0.1827957	1qsgGG0	pattern: NeHeHeHeHheHheHhC 	 for 1qsgG0 NEhEhEhEHhHHEHhEHHHHEhHC 1:3Z1:7P3:5Z5:7R7:12Z12:15Z15:20X <=> 1qsgGG0 NEhEhhEhhhEhhhhhHEhhhhHEhehhhHC 0:2Z0:9Z2:5Z9:16Z16:22Z
+0.16666669	1qtsAA2	pattern: NHEEhC 	 for 1qtsA2 NEhhEhEeEeHC 1:4R1:7A4:6R4:9A6:7A7:8A8:9A <=> 1qtsAA2 NhHeeeHC 
+0.2051282	1qtsAA1	pattern: NheEEEeC 	 for 1qtsA1 NHEeEehEeEehC 2:3A3:4A4:7R4:8A5:9A7:8A9:10A <=> 1qtsAA1 NeHeeEeHeeEC 4:8A8:9A
+0.18181819	1qtwAA0	pattern: NeHeHHeHeHeeeEHHHC 	 for 1qtwA0 NEhEhhHEhEhHEHHHEEehhEhC 1:3Z1:21P3:7R7:9Z9:12Z12:16Z16:21Z17:18A <=> 1qtwAA0 NhhhEhhEEhhEhEhhehhEhhEhEEehhhhhC 3:6Z7:12Z10:15A12:18Z18:23X21:24Z
+0.22222227	1qu9AA0	pattern: NeEHeHeC 	 for 1qu9A0 NEeEhHEhEHeC 1:2A2:3A3:6R3:10A6:8Z6:10A <=> 1qu9AA0 NEhehhhEhEC 0:2A6:8Z
+0.6541667	1qupAA2	pattern: NeEeEeEeC 1:2A2:5A3:4A3:6A	 for 1qupA2 NEeEehEEEeHEheeC 1:2A1:13A1:14A2:3A3:9A4:6A4:7A4:11A8:9A11:13A <=> 1qupAA2 NEeEeEhEeEC 0:1A1:2A2:7A3:4A3:8A6:7A
+0.1851852	1qupAA1	pattern: NHeEC 	 for 1qupA1 NHEhEeHeC 2:4R2:5A2:7A4:5A5:7R <=> 1qupAA1 NhEehhC 1:2A
+Chain A not found for pdbid 1qus
+0.24074078	1ra9000	pattern: NHeeHeHHeEHEC 	 for 1ra900 NEhEHEhEEhEhEehEeC 1:5R1:10P1:12P3:13A5:7Z5:10P7:8P8:10R10:12R12:15R12:16A15:16A <=> 1ra9000 NehEEhhEhhhEeheeC 2:3Z2:10Z3:6Z
+0.125	1rb9000	pattern: NHC 	 for 1rb900 NEeHhheC 1:2A1:6A2:6R <=> 1rb9000 NhC 
+0.2166667	1rcf000	pattern: NHeHEHeeeeeHC 	 for 1rcf00 NEhEhEEehhEhEEEeEhC 1:3Z1:5P3:5R5:10Z6:7A10:12Z10:16P12:16L13:15A14:15A <=> 1rcf000 NheehhEhehEEEhEEhheC 5:9Z9:11Z10:13Z14:17A
+0.7592593	1rgeAA0	pattern: NHEeEeC 2:3A3:4A	 for 1rgeA0 NEHheEeEC 1:7P4:5A5:6A6:7A <=> 1rgeAA0 NHEeEeC 1:2A2:3A3:4A
+0.2280702	1rhs002	pattern: NeHeHEeHeHeHC 	 for 1rhs02 NHEhEheEHhEhEHhEC 2:4R2:12P4:7Z4:10P6:15A7:10R10:12Z <=> 1rhs002 NhEhEeheEhhhhhEhEhC 1:15P3:7Z3:13X13:15Z
+0.17647058	1rhs001	pattern: NeeHeHeHC 	 for 1rhs01 NEHEhEhEhEHC 1:3R1:9P3:5Z3:7P5:7R7:9Z <=> 1rhs001 NhEhEhhhhEEhhEhhC 1:3Z1:8Z8:12Z
+0.547619	1rie000	pattern: NeEeEeeC 2:3A	 for 1rie00 NEHeEhhHeEeEeEeC 1:14A3:4A4:8A9:10A10:11A11:12A13:14A <=> 1rie000 NEhhheEEeEeeC 0:4A4:5A6:7A7:8A
+0.8666667	1rzl000	pattern: NHHHHC 	 for 1rzl00 NHhHhhhC  <=> 1rzl000 NhhhhhhhhC 
+0.10526317	1sbp002	pattern: NeHeeC 	 for 1sbp02 NEHeHheHeHeECNEHHHC 1:8A1:10A3:6Z3:8P6:8R8:10R11:14P <=> 1sbp002 NhEhhhEhhEEEhhEheC 1:5Z10:13P
+0.16666669	1sbp001	pattern: NeHHHHEHEC 	 for 1sbp01 NEhEhEhHhECNehHHeHHC 1:3Z1:5P3:5R5:12A9:16A <=> 1sbp001 NeehhEhhhhhhehhhehhC 4:11A
+0.16666669	1sluAA0	pattern: NeEeC 1:2A	 for 1sluA0 NEheEEeeEHEeEC 1:11A3:8A3:10A3:12A4:7A5:6A6:11P8:10R <=> 1sluAA0 NeEeeeHeeC 1:2A2:7Z
+0.5555556	1sluBB2	pattern: NeEEeC 1:2A	 for 1sluB2 NEeEHeEeCNhC 1:2A1:5A2:3A3:7A5:6A6:7A <=> 1sluBB2 NeEEheeEC 0:1A0:2A2:5A5:6A
+0.56837606	1sluBB1	pattern: NeEeEHC 2:3A	 for 1sluB1 NECNEeHEeEehC 1:5A4:5A4:8A7:10A8:9A9:10A <=> 1sluBB1 NEeEeEeheC 0:3A2:3A4:7A
+0.542735	1smd002	pattern: NeEEEC 1:2A	 for 1smd02 NEeEeEeEeEehC 1:2A2:3A3:10A4:9A5:8A6:7A <=> 1smd002 NEeEEeeeC 0:1A2:6A3:5A
+0.18299323	1smd001	pattern: NEEHEEHeEHEEHHEHHEEHHC 1:2P	 for 1smd01 NEhEhHEEhhHehEHhEhEHhhHEHHhEeEHHC 1:3Z1:27P3:6Z6:13P7:11A13:16Z16:18Z18:23Z23:27Z28:29A <=> 1smd001 NeEehEeEhEEehehhEehhehhhEhhhEehEhhhehhEehhhhehhhC 1:6Z2:4A2:9A6:23P8:19A15:19A23:27Z27:30Z30:37X
+0.19999999	1smlAA0	pattern: NeEeEHEEHC 1:2A2:3A	 for 1smlA0 NHEeEeHheHHeHeEeEeHeHHhC 2:3A3:4A4:5A5:8Z8:11Z11:13Z14:15A15:16A16:17A17:19Z <=> 1smlAA0 NeehhEEehhEhheEEeEehehehC 4:5Z5:9Z9:13Z14:15A15:16A16:17A17:19Z
+0.21428567	1stn000	pattern: NeEehEHHC 	 for 1stn00 NEeEeHeEehEhHC 1:2A1:6A2:3A3:7P4:10A6:7A7:8A <=> 1stn000 NEeHEHehheC 0:1A1:5X3:5A
+Chain A not found for pdbid 1svf
+Chain B not found for pdbid 1svf
+0.19999999	1svy000	pattern: NeEhEC 	 for 1svy00 NEeHeEhEhC 1:2A1:4A2:4R4:5A5:7Z <=> 1svy000 NehEeHeC 2:3A3:5Z
+0.6805556	1swuBB0	pattern: NEeEeEeC 1:2A2:3A3:4A	 for 1swuB0 NEeEheEeEheC 1:2A1:10A2:3A3:5A5:6A6:7A7:8A8:10A <=> 1swuBB0 NEeEeEHeeC 0:1A1:2A2:3A3:4A4:6A
+0.21212119	1t1dAA0	pattern: NeEhEhC 	 for 1t1dA0 NEeHheEhhHC 1:2A1:6P2:5R5:6A <=> 1t1dAA0 NhHEeHHeHC 2:3A
+0.1047619	1taxAA0	pattern: NEHEHHHEHHC 	 for 1taxA0 NHehHehHehHehHeHeeHeHehhHC 2:5Z2:21P5:8Z8:11Z11:14Z14:16Z16:19P17:19Z19:21Z <=> 1taxAA0 NEhhEeheEhhhhEhhhhEhEhhhhhhEhEehheC 0:3X7:12Z12:17Z17:19Z19:26Z26:28X
+0.13095236	1tc1BB0	pattern: NeEC 1:2A	 for 1tc1B0 NEHeHeEeHeHeEeC 1:13A3:5Z3:7P5:6A7:9Z9:11Z12:13A <=> 1tc1BB0 NhEhEehEhEeeEehC 1:3Z3:4A6:8Z11:12A
+0.16071433	1tca000	pattern: NHEeeHeHHHHHHEC 3:4P	 for 1tca00 NHEehheHeHHehHHeehhhHHhhhEeC 2:6A3:6Z3:8P6:8R8:11Z11:15Z15:16P25:26A <=> 1tca000 NEhhhEehhehEhhEEhhEhEhheEEEhhhEhhhehhhhheC 0:4Z0:10Z10:13Z13:23Z14:24Z17:19Z23:25Z29:33A
+0.6222222	1ten000	pattern: NeEeeEC 2:4A	 for 1ten00 NEeEeEeEEC 1:2A2:5A3:4A3:6A6:7A6:8A <=> 1ten000 NEeeEEEeC 0:1A1:4A2:3A2:5A
+0.8666667	1tfe002	pattern: NHC 	 for 1tfe02 NHhHC  <=> 1tfe002 NhhhC 
+0.48717946	1tfe001	pattern: NEhhEC 	 for 1tfe01 NEeHHCNHeEhEC 1:2A2:11A8:9A <=> 1tfe001 NeHhEHeC 
+0.19047618	1tgsII0	pattern: NeEC 	 for 1tgsI0 NEeEhEC 2:3A2:5A3:5R <=> 1tgsII0 NEeC 0:1A
+0.6825397	1tgxAA0	pattern: NEeeC 1:2A	 for 1tgxA0 NEeEeeC 1:2A3:4A3:5A <=> 1tgxAA0 NeeEEC 1:2A1:3A
+0.18030304	1thv000	pattern: NeEeEHHEC 2:3A	 for 1thv00 NEeEeEeeEeEHHHhhEeEC 1:4A1:18P2:3A2:5A5:6A5:7A7:8A8:16P8:17A9:10A9:18A10:16L <=> 1thv000 NeEeeEheEeEehheeC 0:1A0:4A4:6A6:7A9:10A
+0.1851852	1tif000	pattern: NhEhC 	 for 1tif00 NHeEhEeHC 2:3A2:6P3:5R5:6A <=> 1tif000 NEeHeHC 0:1A
+0.19753093	1tml000	pattern: NHeHeHeHeHHeeeHC 	 for 1tml00 NHhEhEhEHhEhhEhEEhC 3:5Z5:7Z7:10Z10:13Z13:15Z15:16P <=> 1tml000 NhhEhEhhehEhhhhEhehEEeEEheC 2:4Z4:9Z9:14Z14:18Z18:19Z19:21Z22:24A
+0.27777773	1toaAA2	pattern: NeHeHeeHHC 	 for 1toaA2 NHEhEhEhEhhC 2:4Z6:8Z <=> 1toaAA2 NhEhEhEEhhC 1:3Z5:6Z
+0.19999999	1toaAA1	pattern: NeHeHHHHC 	 for 1toaA1 NEhEhEhEHHhhC 1:3Z1:5P3:5R5:7Z <=> 1toaAA1 NhehhhEhEhhhhhC 5:7X
+0.21333331	1tph110	pattern: NeHeHeHHeHHeHeHC 	 for 1tph10 NEhEhEhEHhEHhHEHhHEhEhHC 1:3Z1:20P3:5Z5:7Z7:10Z10:14Z14:18Z18:20Z <=> 1tph110 NhEEhhhEhhEhhhhhhEhhEhEhC 1:2Z2:6Z9:16Z16:19Z19:21X
+0.28968257	1ttbAA0	pattern: NEeEeEC 1:2A1:4A	 for 1ttbA0 NEeeEeEHeEeC 1:2A1:5A1:9P3:4A3:6A6:8A9:10A <=> 1ttbAA0 NEeEeEHeEC 0:3A0:7X1:4A1:7A2:6A4:6A
+0.20833331	1tud000	pattern: NeEEC 	 for 1tud00 NEHEeEeC 1:3R1:6A3:4A4:5A5:6A <=> 1tud000 NEeeC 0:2A
+0.79310346	1tx4AA0	pattern: NHHHHHHHHHC 	 for 1tx4A0 NHhHhHhhHhhHhhhC  <=> 1tx4AA0 NhhhhhhhehhhhhhhhhhhhhhhhhhhC 
+0.16042781	1tyv000	pattern: NHeeEEEeeEHeEeEeHeEC 2:3P6:7A	 for 1tyv00 NHehHeeEeeEeeEheHhheeeeeeeeeeeEeeeeeeeeeeHeeEeEhehEHeEC 2:5Z5:8Z6:9Z7:10Z8:11Z12:21P13:15A19:21P20:22P21:22P21:23P22:24P23:25P24:26P25:28P26:31P27:31P28:31R <=> 1tyv000 NhehEehehhhheehEeEeeeEeEehEeEeEhhEheC 3:4A14:17A15:16A15:17Z20:21A21:23Z22:23A25:26A26:27A27:28A28:29A32:34A
+0.11538458	1uae002	pattern: NEEeHeeEC 	 for 1uae02 NHeHeEhHeHeEeHeHeEeC 2:4R2:5A2:18P4:5A8:10R8:11A10:11A12:14Z14:16R14:17A16:17A <=> 1uae002 NhEhEhehEhhEhhhehEhhEhEehC 1:5A3:5A7:10Z16:19Z19:22A21:22A
+0.18840581	1uae001	pattern: NeeHeHEeHHHHC 	 for 1uae01 NEECNhEhEeEhEhEeeHehheC 1:18A1:21A2:6P6:8R6:9A8:9A10:12Z12:14R12:15A14:15A16:18Z18:21R <=> 1uae001 NhhEEheehEEhhhheEhhhhEC 2:5A3:5A8:9Z15:20Z
+0.4615385	1ubpAA0	pattern: NHHEC 	 for 1ubpA0 NHhHHheEC 6:7A <=> 1ubpAA0 NhhhhhhhheheC 
+0.25416666	1ubpBB0	pattern: NeeeEeEeC 4:5A	 for 1ubpB0 NEEEeHehEEeEeHC 3:6A3:10A4:9A8:10A11:12A <=> 1ubpBB0 NEhEEheeheEehhEC 0:6A2:5A3:13X5:8Z9:10A
+0.17777777	1ubpCC2	pattern: NeHeHHeHeHeHHHHHHeHeEeEC 	 for 1ubpC2 NEhEhhEhEHhEhEhEhHHHhhCNhEhhEHeEeC 1:3Z3:6Z6:8Z6:25P8:11Z11:13Z13:15Z25:28Z30:31A31:32A <=> 1ubpCC2 NEhhhhhhehhEEhhEhEhehhhehhhEhhehheehhEhEehEeC 10:11Z11:14Z14:16Z16:26Z22:26A36:38X41:42A
+0.23001951	1ubpCC1	pattern: NeEeEEEEeeC 2:3A	 for 1ubpC1 NEHeEeEeeeCNEHeEehC 3:4A5:6A5:8P5:9P6:7A9:12A12:14A14:15A15:16A <=> 1ubpCC1 NEeeheEeeeeEhEC 0:1A5:6A10:12Z
+0.122807026	1uch000	pattern: NEEHEHC 	 for 1uch00 NHeHeHHHhHEeEhEC 2:4R2:14A4:10A4:14A10:11A11:12A12:14R <=> 1uch000 NhehehhhehhehehhheC 
+0.5555556	1ugiDD0	pattern: NeEeEC 	 for 1ugiD0 NHeHEeEeC 2:4A4:5A5:6A6:7A <=> 1ugiDD0 NEehEeC 0:1A1:3A3:4A
+0.15151519	1uroAA0	pattern: NhHhhEHEHHEHhHEHhEHC 	 for 1uroA0 NHhHHehEehhhehHhehHHeHeHehHeHC 5:12P7:8A12:16Z16:20Z20:22Z22:24Z24:27Z <=> 1uroAA0 NeHHhHHheheehhHeehEHhhhheEhHhhehhhEhhEEhhEhC 17:24Z24:33Z33:36Z36:37Z37:40X
+0.21212119	1ush002	pattern: NeHEEEEEeHHeHC 	 for 1ush02 NEHhEHeHeHeeEeEhhEHheC 1:6A4:10A4:14P8:10R8:14A8:17A11:12A11:20P12:13A14:17R <=> 1ush002 NEheehehhheheehEhehEhC 0:5A9:14A9:18A
+0.19768405	1ush001	pattern: NeHeHHeHeEeEHHHC 9:10A	 for 1ush01 NEhEhhEHhEeEeEEhEhhEeEeEeEHC 1:3Z1:24A3:6Z6:9Z10:11A10:14A11:14R12:13A13:16Z16:19Z19:23P20:21A22:23A24:25A <=> 1ush001 NehhEhhhEhheEEehEheehhEeEehhhhC 3:7Z10:11A10:15A12:13A13:17Z17:18Z21:22A23:24A
+0.122222245	1uteAA0	pattern: NeEeEC 1:2A3:4A	 for 1uteA0 NEhEhhEHhEeEHHhEhhEeEhEeEeC 1:3Z1:23A3:6Z6:9Z10:11A11:15Z15:18Z18:20P19:20A19:22A20:22R23:24A24:25A <=> 1uteAA0 NEhhehEhhEhEhehehEhheEeeheEeEC 0:5Z5:8Z10:12A12:14Z14:19Z16:22A19:21Z20:21A20:24A25:26A26:27A
+0.22222227	1uxy003	pattern: NeEHeHEeHHHC 	 for 1uxy03 NEeHhHEeheEhhEHhC 1:2A2:13A6:7A9:10A9:13A10:13R <=> 1uxy003 NhhhEEeheEhheEhhhC 4:5A7:8A7:12A
+0.20833331	1uxy002	pattern: NeeEC 	 for 1uxy02 NHEhEeEC 2:4R2:6P4:6Z <=> 1uxy002 NeEEehC 
+0.17777777	1uxy001	pattern: NEEEeeHC 	 for 1uxy01 NEeHeEHeEeHeEhC 1:9A2:4R2:5A4:5A7:8A8:9A11:12A <=> 1uxy001 NeehhheEhEhC 6:8X
+java.lang.IndexOutOfBoundsException: Index: 333, Size: 199
+	at java.util.ArrayList.RangeCheck(ArrayList.java:547)
+	at java.util.ArrayList.get(ArrayList.java:322)
+	at translation.Chain.getResidueByAbsoluteNumbering(Chain.java:105)
+	at translation.Chain.createHelix(Chain.java:53)
+	at translation.HBondAnalyser.finishSSES(HBondAnalyser.java:375)
+	at translation.HBondAnalyser.analyse(HBondAnalyser.java:186)
+	at translation.FoldAnalyser.analyse(FoldAnalyser.java:38)
+	at translation.TestRunner.main(TestRunner.java:100)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.apache.tools.ant.taskdefs.ExecuteJava.run(ExecuteJava.java:200)
+	at org.apache.tools.ant.taskdefs.ExecuteJava.execute(ExecuteJava.java:134)
+	at org.apache.tools.ant.taskdefs.Java.run(Java.java:710)
+	at org.apache.tools.ant.taskdefs.Java.executeJava(Java.java:178)
+	at org.apache.tools.ant.taskdefs.Java.execute(Java.java:84)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:275)
+	at org.apache.tools.ant.Task.perform(Task.java:364)
+	at org.apache.tools.ant.Target.execute(Target.java:341)
+	at org.apache.tools.ant.Target.performTasks(Target.java:369)
+	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1216)
+	at org.apache.tools.ant.Project.executeTarget(Project.java:1185)
+	at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:40)
+	at org.apache.tools.ant.Project.executeTargets(Project.java:1068)
+	at org.apache.tools.ant.Main.runBuild(Main.java:668)
+	at org.apache.tools.ant.Main.startAnt(Main.java:187)
+	at org.apache.tools.ant.launch.Launcher.run(Launcher.java:246)
+	at org.apache.tools.ant.launch.Launcher.main(Launcher.java:67)
+java.lang.IndexOutOfBoundsException: Index: 333, Size: 199
+0.25925922	1vcc000	pattern: NeEHeEC 	 for 1vcc00 NEeHehEeC 1:2A1:4A2:4L4:6A6:7A <=> 1vcc000 NEehEhheC 0:1A3:6A
+0.17708331	1vfrAA0	pattern: NhHHeHhhEhHhEhhhC 	 for 1vfrA0 NHhhEhHHeHhHeHEHHEC 4:8A8:12R8:14A9:11L12:14A <=> 1vfrAA0 NHhhhHHEheHHeeHhHHehhHHHHHHeHehC 6:11A
+0.51851857	1vfyAA0	pattern: NEHEC 	 for 1vfyA0 NEehEHeHC 1:2A4:6A <=> 1vfyAA0 NeeheC 
+0.22916669	1vhh000	pattern: NeeeHEeHEEC 	 for 1vhh00 NEHEEheHEheHeEHC 1:4R1:12A3:6A4:8X8:10A10:12R10:13A12:13A <=> 1vhh000 NEehEEheEhhehehC 0:12A3:6A4:7X7:10A
+0.16666669	1vie000	pattern: NeEC 	 for 1vie00 NEeEeheC 1:2A1:6A2:3A3:4A4:6R <=> 1vie000 NEeC 0:1A
+0.24242425	1vjs003	pattern: NEeHeEEC 	 for 1vjs03 NEeEehEeEeC 1:2A2:3A3:6R3:9A4:8A6:7A6:9A7:9R <=> 1vjs003 NeEhEEeeC 0:1A3:6A4:5A
+0.24242425	1vjs002	pattern: NeEeEHEC 	 for 1vjs02 NEEeHEeheC 1:8A2:3A2:6A5:6A5:8A6:8R <=> 1vjs002 NeeEeEheheC 0:2A0:6X4:6A4:8A
+0.16239315	1vjs001	pattern: NeHHeHeeHHeHHHeHeHC 	 for 1vjs01 NEhhEhECNHEHhEhEHhhhEhEHhC 1:4Z1:22P4:6Z6:10P10:13Z13:15Z15:20Z20:22R <=> 1vjs001 NhEheeheEhhhhEhEhhhEhhehEEhEhhehhhehhhC 1:7Z7:12P12:14Z14:18X18:23Z24:26Z
+0.15384609	1vns002	pattern: NeEHHHHHEHEHeeHeHC 	 for 1vns02 NEehhHhHhhHehehEEhHHHEehHC 1:2A5:7L7:10L11:16A13:15A21:22A <=> 1vns002 NEEehhhhEehhhehEEhEeehhhehEhhEeehehEhhC 0:12A1:2A7:14Z15:17Z17:18A25:34Z28:30A
+0.5151515	1vns001	pattern: NHHHHC 	 for 1vns01 NHhHhhHhC 2:5L <=> 1vns001 NhhhhhhhhhC 
+0.16666669	1vsrAA0	pattern: NEehheC 	 for 1vsrA0 NHeEHeHehHeEC 2:3A3:5A5:7Z7:10X10:11A <=> 1vsrAA0 NhEehhEhhHEHEC 1:2A2:5A5:9Z9:11Z
+0.07017547	1wab000	pattern: NhEC 	 for 1wab00 NHHeHHHHeHeHeHeHC 3:8Z3:10P8:10R10:12Z12:14Z <=> 1wab000 NEhHhhEhEhEhhehEhhC 0:5Z0:7X7:9Z9:14Z
+0.5555556	1wapBB0	pattern: NEeEeC 	 for 1wapB0 NEeEeEeEC 1:4A1:6A2:3A2:5A6:7A <=> 1wapBB0 NeEeEC 0:1A0:3A
+0.65656567	1whi000	pattern: NEeEeEC 1:2A2:3A	 for 1whi00 NEeEeEeEHhC 1:2A1:7P2:3A3:4A4:7A5:6A <=> 1whi000 NeEeeEeeeC 1:2A2:4A
+0.18095237	1xikAA0	pattern: NhhhhHhHHHEhhHhhHHC 	 for 1xikA0 NHHHHhHhhheEHHhHHhhC 10:11A14:17R <=> 1xikAA0 NHHHHhhhHHHhhehEhhheHHhehHHHHHHHhhC 14:18A
+0.19658118	1xjo000	pattern: NhEeehheehC 3:4P	 for 1xjo00 NHhEeEhEHhHEeHhEHHC 3:4A4:7A5:7Z5:11P7:11R11:15P12:15A <=> 1xjo000 NhhEeEhhhEhhheEhEhhhhheehC 2:3A4:8Z4:13X15:21A
+0.27840906	1xnb000	pattern: NeEeEeheC 2:3A3:5P4:5A	 for 1xnb00 NEEeeeeEEeEEHEEC 1:4A2:3A3:14A4:13A5:11A5:14A6:7A6:13A7:10P8:9A9:10A11:13R <=> 1xnb000 NeEeEEeEheC 1:8A2:3A3:6X4:5A5:6A
+0.16666669	1xwl003	pattern: NeEHeeC 	 for 1xwl03 NEeHheECNEeHeC 1:2A6:10A6:12A9:10A10:12R <=> 1xwl003 NhehEhehhhEhEC 5:9A5:11A
+0.4358974	1xwl002	pattern: NeHC 	 for 1xwl02 NEHHHhheC 1:7A <=> 1xwl002 NhehhhhhhhEhC 1:9A
+0.19047618	1xwl004	pattern: NHHHHeHC 	 for 1xwl04 NHhHhHhHheEHhC 5:7R9:10A <=> 1xwl004 NhhhhhhhhEhheC 8:11A
+0.19710141	1xwl001	pattern: NEehehhhC 1:2A	 for 1xwl01 NEhEeEhHEhEHHhHhhC 1:3R1:5P3:4A3:8P4:5A5:8R8:10Z <=> 1xwl001 NEeEhehEhhhhhEhhhhhhhhC 0:1A0:6Z1:2A6:12X
+0.17948723	1yacBB0	pattern: NeHeHeHHHHHHHC 	 for 1yacB0 NEhHEhEhhEhEhEhhHhC 1:4Z1:9P4:6Z6:9R9:11Z11:13Z <=> 1yacBB0 NehEEhhhEhhhhhEEhhehhhhhhC 2:17A3:7Z13:14Z
+0.19999999	1yge003	pattern: NHeHEHHHC 	 for 1yge03 NHhEhHEehhhC 3:6R3:7A6:7A <=> 1yge003 NhhhhhEhhehhhhC 5:8A
+0.08843535	1yge005	pattern: NHHHHeEHHHHHC 	 for 1yge05 NHHhhhHHhEeHhhhHHHHhhHHC 9:10A <=> 1yge005 NhehhhhehhEhhEehhhhhEhehhhhhhehhhhhehhhhhhehhhheC 9:12X19:21A
+0.15151519	1yge002	pattern: NeEHC 	 for 1yge02 NEHehHHC 1:3A <=> 1yge002 NEEhEehhhhC 0:1Z3:4A
+0.59615386	1yge004	pattern: NehEeEC 3:4A	 for 1yge04 NEhHhehEeEhC 1:5A5:7A7:8A8:9A <=> 1yge004 NEhhhhehEeEhC 0:5A5:7A7:8A8:9A
+0.5087719	1yge001	pattern: NeEeeHEEHC 	 for 1yge01 NEHHHeEEEehEeEHeHhC 1:9A1:12A5:6A5:7A5:11A8:9A11:15A12:13A <=> 1yge001 NheEEeEEheehC 1:2A1:5A3:4A6:8A
+0.5416666	1ytbAA2	pattern: NEEHC 	 for 1ytbA2 NHeEeEhC 2:3A3:4A4:5A <=> 1ytbAA2 NEeeehhC 0:1A
+0.16666669	1ytbAA1	pattern: NEeEHC 	 for 1ytbA1 NECNeHeEeEhC 1:4A4:6R4:9A6:7A7:8A8:9A <=> 1ytbAA1 NehEehhheC 2:3A
+0.82575756	1yveII2	pattern: NHHhhhHhhhHhhhHhhHHhC 	 for 1yveI2 NEhhHHHhHHHhHHHhHHhhHC  <=> 1yveII2 NeHHHHhhhhhHHHhhheHeHHHhhHHHHHhhHHHHHHHHhhHC 
+0.1875	1yveII1	pattern: NEHeHeHHeHeHeHehhC 	 for 1yveI1 NEehEhEhhEhEhEhEHeHC 1:2A4:6Z4:11P6:9Z9:11R11:13Z13:15Z15:17A <=> 1yveII1 NehhehEhhEhhEhhhhhEhEhhhhEhheHHC 5:8Z5:17P8:11Z17:19Z19:24Z24:27A
+0.19696969	1zin000	pattern: NeHeHHEEHHeHC 	 for 1zin00 NEhEHhHHEhEHEeehhEhC 1:3R1:8P1:10P3:8Z8:10R10:17P12:13A12:14A <=> 1zin000 NhhhhhEhhEhheheEhhEehC 5:8Z13:14A13:17A
+0.5555556	256bAA0	pattern: NHHHHC 	 for 256bA0 NHhhHhhC 1:4R <=> 256bAA0 NhhhhhhhC 
+0.4285714	2a0b000	pattern: NHHC 	 for 2a0b00 NHHhHhHC 4:6L <=> 2a0b000 NhhhhhhhhhhhhC 
+0.19047618	2act000	pattern: NeHHHHeHeEEC 	 for 2act00 NEHHhHhhEhEheeEeHeC 1:13A8:10R8:17A10:13A10:17A12:15P13:14A14:15A15:17R <=> 2act000 NeEhhhheeehhhEehEeheC 1:6A12:13A13:15A15:16A
+0.22222227	2acy000	pattern: NHeEEC 	 for 2acy00 NEhEeHeEC 1:3R1:4A1:6A3:4A3:7P4:6R <=> 2acy000 NhEHeeeC 1:3A
+0.18181819	2ahjCC0	pattern: NhHHHehhHeEC 	 for 2ahjC0 NHhhHheEhHHhEeHHC 6:13P7:12Z <=> 2ahjCC0 NhhHHhHhhEHHHeHehEhheC 8:16Z
+0.2954545	2ahjDD2	pattern: NEeEHEC 1:2A	 for 2ahjD2 NEheHEheheC 1:3A1:9A3:5A5:7A7:9R <=> 2ahjDD2 NeEeeehHEeC 1:2A2:7A7:8A
+0.8484849	2ahjDD1	pattern: NhHHhC 	 for 2ahjD1 NHhHhHC  <=> 2ahjDD1 NheHhhehhHC 
+0.22222227	2arcBB0	pattern: NeEEEEhHhC 	 for 2arcB0 NEeEeEeEeHeEhHC 1:8A2:7A3:6A3:8A4:5A4:7A6:11A8:10R10:11A <=> 2arcBB0 NEeeeeheheHhHC 0:4A
+0.24141413	2ayh000	pattern: NEeeEeEEEEEeC 2:5P5:10A	 for 2ayh00 NEEeheEeEeHEeEheEeEheC 1:20A2:7A3:5R3:7P5:6A6:7A6:20A7:18A8:15A8:20A9:11A9:18A11:12A12:13A15:16A16:17A <=> 2ayh000 NeEehEeeEeeeheeEC 1:6A2:6Z2:8Z4:5A6:14A7:12A8:14A
+0.4074074	2baa002	pattern: NC 	 for 2baa02 NHHC  <=> 2baa002 NeEhhhehC 1:5A
+0.12698412	2baa001	pattern: NHHHHHHC 	 for 2baa01 NHHhHhCNhhhHhC  <=> 2baa001 NhhehheehhhhhehhhhEEC 17:18Z
+0.5794872	2bbkLL0	pattern: NhhEeEC 3:4A	 for 2bbkL0 NHEHeeEeHHeeC 2:7A4:6A5:6A6:10A6:11A <=> 2bbkLL0 NhEhEeeeEC 1:5A3:4A4:7A
+0.25714284	2bc2AA0	pattern: NEeEeeeeEehC 1:2A2:3A	 for 2bc2A0 NEeEeEhEhhEhEeEeHehC 1:2A2:3A3:4A4:5A5:7Z7:10Z12:13A13:14A14:15A15:17Z <=> 2bc2AA0 NEeEehehhhehEehEeehhC 0:1A1:2A2:3A3:5Z5:9Z11:12A12:14A14:15A15:16Z
+0.16666669	2bopAA0	pattern: NeEEC 	 for 2bopA0 NEhhEEeHeC 1:4R1:6A1:8A4:6A5:6A6:8R <=> 2bopAA0 NEeeeC 0:3A
+2bop B is DNA
+0.21177584	2cba000	pattern: NHEeEeEeHEEeC 3:4A5:6A	 for 2cba00 NHheEEEeeEeehhEheHeEEHEC 3:10P4:22P5:8A6:7A6:16A7:9A8:9A9:11A11:14A14:19P14:20P16:18R18:19A18:22A20:22R <=> 2cba000 NheeEeEeEhehhEhehEeEheehEeC 3:6A4:5A4:16A7:9A9:12A12:18Z17:18A23:24A
+0.45	2cbp000	pattern: NHEeEeEeC 2:5A3:4A3:6A	 for 2cbp00 NEHEeHEeEheC 1:3Z3:7A4:6A4:8A8:10A <=> 2cbp000 NheEeEeEC 2:5A3:4A3:6A
+0.8	2cpgAA0	pattern: NC 	 for 2cpgA0 NEhHC  <=> 2cpgAA0 NC 
+0.20146519	2cpl000	pattern: NEeeEC 1:3A	 for 2cpl00 NEeHEeeEhEheC 1:2A1:11A2:9A4:5A5:7A6:7A6:9A7:9R <=> 2cpl000 NHheEEeHeHeC 3:5A4:5A4:7A
+0.1649831	2cpp000	pattern: NhheEEhheEeC 3:4A8:9A	 for 2cpp00 NHHhEHeHeHHHehhHhheEhhHhEEeehHheeEEHC 4:6A6:8R6:27P8:24A12:34A18:19A20:23L21:23L24:27A25:26A31:34A32:33A <=> 2cpp000 NhehehEhEhhhhhhhehhhhhhhhhEhehhhhheEeEhheEeC 1:3Z3:5A5:36P7:33A25:27A33:36A34:35A40:41A
+0.2045455	2ctc000	pattern: NEeeheEhEheC 1:3A2:3P	 for 2ctc00 NHeEeHHehHeEhEhHeHC 2:3A3:7A4:7Z4:10P7:10R10:16P11:13Z11:16A <=> 2ctc000 NhEeEhheEhheEehEeehhEhhEhEhehhhEC 1:2A2:7A3:7Z3:19P11:12A14:26A19:30Z22:24Z
+0.1698718	2cuaAA0	pattern: NeEeC 1:2A	 for 2cuaA0 NHEeEEeEeEeEC 2:3A3:4A3:6P5:11P6:9A7:8A7:10A10:11A <=> 2cuaAA0 NEeeeEEeC 0:1A1:3Z4:5Z4:6A
+0.537037	2cyp002	pattern: NhHhEheEHHC 	 for 2cyp02 NHhEHeHEeEhhHC 3:5A7:8A8:9A <=> 2cyp002 NHheeHheHhEehhhhhC 9:10A
+0.88095236	2cyp001	pattern: NhhhHHHHC 	 for 2cyp01 NHHHhhhHhHCNHC  <=> 2cyp001 NHHeHehhHHhhC 
+0.5454545	2dpmAA2	pattern: NhhhHHC 	 for 2dpmA2 NHhHHhhhC 2:5R <=> 2dpmAA2 NhHHHehHhHC 
+0.25	2dpmAA1	pattern: NeHeeHHeHeEC 	 for 2dpmA1 NHEhECNEhEhEhEeC 2:4Z2:9P4:7P7:9R9:11Z11:13R11:14A13:14A <=> 2dpmAA1 NhhhEhEEhehEhEeC 3:5Z3:10P5:6P10:12Z
+0.06666666	2dri002	pattern: NeC 	 for 2dri02 NHeHeHeHeHeCNEC 2:4Z2:6P4:6R6:8Z8:10Z10:13A <=> 2dri002 NEhhhhEhEhEhEC 0:5Z0:7Z7:9Z9:11Z
+0.19047618	2dri001	pattern: NHeHHeHC 	 for 2dri01 NEhEhEhEECNhEC 1:3Z1:5P3:5R5:7Z7:8P8:12P <=> 2dri001 NhehEhhEhC 3:6Z
+0.17948723	2end000	pattern: NHHhhhC 	 for 2end00 NHhhHHhHhhC  <=> 2end000 NhhhhHHEHEHeC 6:8Z
+0.19576716	2eng000	pattern: NeEehhEC 2:3A	 for 2eng00 NEhEeHEHeEHHheHhC 1:3R1:9P1:13A3:4A4:8P4:9A6:8A6:13A <=> 2eng000 NeEEEeEheehhheheEC 1:2Z3:5X4:5A4:15A
+0.8333333	2erl000	pattern: NHC 	 for 2erl00 NHhHC  <=> 2erl000 NhhhhC 
+0.5833334	2fdn000	pattern: NHehEC 	 for 2fdn00 NEhEeHeC 1:6A3:4A <=> 2fdn000 NhEHeC 1:3A
+0.19696969	2gar000	pattern: NeHeHHHeEeeEC 	 for 2gar00 NEhEhEHhEhEeEhEeEC 1:3Z1:8P3:5Z5:8R8:10Z10:11A11:12A12:14R14:15A15:16A <=> 2gar000 NeEhehhhEEhhhEehhhEEeC 1:7Z8:12Z12:13A13:17A18:19A
+0.44444448	2hbg000	pattern: NHHHC 	 for 2hbg00 NHhHHhHhC 1:4R4:6R5:7R <=> 2hbg000 NhhhhhhhhhehhhC 
+0.5833334	2hft002	pattern: NeEEeHeEC 	 for 2hft02 NEeeEhEeEeEC 1:2A2:8A3:4A6:7A6:9A9:10A <=> 2hft002 NEeeEehEeC 0:1A2:3A2:6A
+0.70909095	2hft001	pattern: NEeEeeEC 1:2A5:6A	 for 2hft01 NEeEeEHeEHC 1:2A2:5A3:4A3:7A7:8A <=> 2hft001 NEeEeheEeC 0:3A1:2A1:6A6:7A
+0.5	2hmzAA0	pattern: NHHC 	 for 2hmzA0 NHhHhHHC 2:4R3:5L <=> 2hmzAA0 NhhhhhhC 
+0.19047618	2igd000	pattern: NEEC 	 for 2igd00 NEeHeEC 1:2A1:5P2:4R4:5A <=> 2igd000 NeheC 
+0.8888889	2ilk002	pattern: NHHC 	 for 2ilk02 NHhhC  <=> 2ilk002 NhhhhC 
+0.4848485	2ilk001	pattern: NHHHC 	 for 2ilk01 NHHhHHhhC 1:4L <=> 2ilk001 NhhhhhhhhhC 
+0.5	2knt000	pattern: NEC 	 for 2knt00 NHeEhC 2:3A <=> 2knt000 NEeC 0:1A
+0.4615385	2lisAA0	pattern: NHHHC 	 for 2lisA0 NHhHHhhC 1:3L <=> 2lisAA0 NhhhhhhhhhhhC 
+0.5972222	2mcm000	pattern: NeEeEEeC 1:2A	 for 2mcm00 NEeEeeEEeeEC 1:2A2:6A3:4A3:5A3:9A4:7A7:8A9:10A <=> 2mcm000 NEeeEeeEC 0:4A1:3A1:6A
+0.4814815	2mhr000	pattern: NHHC 	 for 2mhr00 NHhHhHHC 2:4R3:5L <=> 2mhr000 NhhhhhhhC 
+0.35353535	2msbAA0	pattern: NEhEeEeC 1:6A4:5A	 for 2msbA0 NEhEheEEeeC 1:3R1:9A3:9A5:6A5:7A5:9P7:8A <=> 2msbAA0 NEeheEeEeEC 0:8X1:8A3:4A3:6A6:7A
+Chain 0 not found for pdbid 2myr
+0.06410259	2nacAA2	pattern: NHEHC 	 for 2nacA2 NHHheHeHeHeHeHheHC 4:6Z4:10P6:8Z8:10R10:12Z12:15Z <=> 2nacAA2 NhhhhEhhEhhEhhEhEEhhEeEhEC 4:7Z4:13Z7:10Z13:16Z15:19Z16:21Z21:23Z
+0.1825397	2nacAA1	pattern: NEEEHeEC 1:2P	 for 2nacA1 NEhhEhEhEhECNhHeEC 1:4Z1:6P4:6R6:8Z8:10Z10:15A15:16A <=> 2nacAA1 NEhhehhEeEheEhehEhheC 0:6Z0:8X8:11Z11:15Z15:18A
+0.28253967	2nlrAA0	pattern: NEeEEEEeEeEeEeC 8:10P9:10A	 for 2nlrA0 NEeEeEeEehEeEEeEehEeC 1:4A2:3A3:6A4:5A5:19A6:7A6:18A8:18A10:16A10:19A11:12A11:18A12:15P13:14A14:15A <=> 2nlrAA0 NeEEeeeeEeEhEeEhehEEC 0:1A1:5A2:3A3:18A5:17A7:15A8:9A8:17A9:13X11:12A12:13A
+0.23809528	2por000	pattern: NEHeHEeEEeHeeEC 	 for 2por00 NEeEheEheEeEeEheEeEeC 1:2A1:19A2:3A3:5A5:6A6:8A8:9A9:10A10:11A11:12A12:13A13:15A15:16A16:17A17:18A18:19A <=> 2por000 NehhEheEeheEhhEEeC 3:5A5:6A10:13Z14:15A
+0.18666667	2pth000	pattern: NeHeEeHeEHeHHC 	 for 2pth00 NEhEHeEHhHEehEhhHC 1:3R1:6P1:10P3:5A5:6A6:10R10:13P11:13A <=> 2pth000 NhEhEhehEhheEhehhhEhhhheC 1:22A3:5A5:7A11:17Z13:17A
+0.8055555	2pvbAA0	pattern: NHHHC 	 for 2pvbA0 NHhHhHHhHC  <=> 2pvbAA0 NhhhhehhhehC 
+0.6851852	2qwc000	pattern: NEEEeEeEeEeeEeEeEeEC 4:5A5:6A7:8A11:12A12:13A15:16A16:17A	 for 2qwc00 NEEHEehEeEeEeeEeEeEeeEeEeEEeHC 1:25P2:27A4:5A5:7A7:8A9:10A10:11A11:12A13:14A14:15A16:17A17:18A18:19A20:21A21:22A22:23A24:26A26:27A <=> 2qwc000 NeEeheeEEeeeEeEEeEeeEeEeEeEC 1:4A4:6A7:8A11:12A12:13A14:15A15:16A19:20A20:21A23:24A24:25A
+0.27777773	2rn2000	pattern: NeEHeHHeHC 	 for 2rn200 NEeEhEhhHEhC 1:2A1:5P2:3A3:5R5:9Z <=> 2rn2000 NEehhhEhhEhC 0:1A5:8Z
+0.21212119	2sak000	pattern: NeEeEEC 	 for 2sak00 NEeEheeEeEC 1:2A1:9P2:5R3:8A5:9A6:7A6:9A7:9R <=> 2sak000 NeehEehEeeC 3:8A6:7A
+0.22222227	2sn3000	pattern: NHEC 	 for 2sn300 NEhEeC 1:3R1:4A3:4A <=> 2sn3000 NeheC 
+0.9166667	2spcAA0	pattern: NHC 	 for 2spcA0 NHhC  <=> 2spcAA0 NhC 
+0.48888892	2tgi000	pattern: NhHEEEC 	 for 2tgi00 NHEEhEeehheeEEC 2:7A3:6A5:11A10:13A11:12A <=> 2tgi000 NEeHheeeC 0:1A
+0.6693121	2tnfAA0	pattern: NeeEeEeEeEC 3:8A4:7A	 for 2tnfA0 NEeeEeEeEeEHeC 1:2A1:3A1:12A4:5A5:10A6:9A6:12A7:8A7:10A <=> 2tnfAA0 NeeEeEheEeEeC 2:3A3:9A4:8A6:7A6:9A
+0.25	2tpsAA0	pattern: NheHeHeHeHeHHeHehC 	 for 2tpsA0 NHEHhEhEhEhEhEhEhEHhC 2:5Z2:17P5:7Z7:9Z9:11Z11:13Z13:15Z15:17Z <=> 2tpsAA0 NHHEhEhhEhhEhEEhhhhEhEHC 2:4Z2:20P4:7Z7:10Z10:12Z12:13Z13:18Z18:20Z
+0.21212119	2trxAA0	pattern: NHeeHEC 	 for 2trxA0 NEhEhEheEhC 1:3R1:5P3:5Z3:7A7:8A <=> 2trxAA0 NhhhhEEheC 4:5Z4:7A
+0.18181819	3btoAA2	pattern: NeHeHeHeHeeC 	 for 3btoA2 NHEhEhEHhEhEehEC 2:4Z2:9P4:6Z6:9R9:11Z11:14Z <=> 3btoAA2 NehhEhhhEhhEhhhEhheEEC 3:7Z3:14Z7:10Z14:18Z18:19X
+0.23993558	3btoAA1	pattern: NeEeEeHeHHHHEC 1:2A	 for 3btoA1 NEeEheEhEeeheHCNhhheHeC 1:2A2:8A3:5A3:10A3:21A5:6A6:12A8:9A10:12R19:21Z <=> 3btoAA1 NEeeeEeeEhEhhhhhhheC 0:6A1:4A1:9A5:9A6:7A
+0.5666667	3chbDD0	pattern: NeEeHEC 	 for 3chbD0 NHEEeEheEC 2:7A3:4A4:5A5:8P7:8A <=> 3chbDD0 NEehEheC 0:1A1:3A
+0.25	3chy000	pattern: NeHHHeHHC 	 for 3chy00 NEhEhEhEhEhC 1:3Z1:5P3:5R5:7Z7:9Z <=> 3chy000 NehEhhehEhhC 2:7Z
+0.22222227	3cla000	pattern: NHEHeEEeEEHC 	 for 3cla00 NEhehHHEeeEheeeEhC 1:7R1:8A3:9R3:15A7:8A9:10A9:12P12:13P13:15A14:15A <=> 3cla000 NhhhehEehehEeehC 5:6A8:10A8:11Z
+0.5151515	3cyr000	pattern: NEHHHC 	 for 3cyr00 NEehHhhHC 1:2A <=> 3cyr000 NehheeehhhC 
+0.6825397	3ebx000	pattern: NEeeC 1:2A	 for 3ebx00 NEeEeeC 1:2A3:4A3:5A <=> 3ebx000 NEeeEEC 0:1A2:3A2:4A
+0.48717946	3eipAA0	pattern: NEHHEC 	 for 3eipA0 NEeHhEheC 1:2A1:7A5:7A <=> 3eipAA0 NeehhehehehhC 
+0.64444447	3ezmAA0	pattern: NEeEeEEeC 2:3A4:5A	 for 3ezmA0 NHeEeheEeEeheEC 2:3A3:4A6:7A8:9A9:10A12:13A <=> 3ezmAA0 NEeEeEeEheC 0:1A2:3A4:5A5:6A
+0.57142854	3grs003	pattern: NeEHeEeHHC 	 for 3grs03 NEehhEHeEhHhC 1:2A2:8A5:7A7:8A <=> 3grs003 NEehEehhhEhheC 0:1A1:8A3:4A4:8A
+0.25714284	3grs002	pattern: NhhEeEeC 4:5A	 for 3grs02 NHHEhEhEeEeEC 3:5Z3:11P5:7Z7:11R8:9A9:10A <=> 3grs002 NhhhEhEhheEehC 3:5Z5:8A8:9A9:10A
+0.173913	3grs001	pattern: NeHHHeEeEeHC 	 for 3grs01 NEeHehhhHeEeEeeCNEHehHC 1:12P2:4Z2:13P4:9Z10:11A11:12A13:19P14:17A <=> 3grs001 NEhhhhhEEheEhheEhhhC 0:6Z7:9A9:10A
+0.18181819	3htsBB0	pattern: NEHHEC 	 for 3htsB0 NHHEehhHeEC 3:4A4:8R4:9A8:9A <=> 3htsBB0 NheehheC 
+0.3611111	3nul000	pattern: NeHEeEeEC 3:4A5:6A	 for 3nul00 NHEeheEeEeHC 2:3A2:9A3:5L5:6A6:7A7:8A8:9A <=> 3nul000 NEheEeEeC 0:2A3:4A5:6A
+0.16666669	3proCC2	pattern: NeEC 	 for 3proC2 NHEHeHeC 2:4A4:6Z <=> 3proCC2 NehEheC 2:4A
+0.111111164	3proCC1	pattern: NEC 	 for 3proC1 NHHeEEC 3:4A4:5P <=> 3proCC1 NhhhhEeeC 4:5A5:6Z
+0.125	3pte000	pattern: NeEEeHEEEEC 3:4A	 for 3pte00 NHEeeHHhhHhHHeEHEhHEeEeEeeHHC 2:3A2:24A4:16A13:14A13:25P14:19R19:20A20:21A21:22A22:23A23:24A <=> 3pte000 NEeEhhEhehhEhhhhhehhhhhhheEehehhheeehhhC 0:1A2:28A5:7A7:10A25:26A
+0.116666615	3pviAA0	pattern: NEEeeeC 	 for 3pviA0 NHHeEeHEeHEHEC 3:4A4:7Z5:10A7:8A8:12A <=> 3pviAA0 NhhhheheheEEhEheeheC 9:12Z10:17A12:14A
+0.21428567	3pyp000	pattern: NHeHHEeEC 	 for 3pyp00 NHhEeHhHHheEeC 3:4A3:12A4:10L10:11A11:12A <=> 3pyp000 NhEhheEEeC 1:4A4:5A6:7A
+0.4166667	3sdhAA0	pattern: NHHHHC 	 for 3sdhA0 NHHhHhhHhHC 3:6L6:8R7:9R <=> 3sdhAA0 NhhhhhehhehhhehhhhhhhhhC 
+0.52380955	3seb002	pattern: NHeEEHEC 	 for 3seb02 NHhCNEeEHeEheC 5:6A7:12A9:10A <=> 3seb002 NehehEEehheheC 4:11A5:6A
+0.26666665	3seb001	pattern: NehEeC 3:4A	 for 3seb01 NEEeHeeEC 1:5A2:3A3:5L3:6P5:7A <=> 3seb001 NEEehEeEhC 0:5A1:2A2:4A4:6Z5:6A
+Chain 0 not found for pdbid 3sil
+0.21428567	3stdAA0	pattern: NHEeEeeC 2:3A	 for 3stdA0 NHhEHeHeeEeEEhhC 3:5A3:11P5:7R7:9A8:9A9:10A10:11A10:12A <=> 3stdAA0 NheEehheeehEehEC 2:3A10:11A11:13A
+0.22222227	3vub000	pattern: NeEehC 1:2A	 for 3vub00 NEeEEeheheHC 1:2A1:9A2:3A3:5A3:7A4:5A5:7R7:9R <=> 3vub000 NEeEehhC 0:1A2:3A
+0.16666669	451c000	pattern: NhhHC 	 for 451c00 NHhhHhC  <=> 451c000 NhEHeEHehC 1:4Z
+0.13636369	4eugAA0	pattern: NHHeEEHHC 	 for 4eugA0 NHhhEHHHeHHeeHeHehhC 4:12A8:11Z8:14P11:14R14:16Z <=> 4eugAA0 NhhEEhEhhheEhhehhEhEhC 2:13A3:10Z3:16P5:9A16:18Z
+0.6527778	4lzt000	pattern: NHeEehHHhC 3:4A	 for 4lzt00 NHhEeEhHhhHC 3:4A4:5A <=> 4lzt000 NHHehEeEhHHhhehC 4:5A5:6A6:12A
+0.27777773	4pgaAA2	pattern: NeHeHeHeHC 	 for 4pgaA2 NEhEhEhEhHC 1:3Z3:5Z5:7Z <=> 4pgaAA2 NEhhEhEhEhhC 0:3Z3:5Z5:7Z
+0.35493827	4pgaAA1	pattern: NEeEHEeEeEHHC 1:3Z5:6A7:8A	 for 4pgaA1 NEheEhhEHhEhEhhEeEeEeHHC 1:7Z1:10P3:4A7:10R10:12Z12:15X15:16A16:19A17:18A19:20A <=> 4pgaAA1 NEhehhhehEeEhhheEheEeEehehC 0:2A8:10Z10:15Z15:17A17:20A18:19A20:21A
+0.1463415	4xis000	pattern: NeHeHeHeEHeHHHHHHC 	 for 4xis00 NHEHhEHhEHhEehHEEHhEHhEhEhhhHHHHC 2:5Z2:24P5:8Z8:11Z11:15Z12:16A15:19Z19:22R22:24Z <=> 4xis000 NehhEhhhEhhhEEhEehhEhehhhheehehhhhhhhhhhC 3:7Z11:14Z12:15A14:18Z
+0.5	5cytRR0	pattern: NhhhHC 	 for 5cytR0 NHhHHhC  <=> 5cytRR0 NHeeEHHehHeC 3:6A
+0.85714287	5hpgAA0	pattern: NEeC 1:2A	 for 5hpgA0 NEeC 1:2A <=> 5hpgAA0 NeeeEeC 3:4A
+Chain 0 not found for pdbid 5icb
+0.23809528	5nul000	pattern: NHHHeHeeHC 	 for 5nul00 NEhEHhEhEhEEhC 1:3Z1:6P3:6R6:8Z8:10Z8:11P <=> 5nul000 NhehhHEhEEhheC 5:7Z7:8Z
+0.22916669	5p21000	pattern: NeHHeHHeHHC 	 for 5p2100 NEheEhEhhEhEhC 1:4P1:6P3:4A4:6R6:9Z9:11Z <=> 5p21000 NEehhhhEhhEhehhC 0:1A6:9Z
+Chain 0 not found for pdbid 6cel
+0.4722222	6gsvBB2	pattern: NhHhC 	 for 6gsvB2 NHhHhC 1:3R <=> 6gsvBB2 NhHHeHHHhhHC 
+0.13888884	6gsvBB1	pattern: NeHEC 	 for 6gsvB1 NEhEheEhCNhC 1:3Z1:5A5:6A <=> 6gsvBB1 NeeHEHeHHheC 3:5A
+0.09677416	7a3hAA0	pattern: NeEEHHEHC 	 for 7a3hA0 NHEeehHeHeHeHehHeHeHehHC 2:3A4:7Z4:20P7:9Z9:11Z11:13Z13:16Z16:18Z18:20Z <=> 7a3hAA0 NEeEhhEehEhhhhhEhhEhhhEhEhhEehC 0:1A2:5X2:26P5:8Z8:14Z14:17Z21:23Z
+0.5079365	7atjAA2	pattern: NhehhhhhHhC 	 for 7atjA2 NHhEHHhHeHHhHC 3:8A <=> 7atjAA2 NhhheHHHEHHeHHHhhHhhC 7:10A
+0.48888892	7atjAA1	pattern: NhhhhhC 	 for 7atjA1 NHhHHhHHC 2:5R <=> 7atjAA1 NHHHeHeHhhhhheC 
+0.52380955	7fd1AA0	pattern: NHEEHHHC 	 for 7fd1A0 NEHhEeHehhHhHC 1:7A4:5A <=> 7fd1AA0 NehehhehhhhC 
+0.061728418	7odcAA2	pattern: NHHHC 	 for 7odcA2 NHehHeHheHeHeHeHeHHehC 2:5Z2:19P5:8Z8:10Z10:12Z12:14Z14:16Z16:19Z <=> 7odcAA2 NhEhhhEhEhhEEhEhhEhhhhhhhEC 1:5Z1:24P5:7Z10:11Z11:13Z13:16Z16:24Z
+0.25740743	7odcAA1	pattern: NEEeHEeEeHC 2:8A6:7A	 for 7odcA1 NEeHeCNHEeHEeEehHehC 1:2A2:4R2:17P4:8A4:17P8:9A8:14A9:12P11:14A12:13A14:17R <=> 7odcAA1 NeeEheehEeEEeehhhC 2:4A2:11A4:10A7:11A8:9A8:10A
+0.5277778	7rsa000	pattern: NHeeEEC 	 for 7rsa00 NHheHeEEeeEC 3:7A5:6A6:9A7:8A9:10A <=> 7rsa000 NehEhhEeeeC 2:7A5:6A
+0.116666615	8abp002	pattern: NHHHeHC 	 for 8abp02 NHheHheHeHheHeCNEhC 3:6Z3:8P6:8R8:11Z11:13Z13:16A <=> 8abp002 NhhhEhhhEhhEhhhhEhEC 3:7Z3:10Z15:17Z
+0.19047618	8abp001	pattern: NeeHHeHC 	 for 8abp01 NEhEhEhEECNhEC 1:3Z1:5P3:5R5:7Z7:8P8:12P <=> 8abp001 NhehEEhhEhC 3:4Z
+0.1025641	8rucAA2	pattern: NEEEHHeHeHHC 	 for 8rucA2 NHeHeHeHehHehEHeHehEeHehHhHC 2:4R2:22P4:6Z6:8Z8:11Z11:15Z15:20Z17:19A20:22Z <=> 8rucAA2 NhEhEhhhEhhhEhEhheEhehEhehhEhhEhhhhhhhC 1:29P3:7Z7:11Z11:13Z13:17Z17:26Z21:23A
+0.26190472	8rucAA1	pattern: NeHHHeEHEHC 	 for 8rucA1 NHEhhhEehHHehC 2:6R2:7A2:11A6:7A7:11R <=> 8rucAA1 NehEhhhEehhehC 2:7A2:10A6:7A
+0.16666669	8rucII0	pattern: NEEC 	 for 8rucI0 NHEeHeEC 2:3A2:5A3:5R5:6A <=> 8rucII0 NheheC 
+0.7083334	9wgaAA3	pattern: NhEeC 2:3A	 for 9wgaA3 NHhEeHC 3:4A <=> 9wgaAA3 NhEEeehC 1:3A2:4A
+0.52380955	9wgaAA2	pattern: NeEC 	 for 9wgaA2 NHhEeHC 3:4A <=> 9wgaAA2 NEeeehC 0:2A
+0.52380955	9wgaAA4	pattern: NHEC 	 for 9wgaA4 NHhEeHC 3:4A <=> 9wgaAA4 NheeC 
+0.52380955	9wgaAA1	pattern: NeEC 	 for 9wgaA1 NHhEeHC 3:4A <=> 9wgaAA1 NEehC 0:1A
+
+BUILD SUCCESSFUL
+Total time: 2 minutes 48 seconds
