@@ -3,6 +3,8 @@ package translation.model;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
 
 import translation.StructureFinder;
 
@@ -63,11 +65,12 @@ public class Protein {
         return chainBackboneSegmentMap;
     }
 
-    public HashMap toTopsDomainStrings(HashMap chainDomainMap) {
-        HashMap chainDomainStringMap = new HashMap();
+    public Map toTopsDomainStrings(Map<String, List<Domain>> chainDomainMap) {
+        Map chainDomainStringMap = new HashMap();
         for (int i = 0; i < this.chains.size(); i++) {
             Chain chain = (Chain) this.chains.get(i);
-            chainDomainStringMap.put(chain.getCathCompatibleLabel(), chain.toTopsDomainStrings(chainDomainMap));
+            chainDomainStringMap.put(chain.getCathCompatibleLabel(), 
+            						 chain.toTopsDomainStrings(chainDomainMap));
         }
         return chainDomainStringMap;
     }

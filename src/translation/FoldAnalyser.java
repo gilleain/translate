@@ -1,24 +1,25 @@
 package translation;
 
 import java.io.IOException;
-
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.Iterator;
-import java.util.ListIterator;
 import java.util.HashMap;
-
+import java.util.Iterator;
+import java.util.List;
+import java.util.ListIterator;
+import java.util.Map;
 import java.util.logging.ConsoleHandler;
 import java.util.logging.Formatter;
 import java.util.logging.Level;
-import java.util.logging.Logger;
 import java.util.logging.LogRecord;
+import java.util.logging.Logger;
 
 import javax.vecmath.Point3d;
 import javax.vecmath.Vector3d;
 
 import translation.model.BackboneSegment;
 import translation.model.Chain;
+import translation.model.Domain;
 import translation.model.Protein;
 import translation.model.Residue;
 import translation.model.Sheet;
@@ -267,8 +268,9 @@ public class FoldAnalyser {
 
             System.out.println(protein);
 
-            HashMap cathChainDomainMap = CATHDomainFileParser.parseUpToParticularID(cathDomainFilename, protein.getID());
-            HashMap chainDomainStringMap = protein.toTopsDomainStrings(cathChainDomainMap);
+            Map<String, List<Domain>> cathChainDomainMap = 
+            		CATHDomainFileParser.parseUpToParticularID(cathDomainFilename, protein.getID());
+            Map chainDomainStringMap = protein.toTopsDomainStrings(cathChainDomainMap);
 
             Iterator itr = chainDomainStringMap.keySet().iterator();
             while (itr.hasNext()) {

@@ -2,9 +2,11 @@ package translation.model;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Iterator;
-import java.util.ListIterator;
 import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+import java.util.ListIterator;
+import java.util.Map;
 
 import javax.vecmath.Point3d;
 import javax.vecmath.Vector3d;
@@ -410,7 +412,7 @@ public class Chain {
         return script.toString(); 
     }
 
-    public HashMap toTopsDomainStrings(HashMap chainDomainMap) {
+    public Map toTopsDomainStrings(Map<String, List<Domain>> chainDomainMap) {
         if (chainDomainMap != null && chainDomainMap.containsKey(this.getCathCompatibleLabel())) {
             ArrayList domains = (ArrayList) chainDomainMap.get(this.getCathCompatibleLabel());
             return this.toTopsDomainStrings(domains);

@@ -4,10 +4,9 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-
-import java.util.Iterator;
 import java.util.HashMap;
-
+import java.util.Iterator;
+import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -37,7 +36,7 @@ public class TestRunner {
         // get the strings from the string file
         HashMap idchaindomainMap = new HashMap();
         BufferedReader bufferer = null;
-        HashMap cathPDBIDChainDomainMap = null;
+        Map cathPDBIDChainDomainMap = null;
 
         try {
             bufferer = new BufferedReader(new FileReader(strfileName));
@@ -105,7 +104,7 @@ public class TestRunner {
 
                 // translate the pdbfile
                 Protein protein = foldAnalyser.analyse(PDBReader.read(filename));
-                HashMap chainDomainStringMap = protein.toTopsDomainStrings(cathChainMap);
+                Map chainDomainStringMap = protein.toTopsDomainStrings(cathChainMap);
 
                 Iterator itr = protein.chainIterator();
 

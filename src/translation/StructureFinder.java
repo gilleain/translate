@@ -1,12 +1,12 @@
 package translation;
 
 import java.io.IOException;
-
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.Iterator;
 import java.util.ListIterator;
-import java.util.HashMap;
+import java.util.Map;
 
 import javax.vecmath.Point3d;
 import javax.vecmath.Vector3d;
@@ -804,8 +804,8 @@ public class StructureFinder {
             Protein protein = structureFinder.getProtein();
             System.out.println(protein.toString());
 
-            HashMap cathChainDomainMap = CATHDomainFileParser.parseUpToParticularID(args[1], protein.getID());
-            HashMap chainDomainStringMap = protein.toTopsDomainStrings(cathChainDomainMap);
+            Map cathChainDomainMap = CATHDomainFileParser.parseUpToParticularID(args[1], protein.getID());
+            Map chainDomainStringMap = protein.toTopsDomainStrings(cathChainDomainMap);
 
             Iterator itr = chainDomainStringMap.keySet().iterator();
             while (itr.hasNext()) {
