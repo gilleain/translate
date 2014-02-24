@@ -16,8 +16,8 @@ public class CATHDomainFileParser {
     private static Pattern domainPattern = Pattern.compile("((?:\\d)(?:\\s\\s[\\d\\w]\\s+\\d+\\s\\-\\s[\\w\\d]\\s+\\d+\\s\\-)+)+");
     private static Pattern segmentPattern = Pattern.compile("[\\d\\w]\\s+(\\d+)\\s\\-\\s[\\w\\d]\\s+(\\d+)\\s\\-");
 
-    public static Map<String, Map<String, List<Domain>>> parseWholeFile(String filename) throws IOException {
-        Map<String, Map<String, List<Domain>>> pdbChainDomainMap = new HashMap<String, Map<String, List<Domain>>>();
+    public static Map<String, ChainDomainMap> parseWholeFile(String filename) throws IOException {
+        Map<String, ChainDomainMap> pdbChainDomainMap = new HashMap<String, ChainDomainMap>();
 
         String line;
         BufferedReader bufferer = new BufferedReader(new FileReader(filename));
@@ -31,11 +31,11 @@ public class CATHDomainFileParser {
             List<Domain> domains = CATHDomainFileParser.parseLine(line);
 
             // store the result
-            Map<String, List<Domain>> chainDomainMap;
+            ChainDomainMap chainDomainMap;
             if (pdbChainDomainMap.containsKey(pdbid)) {
             	chainDomainMap = pdbChainDomainMap.get(pdbid);
             } else {
-                chainDomainMap = new HashMap<String, List<Domain>>();
+                chainDomainMap = new ChainDomainMap();
                 pdbChainDomainMap.put(pdbid, chainDomainMap);
             }
             chainDomainMap.put(chain, domains);
@@ -45,8 +45,8 @@ public class CATHDomainFileParser {
         return pdbChainDomainMap;
     }
 
-    public static Map<String, List<Domain>> parseUpToParticularID(String filename, String pdbid) throws IOException {
-        Map<String, List<Domain>> chainDomainMap = new HashMap<String, List<Domain>>();
+    public static ChainDomainMap parseUpToParticularID(String filename, String pdbid) throws IOException {
+        ChainDomainMap chainDomainMap = new ChainDomainMap();
 
         String line;
         BufferedReader bufferer = new BufferedReader(new FileReader(filename));
@@ -92,12 +92,12 @@ public class CATHDomainFileParser {
 
     public static void main(String[] args) {
         try {
-            Map<String, Map<String, List<Domain>>> pdbChainDomainMap = 
+            Map<String, ChainDomainMap> pdbChainDomainMap = 
             		CATHDomainFileParser.parseWholeFile(args[0]);
             
             for (String pdbID : pdbChainDomainMap.keySet()) {
-                Map<String, List<Domain>> chainDomainMap = pdbChainDomainMap.get(pdbID);
-                for (String chainID : chainDomainMap.keySet())  {
+                ChainDomainMap chainDomainMap = pdbChainDomainMap.get(pdbID);
+                for (String chainID : chainDomainMap)  {
                     List<Domain> domains = chainDomainMap.get(chainID);
                     for (Domain domain : domains) {
                         System.out.println(pdbID + chainID + " " + domain);

@@ -268,7 +268,7 @@ public class FoldAnalyser {
 
             System.out.println(protein);
 
-            Map<String, List<Domain>> cathChainDomainMap = 
+            ChainDomainMap cathChainDomainMap = 
             		CATHDomainFileParser.parseUpToParticularID(cathDomainFilename, protein.getID());
             Map chainDomainStringMap = protein.toTopsDomainStrings(cathChainDomainMap);
 

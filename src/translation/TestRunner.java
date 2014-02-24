@@ -36,7 +36,7 @@ public class TestRunner {
         // get the strings from the string file
         HashMap idchaindomainMap = new HashMap();
         BufferedReader bufferer = null;
-        Map cathPDBIDChainDomainMap = null;
+        Map<String, ChainDomainMap> cathPDBIDChainDomainMap = null;
 
         try {
             bufferer = new BufferedReader(new FileReader(strfileName));
@@ -100,7 +100,7 @@ public class TestRunner {
 
                 // use this id to get the chainmaps for this id
                 HashMap chainMap = (HashMap) idchaindomainMap.get(pdbid);
-                HashMap cathChainMap = (HashMap) cathPDBIDChainDomainMap.get(pdbid);
+                ChainDomainMap cathChainMap = cathPDBIDChainDomainMap.get(pdbid);
 
                 // translate the pdbfile
                 Protein protein = foldAnalyser.analyse(PDBReader.read(filename));

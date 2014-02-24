@@ -6,6 +6,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
+import translation.ChainDomainMap;
 import translation.StructureFinder;
 
 public class Protein {
@@ -65,7 +66,7 @@ public class Protein {
         return chainBackboneSegmentMap;
     }
 
-    public Map toTopsDomainStrings(Map<String, List<Domain>> chainDomainMap) {
+    public Map toTopsDomainStrings(ChainDomainMap chainDomainMap) {
         Map chainDomainStringMap = new HashMap();
         for (int i = 0; i < this.chains.size(); i++) {
             Chain chain = (Chain) this.chains.get(i);
@@ -79,7 +80,8 @@ public class Protein {
         String[] chainStrings = new String[this.chains.size()];
         for (int i = 0; i < this.chains.size(); i++) {
             Chain chain = (Chain) this.chains.get(i);
-            chainStrings[i] = chain.getCathCompatibleLabel() + chain.toTopsDomainStrings(new HashMap());
+            chainStrings[i] = chain.getCathCompatibleLabel() 
+            				+ chain.toTopsDomainStrings(new ChainDomainMap());
         }
         return chainStrings;
     }

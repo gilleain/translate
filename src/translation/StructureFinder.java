@@ -804,7 +804,8 @@ public class StructureFinder {
             Protein protein = structureFinder.getProtein();
             System.out.println(protein.toString());
 
-            Map cathChainDomainMap = CATHDomainFileParser.parseUpToParticularID(args[1], protein.getID());
+            ChainDomainMap cathChainDomainMap = 
+            		CATHDomainFileParser.parseUpToParticularID(args[1], protein.getID());
             Map chainDomainStringMap = protein.toTopsDomainStrings(cathChainDomainMap);
 
             Iterator itr = chainDomainStringMap.keySet().iterator();
