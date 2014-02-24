@@ -1,8 +1,7 @@
 package translation;
 
-import java.util.ArrayList;
 import java.util.Collection;
-import java.util.Iterator;
+import java.util.List;
 
 import javax.vecmath.Point3d;
 import javax.vecmath.Vector3d;
@@ -10,14 +9,12 @@ import javax.vecmath.Vector3d;
 import cern.colt.matrix.DoubleFactory2D;
 import cern.colt.matrix.DoubleMatrix1D;
 import cern.colt.matrix.DoubleMatrix2D;
-
 import cern.colt.matrix.linalg.EigenvalueDecomposition;
-
 import cern.jet.math.Functions;
 
 public class Geometer {
 
-    public static Plane leastSquarePlane(ArrayList points) {
+    public static Plane leastSquarePlane(List<Point3d> points) {
         Axis a = Geometer.leastSquareAxis(points);
         //System.out.println("Axis : " + a + " for " + points.size() + " points");
         return new Plane(a);
@@ -81,18 +78,17 @@ public class Geometer {
         }
     }
 
-    public static Point3d averagePoints(Collection points) {
+    public static Point3d averagePoints(Collection<Point3d> points) {
         Point3d averagePoint = new Point3d();
-        Iterator itr = points.iterator();
-        while (itr.hasNext()) {
-            Point3d nextPoint = (Point3d) itr.next();
+        for (Point3d nextPoint : points) {
             averagePoint.add(nextPoint);
         }
         averagePoint.scale(1.0 / points.size());
         return averagePoint;
     }
 
-    public static Axis leastSquareAxis(ArrayList points) {
+    @SuppressWarnings("static-access")
+	public static Axis leastSquareAxis(List<Point3d> points) {
         int numberOfPoints = points.size();
         //System.out.println("Running leastSquareAxis on " + numberOfPoints + " points");
         if (numberOfPoints == 0) {

@@ -7,6 +7,7 @@ import java.io.OutputStream;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Properties;
 
 import javax.vecmath.Point3d;
@@ -71,7 +72,7 @@ public class HBondAnalyser {
     }
 
     public void analyse(Protein protein) throws PropertyException {
-        Iterator chains = protein.chainIterator();
+        Iterator<Chain> chains = protein.chainIterator();
         boolean calculateBackboneHydrogens = this.properties.getProperty("CALCULATE_BACKBONE_AMIDE_HYDROGENS").equals("TRUE");
 
         while (chains.hasNext()) {
@@ -99,7 +100,7 @@ public class HBondAnalyser {
         }
 
         int index = -1;
-        Iterator residues = chain.residueIterator();
+        Iterator<Residue> residues = chain.residueIterator();
 
         while (residues.hasNext()) {
             Residue first = (Residue) residues.next();
@@ -129,9 +130,9 @@ public class HBondAnalyser {
             }
 
             // now, compare the first residue to the residues further on in the chain
-            Iterator itr = chain.residueIterator(nextPosition);
+            Iterator<Residue> itr = chain.residueIterator(nextPosition);
             while (itr.hasNext()) {
-                int secondPosition = ((Residue) itr.next()).getAbsoluteNumber();
+                int secondPosition = itr.next().getAbsoluteNumber();
 
                 // we must still check this, since a chain break might move us to i + 2
                 if (secondPosition < (position + 3)) {
@@ -192,7 +193,7 @@ public class HBondAnalyser {
             }
             
             // now, use these hbond assignments to determine the residue's environment
-            ArrayList tags = this.convertBondsToTags(first);
+            List<String> tags = this.convertBondsToTags(first);
             //System.out.println(first.toFullString() + " " + tags);
 
             this.updateSSEEndpoints(index, tags, chain);
@@ -206,14 +207,14 @@ public class HBondAnalyser {
         chain.addTerminii();
     }
 
-    public ArrayList convertBondsToTags(Residue residue) {
-        ArrayList nTerminalHBonds = residue.getNTerminalHBonds();
-        ArrayList cTerminalHBonds = residue.getCTerminalHBonds();
+    public List<String> convertBondsToTags(Residue residue) {
+    	List<HBond> nTerminalHBonds = residue.getNTerminalHBonds();
+    	List<HBond> cTerminalHBonds = residue.getCTerminalHBonds();
 
-        ArrayList tags = new ArrayList();
+        List<String> tags = new ArrayList<String>();
 
         for (int i = 0; i < nTerminalHBonds.size(); i++) {
-            int n = ((HBond) nTerminalHBonds.get(i)).getResidueSeparation();
+            int n = nTerminalHBonds.get(i).getResidueSeparation();
             String nTag = this.convertBondsToTag(n, 0);
             if (nTag != null) {
                 tags.add(nTag);
@@ -221,7 +222,7 @@ public class HBondAnalyser {
         }
 
         for (int j = 0; j < cTerminalHBonds.size(); j++) {
-            int c = ((HBond) cTerminalHBonds.get(j)).getResidueSeparation();
+            int c = cTerminalHBonds.get(j).getResidueSeparation();
             String cTag = this.convertBondsToTag(0, c);
             if (cTag != null) {
                 tags.add(cTag);
@@ -229,10 +230,10 @@ public class HBondAnalyser {
         }
 
         for (int i = 0; i < nTerminalHBonds.size(); i++) {
-            int n = ((HBond) nTerminalHBonds.get(i)).getResidueSeparation();
+            int n = nTerminalHBonds.get(i).getResidueSeparation();
 
             for (int j = 0; j < cTerminalHBonds.size(); j++) {
-                int c = ((HBond) cTerminalHBonds.get(j)).getResidueSeparation();
+                int c = cTerminalHBonds.get(j).getResidueSeparation();
 
                 String ncTag = this.convertBondsToTag(n, c);
                 if (ncTag != null) {
@@ -293,7 +294,7 @@ public class HBondAnalyser {
         return null;
     }
 
-    public void updateSSEEndpoints(int index, ArrayList tags, Chain chain) {
+    public void updateSSEEndpoints(int index, List<String> tags, Chain chain) {
         if (tags.contains("Start of a 310 helix")) {
 
             // not seen any three ten bond before

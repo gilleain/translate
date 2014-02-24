@@ -1,24 +1,29 @@
 package translation.model;
 
 import java.util.ArrayList;
-import java.util.TreeSet;
 import java.util.Iterator;
+import java.util.List;
 import java.util.NoSuchElementException;
-
+import java.util.SortedSet;
+import java.util.TreeSet;
 import java.util.logging.Logger;
 
 import javax.vecmath.Point3d;
 
 import translation.Axis;
 
-public abstract class BackboneSegment implements Comparable {
+public abstract class BackboneSegment implements Comparable<BackboneSegment> {
+	
     protected int number;
-    protected TreeSet residues;
+    
+    protected SortedSet<Residue> residues;
+    
     protected Axis axis;
+    
     protected String orientation;
 
     public BackboneSegment() {
-        this.residues = new TreeSet();
+        this.residues = new TreeSet<Residue>();
         this.axis = null;
         this.orientation = "None";
     }
@@ -32,8 +37,7 @@ public abstract class BackboneSegment implements Comparable {
 
     public abstract char getTypeChar();
 
-    public int compareTo(Object o) {
-        BackboneSegment other = (BackboneSegment) o;
+    public int compareTo(BackboneSegment other) {
         try {
             return this.firstResidue().compareTo(other.firstResidue());
         } catch (NoSuchElementException n) {
@@ -77,12 +81,12 @@ public abstract class BackboneSegment implements Comparable {
         return (Residue) this.residues.last();
     }
 
-    public Iterator residueIterator() {
+    public Iterator<Residue> residueIterator() {
         return this.residues.iterator();
     }
 
     public boolean bondedTo(Residue otherResidue) {
-        Iterator residueIterator = this.residueIterator();
+        Iterator<Residue> residueIterator = this.residueIterator();
         while (residueIterator.hasNext()) {
             Residue residue = (Residue) residueIterator.next();
             if (residue.bondedTo(otherResidue)) {
@@ -119,11 +123,9 @@ public abstract class BackboneSegment implements Comparable {
         }
     }
 
-    public ArrayList getCAlphaCoordinates() {
-        ArrayList cAlphas = new ArrayList();
-        Iterator itr = this.residues.iterator();
-        while (itr.hasNext()) {
-            Residue nextResidue = (Residue) itr.next();
+    public List<Point3d> getCAlphaCoordinates() {
+        List<Point3d> cAlphas = new ArrayList<Point3d>();
+        for (Residue nextResidue : this.residues) {
             cAlphas.add(nextResidue.getCoordinates("CA"));
         }
         return cAlphas;
@@ -166,9 +168,7 @@ public abstract class BackboneSegment implements Comparable {
     }
 
     public boolean containsPDBNumber(int pdbResidueNumber) {
-        Iterator itr = this.residueIterator();
-        while (itr.hasNext()) {
-            Residue r = (Residue) itr.next();
+       for (Residue r : this.residues) {
             if (r.getPDBNumber() == pdbResidueNumber) {
                 return true;
             }

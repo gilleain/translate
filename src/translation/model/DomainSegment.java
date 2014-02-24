@@ -1,7 +1,7 @@
 package translation.model;
 
 import java.util.ArrayList;
-import java.util.Iterator;
+import java.util.List;
 
 
 public class DomainSegment {
@@ -18,15 +18,12 @@ public class DomainSegment {
         return backboneSegment.overlapsPDBNumberRange(this.start, this.end);
     }
 
-    public ArrayList filter(ArrayList backboneSegments) {
-        ArrayList subList = new ArrayList();
+    public List<BackboneSegment> filter(List<BackboneSegment> backboneSegments) {
+        List<BackboneSegment> subList = new ArrayList<BackboneSegment>();
 
-        Iterator itr = backboneSegments.iterator();
-        while (itr.hasNext()) {
-            BackboneSegment backboneSegment = (BackboneSegment) itr.next();
+        for (BackboneSegment backboneSegment : backboneSegments) {
             if (this.contains(backboneSegment)) {
                 subList.add(backboneSegment);
-                //System.err.println("Added " + backboneSegment + " to segment " + this);
             }
         }
         return subList;

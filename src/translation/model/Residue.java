@@ -3,25 +3,27 @@ package translation.model;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
 
 import javax.vecmath.Point3d;
 
 import translation.Geometer;
 
-public class Residue implements Comparable {
-    private HashMap atoms;
+public class Residue implements Comparable<Residue> {
+    private Map<String, Point3d> atoms;
     private int absoluteNumber;
     private int pdbNumber;
     private String type;
     private String polymerType;
     private String environment;
-    private ArrayList hBonds;
+    private List<HBond> hBonds;
     private double phi;
     private double psi;
 
     public Residue() {
-        atoms = new HashMap();
-        hBonds = new ArrayList();
+        atoms = new HashMap<String, Point3d>();
+        hBonds = new ArrayList<HBond>();
         this.phi = 0;
         this.psi = 0;
         this.type = "None";
@@ -45,8 +47,7 @@ public class Residue implements Comparable {
         }
     }
 
-    public int compareTo(Object o) {
-        Residue other = (Residue) o;
+    public int compareTo(Residue other) {
         return new Integer(this.absoluteNumber).compareTo(new Integer(other.absoluteNumber));
     }
 
@@ -97,14 +98,14 @@ public class Residue implements Comparable {
         this.hBonds.add(hbond);
     }
 
-    public Iterator getHBondIterator() {
+    public Iterator<HBond> getHBondIterator() {
         return this.hBonds.iterator();
     }
 
-    public ArrayList getNTerminalHBonds() {
-        ArrayList nTerminalHBonds = new ArrayList();
+    public List<HBond> getNTerminalHBonds() {
+    	List<HBond> nTerminalHBonds = new ArrayList<HBond>();
         for (int i = 0; i < this.hBonds.size(); i++) {
-            HBond hBond = (HBond) this.hBonds.get(i);
+            HBond hBond = this.hBonds.get(i);
             if (hBond.residueIsDonor(this)) {
                 //System.out.println("N : " + hBond + " for " + this);
                 nTerminalHBonds.add(hBond);
@@ -113,10 +114,10 @@ public class Residue implements Comparable {
         return nTerminalHBonds;
     }
 
-    public ArrayList getCTerminalHBonds() {
-        ArrayList cTerminalHBonds = new ArrayList();
+    public List<HBond> getCTerminalHBonds() {
+    	List<HBond> cTerminalHBonds = new ArrayList<HBond>();
         for (int i = 0; i < this.hBonds.size(); i++) {
-            HBond hBond = (HBond) this.hBonds.get(i);
+            HBond hBond = this.hBonds.get(i);
             if (hBond.residueIsAcceptor(this)) {
                 //System.out.println("C : " + hBond + " for " + this);
                 cTerminalHBonds.add(hBond);
@@ -128,7 +129,7 @@ public class Residue implements Comparable {
     public int[] getHBondPartners() {
         int[] partners = new int[this.hBonds.size()];
         for (int i = 0; i < this.hBonds.size(); i++) {
-            HBond hbond = (HBond) hBonds.get(i);
+            HBond hbond = hBonds.get(i);
             partners[i] = hbond.getPartner(this).getAbsoluteNumber();
         }
         return partners;
@@ -136,7 +137,7 @@ public class Residue implements Comparable {
 
     public boolean bondedTo(Residue other) {
         for (int i = 0; i < this.hBonds.size(); i++) {
-            HBond hbond = (HBond) this.hBonds.get(i);
+            HBond hbond = this.hBonds.get(i);
             if (hbond == null) { System.err.println("hbond null"); continue; }
             if (hbond.contains(other)) {
                 return true;
@@ -217,9 +218,7 @@ public class Residue implements Comparable {
 
     public String hBondString() {
         StringBuffer strbuf = new StringBuffer();
-        Iterator itr = this.hBonds.iterator();
-        while (itr.hasNext()) {
-            HBond hbond = (HBond) itr.next();
+       for (HBond hbond : this.hBonds) {
             strbuf.append(hbond).append(" ");
         }
         return strbuf.toString();

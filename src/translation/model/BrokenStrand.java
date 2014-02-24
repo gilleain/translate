@@ -1,12 +1,13 @@
 package translation.model;
 
 import java.util.Iterator;
-import java.util.TreeSet;
+import java.util.SortedSet;
 
 import javax.vecmath.Vector3d;
 
 public class BrokenStrand extends BackboneSegment {
-    private TreeSet strands;
+	
+    private SortedSet<BackboneSegment> strands;	 // XXX - why not use parent set?
 
     public void addStrand(BackboneSegment strand) {
         this.strands.add(strand);
@@ -27,7 +28,7 @@ public class BrokenStrand extends BackboneSegment {
         // find the average vector
         BackboneSegment firstStrand = (BackboneSegment) this.strands.first();
         Vector3d averageVector = new Vector3d(firstStrand.getAxis().getAxisVector());
-        Iterator iterator = this.strands.iterator();
+        Iterator<BackboneSegment> iterator = this.strands.iterator();
         while (iterator.hasNext()) {
             BackboneSegment strand = (BackboneSegment) iterator.next();
             averageVector.add(strand.getAxis().getAxisVector());
@@ -47,7 +48,7 @@ public class BrokenStrand extends BackboneSegment {
 
     public String toFullString() {
         StringBuffer s = new StringBuffer();
-        Iterator strandIterator = this.strands.iterator();
+        Iterator<BackboneSegment> strandIterator = this.strands.iterator();
         while (strandIterator.hasNext()) {
             BackboneSegment strand = (BackboneSegment) strandIterator.next();
             s.append(strand.toFullString()).append(", ");

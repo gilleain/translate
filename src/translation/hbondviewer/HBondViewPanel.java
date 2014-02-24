@@ -5,7 +5,8 @@ import javax.swing.JPanel;
 import translation.model.Chain;
 
 public class HBondViewPanel extends JPanel {
-    private int width;
+	private static final long serialVersionUID = -5729116881577405822L;
+	private int width;
     private int height;
     private HBondDiagramDrawer hBondDiagramDrawer;
     

@@ -1,7 +1,7 @@
 package translation.model;
 
 
-public class HBond implements Comparable {
+public class HBond implements Comparable<HBond> {
     private Residue donor;
     private Residue acceptor;
     private double distance;
@@ -17,8 +17,7 @@ public class HBond implements Comparable {
     }
 
     //sort by donor, then acceptor (well, why not, eh?)
-    public int compareTo(Object o) {
-        HBond other = (HBond) o;
+    public int compareTo(HBond other) {
         int c = Integer.valueOf(this.donor.getAbsoluteNumber()).compareTo(Integer.valueOf(other.donor.getAbsoluteNumber()));
         if (c == 0) {
             return Integer.valueOf(this.acceptor.getAbsoluteNumber()).compareTo(Integer.valueOf(other.acceptor.getAbsoluteNumber()));
@@ -68,7 +67,7 @@ public class HBond implements Comparable {
     }
 
     public String toFullString() {
-    	return new String().format("%3s - %3s (%4.2f, %6.2f, %6.2f)", this.donor, this.acceptor, this.distance, this.nhoAngle, this.hocAngle);    	
+    	return String.format("%3s - %3s (%4.2f, %6.2f, %6.2f)", this.donor, this.acceptor, this.distance, this.nhoAngle, this.hocAngle);    	
     }
     
     public String toString() {

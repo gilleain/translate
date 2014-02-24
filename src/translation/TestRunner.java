@@ -34,7 +34,8 @@ public class TestRunner {
         String[] fileList = structureDirectory.list();
 
         // get the strings from the string file
-        HashMap idchaindomainMap = new HashMap();
+        Map<String, Map<String, Map<String, String>>> idchaindomainMap = 
+        		new HashMap<String, Map<String, Map<String, String>>>();
         BufferedReader bufferer = null;
         Map<String, ChainDomainMap> cathPDBIDChainDomainMap = null;
 
@@ -49,22 +50,22 @@ public class TestRunner {
                 String dom  = head.substring(5,6);
 
                 if (idchaindomainMap.containsKey(id)) {
-                    HashMap chainMap = (HashMap) idchaindomainMap.get(id);
+                    Map<String, Map<String, String>> chainMap = idchaindomainMap.get(id);
                     if (chainMap.containsKey(ch)) {
-                        HashMap domainBodyMap = (HashMap) chainMap.get(ch);
+                        Map<String, String> domainBodyMap = chainMap.get(ch);
                         if (domainBodyMap.containsKey(dom)) {
                             System.err.println("Domain->Body map already contains " + dom + " for id " + id + " chain " + ch);
                         } else {
                             domainBodyMap.put(dom, body);
                         }
                     } else {
-                        HashMap newDomainMap = new HashMap();
+                        Map<String, String> newDomainMap = new HashMap<String, String>();
                         newDomainMap.put(dom, body);
                         chainMap.put(ch, newDomainMap);
                     }
                 } else {
-                    HashMap newChainMap = new HashMap();
-                    HashMap newDomainMap = new HashMap();
+                    Map<String, Map<String, String>> newChainMap = new HashMap<String, Map<String, String>>();
+                    Map<String, String> newDomainMap = new HashMap<String, String>();
                     newDomainMap.put(dom, body);
                     newChainMap.put(ch, newDomainMap);
                     idchaindomainMap.put(id, newChainMap);
@@ -99,14 +100,15 @@ public class TestRunner {
                 String pdbid = fileList[i].substring(0, 4);
 
                 // use this id to get the chainmaps for this id
-                HashMap chainMap = (HashMap) idchaindomainMap.get(pdbid);
+                Map<String, Map<String, String>> chainMap = idchaindomainMap.get(pdbid);
                 ChainDomainMap cathChainMap = cathPDBIDChainDomainMap.get(pdbid);
 
                 // translate the pdbfile
                 Protein protein = foldAnalyser.analyse(PDBReader.read(filename));
-                Map chainDomainStringMap = protein.toTopsDomainStrings(cathChainMap);
+                Map<String, Map<String, String>> chainDomainStringMap = 
+                		protein.toTopsDomainStrings(cathChainMap);
 
-                Iterator itr = protein.chainIterator();
+                Iterator<Chain> itr = protein.chainIterator();
 
                 while (itr.hasNext()) {
                     Chain chain = (Chain) itr.next();
@@ -119,12 +121,12 @@ public class TestRunner {
 
                     // otherwise, get tops domain strings, and compare
                     String chainID = chain.getCathCompatibleLabel();
-                    HashMap domainStringMap = (HashMap) chainDomainStringMap.get(chainID);
+                    Map<String, String> domainStringMap = chainDomainStringMap.get(chainID);
 
                     // find the chain that has been translated in the map of dssptops strings
                     if (chainMap != null && chainMap.containsKey(chainID)) {
-                        HashMap domainBodyMap = (HashMap) chainMap.get(chainID);
-                        Iterator itr2 = domainBodyMap.keySet().iterator();
+                        Map<String, String> domainBodyMap = chainMap.get(chainID);
+                        Iterator<String> itr2 = domainBodyMap.keySet().iterator();
 
                         // go through the domains in the dssptops strings, getting corresponding translated versions
                         while (itr2.hasNext()) {

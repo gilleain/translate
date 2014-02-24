@@ -2,9 +2,9 @@ package translation;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.List;
 import java.util.ListIterator;
 import java.util.Map;
 
@@ -52,10 +52,10 @@ public class StructureFinder {
     // go through the fixed structures, finding helices connecting parallel strands not more than 5 sses away
     public void determineChiralities(Chain chain) {
         if (chain.numberOfSheets() > 0) {
-            Iterator sheets = chain.sheetIterator();
+            Iterator<Sheet> sheets = chain.sheetIterator();
             while (sheets.hasNext()) {
-                Sheet sheet = (Sheet) sheets.next();
-                Iterator sheetIterator = sheet.iterator();
+                Sheet sheet = sheets.next();
+                Iterator<BackboneSegment> sheetIterator = sheet.iterator();
                 BackboneSegment strand = (BackboneSegment) sheetIterator.next();
 
                 while (sheetIterator.hasNext()) {
@@ -76,7 +76,7 @@ public class StructureFinder {
                         Point3d partnerCentroid = partner.getAxis().getCentroid();
 
                         // get the sses we will use for the chirality calculation
-                        ListIterator inBetweeners;
+                        ListIterator<BackboneSegment> inBetweeners;
                         if (isCorrectOrder) {
                             inBetweeners = chain.backboneSegmentListIterator(strand, partner);
                         } else {
@@ -84,12 +84,12 @@ public class StructureFinder {
                         }
 
                         // find the average center of these sses
-                        ArrayList centroids = new ArrayList();
+                        List<Point3d> centroids = new ArrayList<Point3d>();
                         while (inBetweeners.hasNext()) {
-                            BackboneSegment segment = (BackboneSegment) inBetweeners.next();
+                            BackboneSegment segment = inBetweeners.next();
                             centroids.add(segment.getAxis().getCentroid()); 
                         }
-                        Point3d averageCentroid = Geometer.averagePoints((Collection) centroids);
+                        Point3d averageCentroid = Geometer.averagePoints(centroids);
                         //System.out.println("InBetweener centroid = " + averageCentroid);
 
                         //finally, do the calculation
@@ -119,8 +119,8 @@ public class StructureFinder {
         int sheetCount = chain.numberOfSheets();
         if (sheetCount == 1) {
             // get the sheet, and assign the orientations internally, based on relative orientations
-            Iterator sheets = chain.sheetIterator();
-            Sheet sheet = (Sheet) sheets.next();
+            Iterator<Sheet> sheets = chain.sheetIterator();
+            Sheet sheet = sheets.next();
 
             //System.out.println("Assigning using a single sheet");
             sheet.assignOrientationsToStrands();
@@ -129,9 +129,9 @@ public class StructureFinder {
             //System.out.println("Sheet axis = " + sheetAxis.getCentroid() + ", " + sheetAxis.getAxisVector());
 
             // assign the helices to orientations dependant on the sheet 
-            ListIterator segments = chain.backboneSegmentListIterator();
+            ListIterator<BackboneSegment> segments = chain.backboneSegmentListIterator();
             while (segments.hasNext()) {
-                BackboneSegment segment = (BackboneSegment) segments.next();
+                BackboneSegment segment = segments.next();
                 if ((segment instanceof Strand) || (segment instanceof Terminus)) {
                     continue;
                 } else {
@@ -139,7 +139,7 @@ public class StructureFinder {
                 }
             }
         } else if (sheetCount > 1) {
-            Iterator sheets = chain.sheetIterator();
+            Iterator<Sheet> sheets = chain.sheetIterator();
             while (sheets.hasNext()) {
                 Sheet sheet = (Sheet) sheets.next();
                 sheet.assignOrientationsToStrands();
@@ -149,8 +149,8 @@ public class StructureFinder {
 
     public void assignTorsionsAndHBondsToTypes(Chain chain) {
         //run through once, using hbonds and torsions to attempt individual residue assignments
-        Iterator residueIterator = chain.residueIterator();
-        HashMap residueAssignments = new HashMap();
+        Iterator<Residue> residueIterator = chain.residueIterator();
+        Map<Residue, Character> residueAssignments = new HashMap<Residue, Character>();
 
         //temporary buffers to store char assignents
         StringBuffer torsionBuffer = new StringBuffer();
@@ -192,7 +192,7 @@ public class StructureFinder {
         int sseStart = 1;
         int sseEnd = -1;
         char currentSSEType = 'U';
-        ArrayList backboneSegments = new ArrayList();
+        List<BackboneSegment> backboneSegments = new ArrayList<BackboneSegment>();
         for (int i = 0; i < torsionBuffer.length(); i++) {
             char sseChar = torsionBuffer.charAt(i);
             // same type : extend the end of current
@@ -221,8 +221,8 @@ public class StructureFinder {
 //        }
     }
     
-    public void trimByHBonds(ArrayList backboneSegments, StringBuffer hbondBuffer) {
-        ListIterator itr = backboneSegments.listIterator();
+    public void trimByHBonds(List<BackboneSegment> backboneSegments, StringBuffer hbondBuffer) {
+        ListIterator<BackboneSegment> itr = backboneSegments.listIterator();
         BackboneSegment previousSegment = null;
 
         while (itr.hasNext()) {
@@ -335,7 +335,7 @@ public class StructureFinder {
     public void findSheets(Chain chain) {
         //for each strand, examine all strands in front (so we don't do the same comparison twice)
         //each examination is a simple centroid-centroid distance
-        ListIterator firstSegments = chain.backboneSegmentListIterator();
+        ListIterator<BackboneSegment> firstSegments = chain.backboneSegmentListIterator();
     
         while (firstSegments.hasNext()) {
             // get the first segment, reject if not a strand
@@ -345,7 +345,7 @@ public class StructureFinder {
             }
            
             // get the segments after the current one
-            ListIterator secondSegments = chain.backboneSegmentListIterator(firstSegment);
+            ListIterator<BackboneSegment> secondSegments = chain.backboneSegmentListIterator(firstSegment);
             while (secondSegments.hasNext()) {
                 BackboneSegment secondSegment = (BackboneSegment) secondSegments.next();
                 if ((secondSegment != firstSegment) && (secondSegment instanceof Strand)) {
@@ -434,9 +434,9 @@ public class StructureFinder {
     public boolean bonded(BackboneSegment strand, BackboneSegment otherStrand) {
         //basically, run through the residues, checking the list of hbonds to find residues that might be in the other strand
         int numberOfHBonds = 0;
-        Iterator strandResidues = strand.residueIterator();
+        Iterator<Residue> strandResidues = strand.residueIterator();
         while (strandResidues.hasNext()) {
-            Residue nextResidue = (Residue) strandResidues.next();
+            Residue nextResidue = strandResidues.next();
             if (otherStrand.bondedTo(nextResidue)) {
                 numberOfHBonds++;
             }
@@ -456,12 +456,12 @@ public class StructureFinder {
     //merge RepetitiveStructure separated by only a single unstructured residue
     //also, delete single-residue RepetitiveStructure surrounded by UnstructuredRegions
     public void cleanStructure(Chain chain) {
-        ListIterator backboneSegmentIterator = chain.backboneSegmentListIterator();
+        ListIterator<BackboneSegment> backboneSegmentIterator = chain.backboneSegmentListIterator();
         BackboneSegment currentSegment = null;
 
         while (backboneSegmentIterator.hasNext()) {
             BackboneSegment previousSegment = currentSegment;
-            currentSegment = (BackboneSegment) backboneSegmentIterator.next();
+            currentSegment = backboneSegmentIterator.next();
 
             //Don't bother about the terminii
             if (currentSegment instanceof Terminus) {
@@ -476,7 +476,7 @@ public class StructureFinder {
                 }
                 //check the segments 'fore and 'aft - are they continuous?
                 if (backboneSegmentIterator.hasNext()) {
-                    BackboneSegment nextSegment = (BackboneSegment) backboneSegmentIterator.next();
+                    BackboneSegment nextSegment = backboneSegmentIterator.next();
                     //System.err.println("Checking : " + previousSegment + " and " + currentSegment + " and " + nextSegment);
                     if (previousSegment.continuousWith(nextSegment)) {
                         this.mergeThreeSegments(backboneSegmentIterator, previousSegment, currentSegment, nextSegment);
@@ -494,7 +494,7 @@ public class StructureFinder {
 
                 //check the segments 'fore and 'aft - are they unstructured?
                 if (backboneSegmentIterator.hasNext()) {
-                    BackboneSegment nextSegment = (BackboneSegment) backboneSegmentIterator.next();
+                    BackboneSegment nextSegment = backboneSegmentIterator.next();
                     //System.err.println("Checking : " + previousSegment + " and " + currentSegment + " and " + nextSegment);
                     if (previousSegment instanceof UnstructuredSegment && nextSegment instanceof UnstructuredSegment) {
                         this.mergeThreeSegments(backboneSegmentIterator, previousSegment, currentSegment, nextSegment);
@@ -509,7 +509,10 @@ public class StructureFinder {
         }
     }
 
-    public void mergeThreeSegments(ListIterator backboneSegmentIterator, BackboneSegment previousSegment, BackboneSegment currentSegment, BackboneSegment nextSegment) {
+    public void mergeThreeSegments(ListIterator<BackboneSegment> backboneSegmentIterator, 
+    							   BackboneSegment previousSegment, 
+    							   BackboneSegment currentSegment, 
+    							   BackboneSegment nextSegment) {
         //System.err.println("Merging : " + previousSegment + " and " + currentSegment + " and " + nextSegment);
         //merge the previous segment with the current segment and the next segment
         previousSegment.mergeWith(currentSegment);
@@ -553,7 +556,7 @@ public class StructureFinder {
     }
 
     public void convertTorsionsToRepetitiveStructure(Chain chain) {
-        Iterator residueIterator = chain.residueIterator();
+        Iterator<Residue> residueIterator = chain.residueIterator();
         Terminus nterminus = new Terminus("N Terminus", 'N');
         chain.addBackboneSegment(nterminus);
         BackboneSegment currentBackboneSegment = new UnstructuredSegment();
@@ -571,7 +574,7 @@ public class StructureFinder {
     }
 
     public void calculateHBondPartners(Chain c) {
-        Iterator itr = c.residueIterator();
+        Iterator<Residue> itr = c.residueIterator();
         while (itr.hasNext()) {
             Residue first = (Residue) itr.next();
             this.searchForwards(first, c);
@@ -607,7 +610,7 @@ public class StructureFinder {
         }
 
         // now, compare the first residue to the residues further on in the chain
-        Iterator itr = c.residueIterator(nextPosition);
+        Iterator<Residue> itr = c.residueIterator(nextPosition);
         while (itr.hasNext()) {
             int secondPosition = ((Residue) itr.next()).getAbsoluteNumber();
             if (secondPosition < (position + 3)) {
@@ -672,8 +675,8 @@ public class StructureFinder {
     }
 
     public void analyzeHBonds(Residue residue) {
-        ArrayList nTerminalHBonds = residue.getNTerminalHBonds();
-        ArrayList cTerminalHBonds = residue.getCTerminalHBonds();
+        List<HBond> nTerminalHBonds = residue.getNTerminalHBonds();
+        List<HBond> cTerminalHBonds = residue.getCTerminalHBonds();
         int numberOfNTerminalHBonds = nTerminalHBonds.size();
         int numberOfCTerminalHBonds = cTerminalHBonds.size();
 
@@ -718,7 +721,7 @@ public class StructureFinder {
     }
 
     public void buildHelices(Chain chain) {
-        Iterator residueIterator = chain.residueIterator();
+        Iterator<Residue> residueIterator = chain.residueIterator();
 
         int helixStartIndex = -1;
         int helixEndIndex = -1;
@@ -749,7 +752,7 @@ public class StructureFinder {
     }
 
     public void buildStrands(Chain chain) {
-        Iterator residueIterator = chain.residueIterator();
+        Iterator<Residue> residueIterator = chain.residueIterator();
 
         boolean lastResidueWasStrand = false;
         BackboneSegment currentStrand = new Strand();
@@ -780,7 +783,7 @@ public class StructureFinder {
     }
 
     public void buildLoops(Chain chain) {
-        ListIterator itr = chain.backboneSegmentListIterator();
+        ListIterator<BackboneSegment> itr = chain.backboneSegmentListIterator();
 
         while (itr.hasNext()) {
             BackboneSegment backboneSegment = (BackboneSegment) itr.next();
@@ -806,15 +809,12 @@ public class StructureFinder {
 
             ChainDomainMap cathChainDomainMap = 
             		CATHDomainFileParser.parseUpToParticularID(args[1], protein.getID());
-            Map chainDomainStringMap = protein.toTopsDomainStrings(cathChainDomainMap);
+            Map<String, Map<String, String>> chainDomainStringMap = 
+            		protein.toTopsDomainStrings(cathChainDomainMap);
 
-            Iterator itr = chainDomainStringMap.keySet().iterator();
-            while (itr.hasNext()) {
-                String chainID = (String) itr.next();
-                HashMap domainStrings = (HashMap) chainDomainStringMap.get(chainID);
-                Iterator itr2 = domainStrings.keySet().iterator();
-                while (itr2.hasNext()) {
-                    String domainString = (String) domainStrings.get((String) itr2.next());
+            for (String chainID : chainDomainStringMap.keySet()) {
+                Map<String, String> domainStrings = chainDomainStringMap.get(chainID);
+                for (String domainString : domainStrings.keySet()) {
                     System.out.println(protein.getID() + domainString);
                 }
             }

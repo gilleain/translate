@@ -12,11 +12,11 @@ import translation.StructureFinder;
 public class Protein {
 
     private String id;
-    private ArrayList chains;
+    private List<Chain> chains;
 
     public Protein() {
         this.id = "";
-        this.chains = new ArrayList();
+        this.chains = new ArrayList<Chain>();
     }
 
     public Protein(String id) {
@@ -32,7 +32,7 @@ public class Protein {
         this.chains.add(chain);
     }
 
-    public Iterator chainIterator() {
+    public Iterator<Chain> chainIterator() {
         return this.chains.iterator();
     }
 
@@ -42,22 +42,24 @@ public class Protein {
         }
     }
     
-    public HashMap getBackboneSegmentsByDomain(HashMap chainDomainMap) {
-        HashMap chainBackboneSegmentMap = new HashMap();
+    public Map<String, Map<String, List<BackboneSegment>>> getBackboneSegmentsByDomain(ChainDomainMap chainDomainMap) {
+        Map<String, Map<String, List<BackboneSegment>>> chainBackboneSegmentMap = 
+        		new HashMap<String, Map<String, List<BackboneSegment>>>();
         for (int i = 0; i < this.chains.size(); i++) {
             Chain chain = (Chain) this.chains.get(i);
             String label = chain.getCathCompatibleLabel();
             
-            ArrayList domains;
+            List<Domain> domains;
             if (chainDomainMap.containsKey(label)) {
-                domains = (ArrayList) chainDomainMap.get(label);
+                domains = chainDomainMap.get(label);
             } else {
-                domains = (ArrayList) chainDomainMap.get("A");
+                domains = chainDomainMap.get("A");
             }
-            HashMap domainSegmentMap = new HashMap();
+            
+            Map<String, List<BackboneSegment>> domainSegmentMap = new HashMap<String, List<BackboneSegment>>();
             for (int j = 0; j < domains.size(); j++) {
                 Domain domain = (Domain) domains.get(j);
-                ArrayList segments = chain.filterBackboneSegmentsByDomain(domain);
+                List<BackboneSegment> segments = chain.filterBackboneSegmentsByDomain(domain);
                 //System.err.println(segments.size() + " segments for domain " + domain);
                 domainSegmentMap.put(domain.getID(), segments);
             }
@@ -66,8 +68,8 @@ public class Protein {
         return chainBackboneSegmentMap;
     }
 
-    public Map toTopsDomainStrings(ChainDomainMap chainDomainMap) {
-        Map chainDomainStringMap = new HashMap();
+    public Map<String, Map<String, String>> toTopsDomainStrings(ChainDomainMap chainDomainMap) {
+        Map<String, Map<String, String>> chainDomainStringMap = new HashMap<String, Map<String, String>>();
         for (int i = 0; i < this.chains.size(); i++) {
             Chain chain = (Chain) this.chains.get(i);
             chainDomainStringMap.put(chain.getCathCompatibleLabel(), 

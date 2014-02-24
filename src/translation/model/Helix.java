@@ -1,5 +1,7 @@
 package translation.model;
 
+import java.util.Iterator;
+
 
 public class Helix extends RepetitiveStructure {
     private static int phiMin = -110;
@@ -28,7 +30,7 @@ public class Helix extends RepetitiveStructure {
     }
 
     public static boolean hbondsMatch(Residue r) {
-        java.util.Iterator iterator = r.getHBondIterator();
+        Iterator<HBond> iterator = r.getHBondIterator();
         while (iterator.hasNext()) {
             HBond hbond = (HBond) iterator.next();
             if (hbond.hasHelixResidueSeparation()) {

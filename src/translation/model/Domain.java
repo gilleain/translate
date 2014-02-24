@@ -1,16 +1,18 @@
 package translation.model;
 
 import java.util.ArrayList;
-import java.util.Iterator;
+import java.util.List;
 
 
 public class Domain {
+	
     private int number;
-    private ArrayList segments;
+    
+    private List<DomainSegment> segments;
 
     public Domain(int number) {
         this.number = number;
-        this.segments = new ArrayList();
+        this.segments = new ArrayList<DomainSegment>();
     }
 
     public boolean isEmpty() {
@@ -43,11 +45,9 @@ public class Domain {
         return false;
     }
 
-    public ArrayList filter(ArrayList backboneSegments) {
-        ArrayList segmentsInDomain = new ArrayList();
-        Iterator itr = this.segments.iterator();
-        while (itr.hasNext()) {
-            DomainSegment domainSegment = (DomainSegment) itr.next();
+    public List<BackboneSegment> filter(List<BackboneSegment> backboneSegments) {
+        List<BackboneSegment> segmentsInDomain = new ArrayList<BackboneSegment>();
+        for (DomainSegment domainSegment : this.segments) {
             segmentsInDomain.addAll(domainSegment.filter(backboneSegments));
         }
         return segmentsInDomain;
@@ -57,9 +57,8 @@ public class Domain {
         StringBuffer stringBuffer = new StringBuffer();
         stringBuffer.append(this.number);
 
-        Iterator itr = this.segments.iterator();
-        while (itr.hasNext()) {
-            stringBuffer.append(' ').append(((DomainSegment) itr.next()).toString());
+        for (DomainSegment domainSegment : this.segments) {
+            stringBuffer.append(' ').append((domainSegment).toString());
         }
         return stringBuffer.toString();
     }

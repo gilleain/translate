@@ -4,12 +4,11 @@ import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
-
 import java.awt.geom.Arc2D;
 import java.awt.geom.Rectangle2D;
-
-import java.util.Iterator;
 import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
 
 import translation.model.BackboneSegment;
 import translation.model.Chain;
@@ -27,7 +26,7 @@ public class HBondDiagramDrawer {
     private Chain chain;
     private Color backgroundColor = Color.gray;
     private Font font;
-    private HashMap colorMap;
+    private Map<Integer, Color> colorMap;
 
     public HBondDiagramDrawer(int w, int h) {
         this.w = w;
@@ -36,7 +35,7 @@ public class HBondDiagramDrawer {
         this.backboneSegmentUpper = (new Integer((13 * h) / 16)).doubleValue();
         this.backboneSegmentLower = (new Integer((14 * h) / 16)).doubleValue();
 
-        this.colorMap = new HashMap();
+        this.colorMap = new HashMap<Integer, Color>();
         this.colorMap.put(new Integer(2), Color.lightGray);
         this.colorMap.put(new Integer(3), Color.magenta);
         this.colorMap.put(new Integer(4), Color.red);
@@ -72,15 +71,15 @@ public class HBondDiagramDrawer {
         g2.setColor(this.backgroundColor);
         g2.fillRect(0, 0, this.w, this.h);
 
-        Iterator residueIterator = this.chain.residueIterator();
+        Iterator<Residue> residueIterator = this.chain.residueIterator();
         while (residueIterator.hasNext()) {
-            Residue residue = (Residue) residueIterator.next();
+            Residue residue = residueIterator.next();
             int residueIndex = residue.getAbsoluteNumber();
             this.drawResidue(residueSeparation, residueIndex, g2);
 
-            Iterator hBondIterator = residue.getHBondIterator();
+            Iterator<HBond> hBondIterator = residue.getHBondIterator();
             while (hBondIterator.hasNext()) {
-                HBond hbond = (HBond) hBondIterator.next();
+                HBond hbond = hBondIterator.next();
                 Residue partner = hbond.getPartner(residue);
                 int partnerIndex = partner.getAbsoluteNumber();
 
@@ -92,7 +91,7 @@ public class HBondDiagramDrawer {
             }
         }
 
-        Iterator backboneSegmentIterator = this.chain.backboneSegmentIterator();
+        Iterator<BackboneSegment> backboneSegmentIterator = this.chain.backboneSegmentIterator();
         while (backboneSegmentIterator.hasNext()) {
             BackboneSegment backboneSegment = (BackboneSegment) backboneSegmentIterator.next();
             if (backboneSegment.length() > 0) {
@@ -100,7 +99,8 @@ public class HBondDiagramDrawer {
                 int endIndex = backboneSegment.lastResidue().getAbsoluteNumber();
                 int pdbStart = backboneSegment.firstPDB();
                 int pdbEnd   = backboneSegment.lastPDB();
-                String type = (backboneSegment instanceof Helix)? "Helix" : (backboneSegment instanceof Strand)? "Strand" : "Other";
+                String type = (backboneSegment instanceof Helix)? "Helix" 
+                			: (backboneSegment instanceof Strand)? "Strand" : "Other";
 
                 this.drawBackboneSegment(residueSeparation, startIndex, endIndex, pdbStart, pdbEnd, type, g2);
             }

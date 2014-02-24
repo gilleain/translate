@@ -3,39 +3,37 @@ package translation.hbondviewer;
 import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.Transferable;
 import java.awt.datatransfer.UnsupportedFlavorException;
-
 import java.awt.dnd.DnDConstants;
-import java.awt.dnd.DropTargetEvent;
-import java.awt.dnd.DropTargetDropEvent;
 import java.awt.dnd.DropTargetDragEvent;
+import java.awt.dnd.DropTargetDropEvent;
+import java.awt.dnd.DropTargetEvent;
 import java.awt.dnd.DropTargetListener;
 import java.awt.dnd.InvalidDnDOperationException;
-
-import java.net.URL;
-
-import java.io.IOException;
 import java.io.File;
 import java.io.FileInputStream;
-
+import java.io.IOException;
+import java.net.URL;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Iterator;
+import java.util.List;
 
 import javax.swing.JFrame;
 
-import translation.model.Chain;
-import translation.model.Domain;
 import translation.HBondAnalyser;
 import translation.PDBReader;
-import translation.model.Protein;
 import translation.PropertyException;
+import translation.model.Chain;
+import translation.model.Domain;
+import translation.model.Protein;
 
 public class Viewer extends JFrame {
-    private HBondAnalyser hBondAnalyser;
+	private static final long serialVersionUID = -8935885728444318196L;
+
+	private HBondAnalyser hBondAnalyser;
 
 //    private DropTarget dropTarget;
 
-    private ArrayList views;
+    private List<HBondViewPanel> views;
 //    private int indexOfCurrentView = 0;
     private HBondViewPanel currentView;
 
@@ -52,18 +50,18 @@ public class Viewer extends JFrame {
         this.hBondAnalyser = new HBondAnalyser();
         this.hBondAnalyser.setDefaultProperties();
 
-        this.viewWidth = this.DEFAULT_WIDTH;
-        this.viewHeight = this.DEFAULT_HEIGHT;
+        this.viewWidth = Viewer.DEFAULT_WIDTH;
+        this.viewHeight = Viewer.DEFAULT_HEIGHT;
 
-        this.currentView = new HBondViewPanel(this.DEFAULT_WIDTH, this.DEFAULT_HEIGHT);
-        this.currentView.setSize(this.DEFAULT_WIDTH, this.DEFAULT_HEIGHT);
+        this.currentView = new HBondViewPanel(Viewer.DEFAULT_WIDTH, Viewer.DEFAULT_HEIGHT);
+        this.currentView.setSize(Viewer.DEFAULT_WIDTH, Viewer.DEFAULT_HEIGHT);
         this.currentView.setLocation(1, 1);
 
-        this.views = new ArrayList();
+        this.views = new ArrayList<HBondViewPanel>();
         this.views.add(this.currentView);
 
         this.getContentPane().add(this.currentView);
-        this.setSize(this.DEFAULT_WIDTH + 2, this.DEFAULT_HEIGHT + 2);
+        this.setSize(Viewer.DEFAULT_WIDTH + 2, Viewer.DEFAULT_HEIGHT + 2);
 
 //        this.dropTarget = new DropTarget(this, new ViewerDropTargetListener());
 
@@ -107,16 +105,16 @@ public class Viewer extends JFrame {
         Protein protein = PDBReader.read(filename);
         this.hBondAnalyser.analyse(protein);
 
-        Iterator chainIterator = protein.chainIterator();
+        Iterator<Chain> chainIterator = protein.chainIterator();
 
         // reset?
         int viewIndex = 0;
 
         while (chainIterator.hasNext()) {
-            Chain chain = (Chain) chainIterator.next();
+            Chain chain = chainIterator.next();
             System.out.println(chain.toTopsString(new Domain(0)));
             if (viewIndex < this.views.size()) {
-                this.addChainToView(chain, (HBondViewPanel) this.views.get(viewIndex));
+                this.addChainToView(chain, this.views.get(viewIndex));
             } else {
                 HBondViewPanel view = new HBondViewPanel(this.viewWidth, this.viewHeight);
                 this.addChainToView(chain, view);
@@ -192,7 +190,9 @@ public class Viewer extends JFrame {
                     if (isURL) {
                         filename = ((URL) transferable.getTransferData(tmp_flavor)).getFile();
                     } else {
-                        filename = ((File)((List) transferable.getTransferData(tmp_flavor)).get(0)).getAbsolutePath();
+                    	@SuppressWarnings("unchecked")
+						List<File> data = (List<File>) transferable.getTransferData(tmp_flavor);
+                        filename = ((File)data.get(0)).getAbsolutePath();
                     }
 
                     if (filename != null) {
